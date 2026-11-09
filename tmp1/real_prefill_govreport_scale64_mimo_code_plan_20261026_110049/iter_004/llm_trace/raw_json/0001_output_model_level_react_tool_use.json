@@ -1,0 +1,42 @@
+{
+  "response": {
+    "id": "7c1f7a78ebda41d6b5fdf166e1eea538",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"thought\": \"The current state (iteration 3) is the best so far, with a significant 49% improvement over the previous iteration. The hardware has 32 WS chiplets with 16384 compute units and 8192 buffer each, 64 DRAM BW, 128 NoP BW, micro_batch=2, tensor_parall=32. I'll select the current/best base for detailed analysis, then gather layer-level evidence to identify bottleneck candidates.\", \"action\": \"tool\", \"tool\": {\"name\": \"select_analysis_base\", \"arguments\": {\"source\": \"current\", \"reason\": \"Current iteration 3 is the best evaluated state with 49% improvement over previous; selecting it as the base for bottleneck discovery.\"}}}",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1792984578,
+    "model": "deepseek-v4-flash",
+    "object": "chat.completion",
+    "metadata": null,
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 158,
+      "prompt_tokens": 5150,
+      "total_tokens": 5308,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 3328,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "content": "{\"thought\": \"The current state (iteration 3) is the best so far, with a significant 49% improvement over the previous iteration. The hardware has 32 WS chiplets with 16384 compute units and 8192 buffer each, 64 DRAM BW, 128 NoP BW, micro_batch=2, tensor_parall=32. I'll select the current/best base for detailed analysis, then gather layer-level evidence to identify bottleneck candidates.\", \"action\": \"tool\", \"tool\": {\"name\": \"select_analysis_base\", \"arguments\": {\"source\": \"current\", \"reason\": \"Current iteration 3 is the best evaluated state with 49% improvement over previous; selecting it as the base for bottleneck discovery.\"}}}"
+}

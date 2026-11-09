@@ -1,0 +1,177 @@
+{
+  "selected_by": "model_level_agent",
+  "analysis_base": {
+    "source": "current",
+    "base_key": "current",
+    "iteration": 3,
+    "metrics": {
+      "latency": 23769806569.0,
+      "energy": 79694201953874.31,
+      "mc": 448.2268643472248,
+      "objective": 8.490832154807479e+26,
+      "edp": 1.8943157651144142e+24
+    },
+    "objective": 8.490832154807479e+26,
+    "selection_reason": "Current iteration 3 is the best evaluated state with 49% improvement over previous; selecting it as the base for bottleneck discovery."
+  },
+  "candidate_layers": [
+    {
+      "layer_id": 323,
+      "layer_name": "layer0_ffn1_tiling0",
+      "operator_group": "ffn",
+      "concern_types": [
+        "latency",
+        "energy"
+      ],
+      "rank_metric": "latency_sum",
+      "rank_value": 2837263294.0,
+      "evidence": [
+        "latency_sum=2.84s, highest of all 390 layers",
+        "compute_time=99.9% of layer time",
+        "energy=406M, top energy consumer",
+        "repeated across 8 tilings (323-330) with identical latency"
+      ],
+      "confidence": "high"
+    },
+    {
+      "layer_id": 324,
+      "layer_name": "layer0_ffn1_tiling1",
+      "operator_group": "ffn",
+      "concern_types": [
+        "latency",
+        "energy"
+      ],
+      "rank_metric": "latency_sum",
+      "rank_value": 2837263294.0,
+      "evidence": [
+        "latency_sum=2.84s, tied for highest",
+        "compute_time=99.9%",
+        "energy=404M"
+      ],
+      "confidence": "high"
+    },
+    {
+      "layer_id": 389,
+      "layer_name": "layer0_norm2",
+      "operator_group": "other",
+      "concern_types": [
+        "latency",
+        "mixed"
+      ],
+      "rank_metric": "critical_end",
+      "rank_value": 10577831796.0,
+      "evidence": [
+        "critical_end=10.58s, latest-finishing layer",
+        "memory_time=57.4%, communication_time=42.3%",
+        "calc_time only 8K vs 1.3M total",
+        "on critical core5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "layer_id": 388,
+      "layer_name": "layer0_res2",
+      "operator_group": "other",
+      "concern_types": [
+        "latency",
+        "mixed"
+      ],
+      "rank_metric": "critical_end",
+      "rank_value": 10577000596.0,
+      "evidence": [
+        "critical_end=10.58s, second-latest finish",
+        "communication_time=56.2%, highest comm share of all layers",
+        "noc_time=1.97M vs calc_time=11K",
+        "top communication rank"
+      ],
+      "confidence": "high"
+    },
+    {
+      "layer_id": 371,
+      "layer_name": "layer0_ffn2_tiling15",
+      "operator_group": "ffn",
+      "concern_types": [
+        "latency",
+        "mixed"
+      ],
+      "rank_metric": "critical_end",
+      "rank_value": 10575697954.0,
+      "evidence": [
+        "critical_end=10.58s, on critical path",
+        "compute=79%, communication=10%, memory=10%",
+        "energy=97M with 58% memory share"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "layer_id": 356,
+      "layer_name": "layer0_ffn2_tiling0",
+      "operator_group": "ffn",
+      "concern_types": [
+        "latency",
+        "mixed"
+      ],
+      "rank_metric": "critical_end",
+      "rank_value": 10574052354.0,
+      "evidence": [
+        "critical_end=10.57s, on critical path",
+        "compute=75%, communication=15%, memory=10%",
+        "energy=106M"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "layer_id": 321,
+      "layer_name": "layer0_res1",
+      "operator_group": "other",
+      "concern_types": [
+        "mixed"
+      ],
+      "rank_metric": "communication",
+      "rank_value": 0.4943,
+      "evidence": [
+        "communication_time=49.4%, third-highest comm share",
+        "memory_time=50.2%",
+        "noc_time=1.51M vs calc_time=11K",
+        "top-3 communication rank"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "layer_id": 355,
+      "layer_name": "layer0_GeLU",
+      "operator_group": "other",
+      "concern_types": [
+        "mixed"
+      ],
+      "rank_metric": "memory",
+      "rank_value": 0.594,
+      "evidence": [
+        "memory_time=59.4%, highest memory share",
+        "dram_time=3.89M vs calc_time=8K",
+        "energy=166M with 50% memory, 46% communication"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "selection_notes": {
+    "selected_bottleneck_objective": "mixed",
+    "selected_rank_views": [
+      "latency_sum",
+      "critical_end",
+      "communication",
+      "memory",
+      "compute"
+    ],
+    "global_findings": [
+      "FFN group dominates total latency (91.4s sum across 128 occurrences) and is compute-bound (99.9% calc time)",
+      "Average core utilization is only 45.5%, with range 3.69s-5.94s busy time across 32 cores, indicating significant load imbalance",
+      "Energy breakdown: memory 43%, communication 34%, compute 23%, buffer 1% - memory and communication dominate energy despite compute dominating time",
+      "The 'other' group (norm, residual, GeLU) layers are memory/communication-bound with high noc_time and dram_time relative to negligible calc_time",
+      "Critical path ends on norm2/res2 (memory/communication-bound) rather than on the heaviest compute layers (ffn1), suggesting a pipeline tail issue",
+      "NoP bandwidth at 128 GB/s may be constraining the communication-heavy residual and norm layers",
+      "All 32 chiplets are homogeneous WS type with 16384 compute units and 8192 buffer each"
+    ],
+    "tool_confidence": "high"
+  }
+}

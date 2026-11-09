@@ -1,0 +1,409 @@
+{
+  "metrics": {
+    "latency": 23769806569.0,
+    "energy": 79694201953874.31,
+    "edp": 1.8943157651144142e+24,
+    "mc": 448.2268643472248,
+    "objective": 8.490832154807479e+26
+  },
+  "layers": [
+    {
+      "layer_id": 321,
+      "layer_name": "layer0_res1",
+      "operator_group": "other",
+      "placement": {
+        "occurrences": 2,
+        "core_count": 2,
+        "cores": [
+          "core6",
+          "core19"
+        ],
+        "batch_count": 2
+      },
+      "timing": {
+        "latency_sum": 1547739.0,
+        "latency_max": 857516.0,
+        "critical_end": 7715145147.0,
+        "calc_time": 10912.0,
+        "noc_time": 1506019.0,
+        "dram_time": 1529561.0
+      },
+      "breakdown": {
+        "time": {
+          "compute": 0.003581824603511186,
+          "communication": 0.4943452994460514,
+          "memory": 0.5020728759504374
+        },
+        "energy": {
+          "compute": 1.5195878266967186e-05,
+          "buffer": 0.023294680812920913,
+          "communication": 0.46430878801129877,
+          "memory": 0.5123813352975134
+        }
+      },
+      "root_cause": {
+        "dominant_dimension": "memory"
+      },
+      "features": {
+        "group": "other",
+        "head": null,
+        "request": null,
+        "tiling": null,
+        "is_projection": false,
+        "is_elementwise": false
+      },
+      "impact_types": [
+        "unknown"
+      ],
+      "root_causes": [
+        "memory",
+        "communication"
+      ],
+      "dominant_root_cause": "memory",
+      "shares": {
+        "objective_reference": 8.490832154807479e+26
+      }
+    },
+    {
+      "layer_id": 323,
+      "layer_name": "layer0_ffn1_tiling0",
+      "operator_group": "ffn",
+      "placement": {
+        "occurrences": 2,
+        "core_count": 1,
+        "cores": [
+          "core3"
+        ],
+        "batch_count": 2
+      },
+      "timing": {
+        "latency_sum": 2837263294.0,
+        "latency_max": 2817089536.0,
+        "critical_end": 10552695228.0,
+        "calc_time": 2837263294.0,
+        "noc_time": 1166244.0,
+        "dram_time": 677968.0
+      },
+      "breakdown": {
+        "time": {
+          "compute": 0.999350425443171,
+          "communication": 0.00041077838635392627,
+          "memory": 0.000238796170475131
+        },
+        "energy": {
+          "compute": 0.9268582148799663,
+          "buffer": 0.00045044155093170075,
+          "communication": 0.03681264607636992,
+          "memory": 0.03587869749273214
+        }
+      },
+      "root_cause": {
+        "dominant_dimension": "compute"
+      },
+      "features": {
+        "group": "ffn",
+        "head": null,
+        "request": null,
+        "tiling": 0,
+        "is_projection": false,
+        "is_elementwise": false
+      },
+      "impact_types": [
+        "latency",
+        "energy"
+      ],
+      "root_causes": [
+        "compute"
+      ],
+      "dominant_root_cause": "compute",
+      "shares": {
+        "objective_reference": 8.490832154807479e+26
+      }
+    },
+    {
+      "layer_id": 324,
+      "layer_name": "layer0_ffn1_tiling1",
+      "operator_group": "ffn",
+      "placement": {
+        "occurrences": 2,
+        "core_count": 1,
+        "cores": [
+          "core4"
+        ],
+        "batch_count": 2
+      },
+      "timing": {
+        "latency_sum": 2837263294.0,
+        "latency_max": 2817089536.0,
+        "critical_end": 10552695228.0,
+        "calc_time": 2837263294.0,
+        "noc_time": 1009000.0,
+        "dram_time": 677968.0
+      },
+      "breakdown": {
+        "time": {
+          "compute": 0.9994057775429952,
+          "communication": 0.0003554130600686093,
+          "memory": 0.00023880939693616935
+        },
+        "energy": {
+          "compute": 0.9328722155590878,
+          "buffer": 0.00045336428037372076,
+          "communication": 0.030562920597734466,
+          "memory": 0.03611149956280413
+        }
+      },
+      "root_cause": {
+        "dominant_dimension": "compute"
+      },
+      "features": {
+        "group": "ffn",
+        "head": null,
+        "request": null,
+        "tiling": 1,
+        "is_projection": false,
+        "is_elementwise": false
+      },
+      "impact_types": [
+        "latency",
+        "energy"
+      ],
+      "root_causes": [
+        "compute"
+      ],
+      "dominant_root_cause": "compute",
+      "shares": {
+        "objective_reference": 8.490832154807479e+26
+      }
+    },
+    {
+      "layer_id": 356,
+      "layer_name": "layer0_ffn2_tiling0",
+      "operator_group": "ffn",
+      "placement": {
+        "occurrences": 2,
+        "core_count": 1,
+        "cores": [
+          "core4"
+        ],
+        "batch_count": 2
+      },
+      "timing": {
+        "latency_sum": 19816840.0,
+        "latency_max": 10340733.0,
+        "critical_end": 10574052354.0,
+        "calc_time": 19816840.0,
+        "noc_time": 3949984.0,
+        "dram_time": 2610056.0
+      },
+      "breakdown": {
+        "time": {
+          "compute": 0.7512958318042164,
+          "communication": 0.1497517522921589,
+          "memory": 0.09895241590362469
+        },
+        "energy": {
+          "compute": 0.03281252145112542,
+          "buffer": 0.0013860473261065073,
+          "communication": 0.43626782437651024,
+          "memory": 0.5295336068462578
+        }
+      },
+      "root_cause": {
+        "dominant_dimension": "compute"
+      },
+      "features": {
+        "group": "ffn",
+        "head": null,
+        "request": null,
+        "tiling": 0,
+        "is_projection": false,
+        "is_elementwise": false
+      },
+      "impact_types": [
+        "unknown"
+      ],
+      "root_causes": [
+        "compute",
+        "memory",
+        "communication"
+      ],
+      "dominant_root_cause": "compute",
+      "shares": {
+        "objective_reference": 8.490832154807479e+26
+      }
+    },
+    {
+      "layer_id": 371,
+      "layer_name": "layer0_ffn2_tiling15",
+      "operator_group": "ffn",
+      "placement": {
+        "occurrences": 2,
+        "core_count": 1,
+        "cores": [
+          "core19"
+        ],
+        "batch_count": 2
+      },
+      "timing": {
+        "latency_sum": 19816840.0,
+        "latency_max": 10340733.0,
+        "critical_end": 10575697954.0,
+        "calc_time": 19816840.0,
+        "noc_time": 2606016.0,
+        "dram_time": 2613282.0
+      },
+      "breakdown": {
+        "time": {
+          "compute": 0.7915294283806872,
+          "communication": 0.1040901755694109,
+          "memory": 0.10438039604990194
+        },
+        "energy": {
+          "compute": 0.03570025420312529,
+          "buffer": 0.001508029242838552,
+          "communication": 0.3859433284393222,
+          "memory": 0.576848388114714
+        }
+      },
+      "root_cause": {
+        "dominant_dimension": "compute"
+      },
+      "features": {
+        "group": "ffn",
+        "head": null,
+        "request": null,
+        "tiling": 15,
+        "is_projection": false,
+        "is_elementwise": false
+      },
+      "impact_types": [
+        "unknown"
+      ],
+      "root_causes": [
+        "compute",
+        "memory",
+        "communication"
+      ],
+      "dominant_root_cause": "compute",
+      "shares": {
+        "objective_reference": 8.490832154807479e+26
+      }
+    },
+    {
+      "layer_id": 388,
+      "layer_name": "layer0_res2",
+      "operator_group": "other",
+      "placement": {
+        "occurrences": 2,
+        "core_count": 1,
+        "cores": [
+          "core4"
+        ],
+        "batch_count": 2
+      },
+      "timing": {
+        "latency_sum": 1967436.0,
+        "latency_max": 1302642.0,
+        "critical_end": 10577000596.0,
+        "calc_time": 10912.0,
+        "noc_time": 1967436.0,
+        "dram_time": 1522296.0
+      },
+      "breakdown": {
+        "time": {
+          "compute": 0.003117140731819631,
+          "communication": 0.5620211595352169,
+          "memory": 0.4348616997329634
+        },
+        "energy": {
+          "compute": 1.4287395619604175e-05,
+          "buffer": 0.02190201281949519,
+          "communication": 0.4986233169121501,
+          "memory": 0.4794603828727351
+        }
+      },
+      "root_cause": {
+        "dominant_dimension": "communication"
+      },
+      "features": {
+        "group": "other",
+        "head": null,
+        "request": null,
+        "tiling": null,
+        "is_projection": false,
+        "is_elementwise": false
+      },
+      "impact_types": [
+        "unknown"
+      ],
+      "root_causes": [
+        "communication",
+        "memory"
+      ],
+      "dominant_root_cause": "communication",
+      "shares": {
+        "objective_reference": 8.490832154807479e+26
+      }
+    },
+    {
+      "layer_id": 389,
+      "layer_name": "layer0_norm2",
+      "operator_group": "other",
+      "placement": {
+        "occurrences": 2,
+        "core_count": 1,
+        "cores": [
+          "core5"
+        ],
+        "batch_count": 2
+      },
+      "timing": {
+        "latency_sum": 1285280.0,
+        "latency_max": 831200.0,
+        "critical_end": 10577831796.0,
+        "calc_time": 8192.0,
+        "noc_time": 947592.0,
+        "dram_time": 1285280.0
+      },
+      "breakdown": {
+        "time": {
+          "compute": 0.0036554065390368147,
+          "communication": 0.4228312979905973,
+          "memory": 0.5735132954703659
+        },
+        "energy": {
+          "compute": 1.4199706808183687e-05,
+          "buffer": 0.028509778748444816,
+          "communication": 0.4355655608951974,
+          "memory": 0.5359104606495495
+        }
+      },
+      "root_cause": {
+        "dominant_dimension": "memory"
+      },
+      "features": {
+        "group": "other",
+        "head": null,
+        "request": null,
+        "tiling": null,
+        "is_projection": false,
+        "is_elementwise": false
+      },
+      "impact_types": [
+        "unknown"
+      ],
+      "root_causes": [
+        "memory",
+        "communication"
+      ],
+      "dominant_root_cause": "memory",
+      "shares": {
+        "objective_reference": 8.490832154807479e+26
+      }
+    }
+  ],
+  "layer_count": 7,
+  "requested_layer_count": 7,
+  "truncated": false
+}

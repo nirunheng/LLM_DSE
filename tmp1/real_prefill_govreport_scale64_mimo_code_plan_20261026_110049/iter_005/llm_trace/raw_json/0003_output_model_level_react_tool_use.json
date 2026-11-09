@@ -1,0 +1,42 @@
+{
+  "response": {
+    "id": "a4573707808746c19def21ef60c72caa",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\n  \"thought\": \"The layer rank views reveal strong patterns. The top latency layers are all layer0_ffn1_tiling0-7 (each ~2.84s), and the critical-end layers are dominated by layer0_ffn2_tiling0-15 and layer0_norm2/res2. The aggregate breakdown shows compute is 68% of time but only 23% of energy, while memory is 43% and communication is 34% of energy. The ffn1 tilings dominate latency_sum and energy, while ffn2 tilings dominate critical-end position. I should also check operator groups to see if attention or other groups are significant, and get the execution timeline to understand idle gaps and core utilization.\",\n  \"action\": \"tool\",\n  \"tool\": {\n    \"name\": \"summarize_operator_groups\",\n    \"arguments\": {\n      \"sort_by\": \"latency_sum\",\n      \"top_groups\": 8,\n      \"include_components\": true\n    }\n  }\n}",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1792984852,
+    "model": "deepseek-v4-flash",
+    "object": "chat.completion",
+    "metadata": null,
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 216,
+      "prompt_tokens": 13263,
+      "total_tokens": 13479,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 5632,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "content": "{\n  \"thought\": \"The layer rank views reveal strong patterns. The top latency layers are all layer0_ffn1_tiling0-7 (each ~2.84s), and the critical-end layers are dominated by layer0_ffn2_tiling0-15 and layer0_norm2/res2. The aggregate breakdown shows compute is 68% of time but only 23% of energy, while memory is 43% and communication is 34% of energy. The ffn1 tilings dominate latency_sum and energy, while ffn2 tilings dominate critical-end position. I should also check operator groups to see if attention or other groups are significant, and get the execution timeline to understand idle gaps and core utilization.\",\n  \"action\": \"tool\",\n  \"tool\": {\n    \"name\": \"summarize_operator_groups\",\n    \"arguments\": {\n      \"sort_by\": \"latency_sum\",\n      \"top_groups\": 8,\n      \"include_components\": true\n    }\n  }\n}"
+}

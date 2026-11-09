@@ -1,0 +1,92 @@
+{
+  "backend": "langgraph",
+  "state_policy": "Graph state stores JSON-serializable records only; dataclass objects are reconstructed inside node functions and are not checkpoint payloads.",
+  "checkpoint": {
+    "type": "sqlite",
+    "path": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_103528/langgraph_checkpoints.sqlite",
+    "thread_id": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_103528"
+  },
+  "outer_graph": {
+    "nodes": [
+      "baseline",
+      "prepare_iteration",
+      "model_level_agent",
+      "layer_level_agent",
+      "solution_generation_agent",
+      "write_trace",
+      "repair_duplicate",
+      "build_transition",
+      "evaluate",
+      "commit",
+      "finalize"
+    ],
+    "edges": [
+      [
+        "baseline",
+        "prepare_iteration"
+      ],
+      [
+        "prepare_iteration",
+        "model_level_agent|finalize"
+      ],
+      [
+        "model_level_agent",
+        "layer_level_agent"
+      ],
+      [
+        "layer_level_agent",
+        "solution_generation_agent"
+      ],
+      [
+        "solution_generation_agent",
+        "write_trace"
+      ],
+      [
+        "write_trace",
+        "repair_duplicate"
+      ],
+      [
+        "repair_duplicate",
+        "build_transition"
+      ],
+      [
+        "build_transition",
+        "evaluate"
+      ],
+      [
+        "evaluate",
+        "commit"
+      ],
+      [
+        "commit",
+        "prepare_iteration"
+      ],
+      [
+        "finalize",
+        "END"
+      ]
+    ]
+  },
+  "agent_react_subgraph": {
+    "shared_by_agents": [
+      "model_level",
+      "layer_level",
+      "solution_generation"
+    ],
+    "nodes": [
+      "llm_decide",
+      "execute_tool"
+    ],
+    "conditional_edges": [
+      [
+        "llm_decide",
+        "execute_tool|END"
+      ],
+      [
+        "execute_tool",
+        "llm_decide|END"
+      ]
+    ],
+    "tool_policy": "At most one tool call per ReAct step; duplicate tool calls end tool use."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "sdk_error": {
+    "type": "APIConnectionError",
+    "message": "Connection error."
+  },
+  "retryable": true
+}

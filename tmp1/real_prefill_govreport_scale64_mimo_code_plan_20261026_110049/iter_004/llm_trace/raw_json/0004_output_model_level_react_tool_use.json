@@ -1,0 +1,42 @@
+{
+  "response": {
+    "id": "5f9957151eb54a288e02e9319d8589a8",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"thought\": \"The operator group analysis confirms that FFN layers dominate total latency (91.4s out of ~91.5s total across groups, though this is sum across all layers, not wall-clock). The FFN group has 64 layers (128 occurrences) and is compute-dominated with calc_time = 91.4s. Attention is second at 61.9s. The 'other' group (norm/residual) is memory-dominated with high noc_time and dram_time relative to calc_time. I should now look at the execution timeline to understand the critical path, idle gaps, and core utilization to identify where the real wall-clock bottlenecks are.\", \"action\": \"tool\", \"tool\": {\"name\": \"build_execution_timeline\", \"arguments\": {\"include_sample_rows\": true, \"sample_limit\": 12}}}",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1792984588,
+    "model": "deepseek-v4-flash",
+    "object": "chat.completion",
+    "metadata": null,
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 173,
+      "prompt_tokens": 14559,
+      "total_tokens": 14732,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 5632,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "content": "{\"thought\": \"The operator group analysis confirms that FFN layers dominate total latency (91.4s out of ~91.5s total across groups, though this is sum across all layers, not wall-clock). The FFN group has 64 layers (128 occurrences) and is compute-dominated with calc_time = 91.4s. Attention is second at 61.9s. The 'other' group (norm/residual) is memory-dominated with high noc_time and dram_time relative to calc_time. I should now look at the execution timeline to understand the critical path, idle gaps, and core utilization to identify where the real wall-clock bottlenecks are.\", \"action\": \"tool\", \"tool\": {\"name\": \"build_execution_timeline\", \"arguments\": {\"include_sample_rows\": true, \"sample_limit\": 12}}}"
+}

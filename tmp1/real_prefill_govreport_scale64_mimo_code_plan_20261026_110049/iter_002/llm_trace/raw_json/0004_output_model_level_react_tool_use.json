@@ -1,0 +1,42 @@
+{
+  "response": {
+    "id": "8393dd421f774143a18eda8d98e00c95",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"thought\": \"The operator groups reveal that FFN dominates total latency (133B ns, 64 occurrences) with 100% compute time, while attention has 61.9B ns (384 occurrences) also compute-dominated. The FFN group has 32 layers but 64 occurrences (tiling split). The critical-end view showed ffn2 and norm2/res2 as the latest-finishing layers. I need to understand the execution timeline to see if there are idle gaps, core imbalance, or communication bottlenecks. Let me build the execution timeline.\", \"action\": \"tool\", \"tool\": {\"name\": \"build_execution_timeline\", \"arguments\": {\"include_sample_rows\": true, \"sample_limit\": 12}}}",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1792984082,
+    "model": "deepseek-v4-flash",
+    "object": "chat.completion",
+    "metadata": null,
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 151,
+      "prompt_tokens": 14462,
+      "total_tokens": 14613,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 3072,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "content": "{\"thought\": \"The operator groups reveal that FFN dominates total latency (133B ns, 64 occurrences) with 100% compute time, while attention has 61.9B ns (384 occurrences) also compute-dominated. The FFN group has 32 layers but 64 occurrences (tiling split). The critical-end view showed ffn2 and norm2/res2 as the latest-finishing layers. I need to understand the execution timeline to see if there are idle gaps, core imbalance, or communication bottlenecks. Let me build the execution timeline.\", \"action\": \"tool\", \"tool\": {\"name\": \"build_execution_timeline\", \"arguments\": {\"include_sample_rows\": true, \"sample_limit\": 12}}}"
+}

@@ -1,0 +1,2 @@
+Operator list /data2/nirunheng/Project/Beacon/runs/atlas_dse_test/iter_000/simulation_artifacts/operator_tling_exploration/qkv_proj/worker_20/comp_description.yaml has 1 operators.
+Find unsupported operator type: SimulatorOperatorType.GEMM

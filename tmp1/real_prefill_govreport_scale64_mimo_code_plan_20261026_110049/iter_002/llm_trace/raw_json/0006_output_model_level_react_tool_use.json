@@ -1,0 +1,42 @@
+{
+  "response": {
+    "id": "e209b914357f4fd49d65bf663a8d5cd1",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"thought\": \"The detailed inspection confirms that FFN1 tilings (layers 307-314) are pure compute-bound with 99.98% compute time and 97.5% compute energy. Each tiling takes 8.27s latency sum with 5.51s max per core. The FFN2 tilings are much smaller (42ms) but sit on the critical path. The norm2 and res2 layers weren't returned in the truncated results. I should also check the attention layers since they have significant energy and communication components. Let me look at the hardware config to understand the chiplet layout and then check the attention layers that appeared in the communication and memory rank views.\", \"action\": \"tool\", \"tool\": {\"name\": \"summarize_hardware_config\", \"arguments\": {\"include_design_space\": true}}}",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1792984089,
+    "model": "deepseek-v4-flash",
+    "object": "chat.completion",
+    "metadata": null,
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 177,
+      "prompt_tokens": 18661,
+      "total_tokens": 18838,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 15360,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "content": "{\"thought\": \"The detailed inspection confirms that FFN1 tilings (layers 307-314) are pure compute-bound with 99.98% compute time and 97.5% compute energy. Each tiling takes 8.27s latency sum with 5.51s max per core. The FFN2 tilings are much smaller (42ms) but sit on the critical path. The norm2 and res2 layers weren't returned in the truncated results. I should also check the attention layers since they have significant energy and communication components. Let me look at the hardware config to understand the chiplet layout and then check the attention layers that appeared in the communication and memory rank views.\", \"action\": \"tool\", \"tool\": {\"name\": \"summarize_hardware_config\", \"arguments\": {\"include_design_space\": true}}}"
+}

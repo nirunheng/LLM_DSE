@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/data2/nirunheng/Project/Beacon/chiplet_tuner/rag/embeddings.py", line 41, in __init__
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data2/nirunheng/Project/Beacon/main.py", line 12, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/data2/nirunheng/Project/Beacon/chiplet_tuner/cli.py", line 623, in main
+    tuner = build_tuner(args, output_dir, simulator=simulator, simulator_schema=simulator.schema())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data2/nirunheng/Project/Beacon/chiplet_tuner/cli.py", line 561, in build_tuner
+    embedding_model = create_embedding_model(args.embedding_model)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data2/nirunheng/Project/Beacon/chiplet_tuner/rag/embeddings.py", line 58, in create_embedding_model
+    return SentenceTransformerEmbeddingModel(model_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data2/nirunheng/Project/Beacon/chiplet_tuner/rag/embeddings.py", line 43, in __init__
+    raise ImportError(
+ImportError: sentence-transformers is required for pretrained embeddings. Install it or use --embedding-model hashing.

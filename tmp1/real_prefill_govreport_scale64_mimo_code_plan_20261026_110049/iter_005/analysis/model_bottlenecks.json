@@ -1,0 +1,164 @@
+{
+  "selected_by": "model_level_agent",
+  "analysis_base": {
+    "source": "best",
+    "base_key": "best",
+    "iteration": 3,
+    "metrics": {
+      "latency": 23769806569.0,
+      "energy": 79694201953874.31,
+      "mc": 448.2268643472248,
+      "objective": 8.490832154807479e+26,
+      "edp": 1.8943157651144142e+24
+    },
+    "objective": 8.490832154807479e+26,
+    "selection_reason": "Best objective so far; understanding its bottleneck layers will guide further improvement"
+  },
+  "candidate_layers": [
+    {
+      "layer_id": 323,
+      "layer_name": "layer0_ffn1_tiling0",
+      "operator_group": "ffn",
+      "concern_types": [
+        "latency",
+        "energy"
+      ],
+      "rank_metric": "latency_sum",
+      "rank_value": 2837263294.0,
+      "evidence": [
+        "latency_sum=2.84s, highest among all 390 layers",
+        "compute_time_share=0.999, purely compute-bound",
+        "energy=406.3B, top energy consumer",
+        "one of 32 identical FFN1 tilings collectively dominating FFN group latency (91.4B)"
+      ],
+      "confidence": "high"
+    },
+    {
+      "layer_id": 324,
+      "layer_name": "layer0_ffn1_tiling1",
+      "operator_group": "ffn",
+      "concern_types": [
+        "latency",
+        "energy"
+      ],
+      "rank_metric": "latency_sum",
+      "rank_value": 2837263294.0,
+      "evidence": [
+        "latency_sum=2.84s, tied with tiling0",
+        "compute_time_share=0.999, purely compute-bound",
+        "energy=403.7B, second-highest energy consumer",
+        "repeated pattern across all 32 FFN1 tilings"
+      ],
+      "confidence": "high"
+    },
+    {
+      "layer_id": 356,
+      "layer_name": "layer0_ffn2_tiling0",
+      "operator_group": "ffn",
+      "concern_types": [
+        "latency",
+        "mixed"
+      ],
+      "rank_metric": "critical_end",
+      "rank_value": 10574052354.0,
+      "evidence": [
+        "critical_end=10.57s, on the critical path",
+        "compute_time_share=0.751, but memory=0.099 and communication=0.150",
+        "energy breakdown: compute=3.3%, memory=53.0%, communication=43.6%",
+        "one of 16 FFN2 tilings on critical path"
+      ],
+      "confidence": "high"
+    },
+    {
+      "layer_id": 371,
+      "layer_name": "layer0_ffn2_tiling15",
+      "operator_group": "ffn",
+      "concern_types": [
+        "latency",
+        "mixed"
+      ],
+      "rank_metric": "critical_end",
+      "rank_value": 10575697954.0,
+      "evidence": [
+        "critical_end=10.58s, latest among FFN2 tilings",
+        "compute_time_share=0.792, memory=0.104, communication=0.104",
+        "energy breakdown: compute=3.6%, memory=57.7%, communication=38.6%",
+        "represents FFN2 group on critical path"
+      ],
+      "confidence": "high"
+    },
+    {
+      "layer_id": 388,
+      "layer_name": "layer0_res2",
+      "operator_group": "other",
+      "concern_types": [
+        "latency",
+        "mixed"
+      ],
+      "rank_metric": "critical_end",
+      "rank_value": 10577000596.0,
+      "evidence": [
+        "critical_end=10.58s, second-last on critical path",
+        "communication_time_share=0.562, memory=0.435",
+        "energy: communication=49.9%, memory=47.9%",
+        "small latency (1.97ms) but on critical path due to communication dependency"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "layer_id": 389,
+      "layer_name": "layer0_norm2",
+      "operator_group": "other",
+      "concern_types": [
+        "latency",
+        "mixed"
+      ],
+      "rank_metric": "critical_end",
+      "rank_value": 10577831796.0,
+      "evidence": [
+        "critical_end=10.58s, final critical-path layer on core5",
+        "memory_time_share=0.574, communication=0.423",
+        "energy: memory=53.6%, communication=43.6%",
+        "small latency (1.29ms) but terminates the critical path"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "layer_id": 321,
+      "layer_name": "layer0_res1",
+      "operator_group": "other",
+      "concern_types": [
+        "mixed"
+      ],
+      "rank_metric": "communication",
+      "rank_value": 0.494,
+      "evidence": [
+        "communication_time_share=0.494, memory=0.502",
+        "energy: communication=46.4%, memory=51.2%",
+        "top-3 communication-bound layer",
+        "small latency (1.55ms) but high communication pressure"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "selection_notes": {
+    "selected_bottleneck_objective": "mixed",
+    "selected_rank_views": [
+      "latency_sum",
+      "critical_end",
+      "energy",
+      "communication",
+      "compute"
+    ],
+    "global_findings": [
+      "FFN group dominates total latency (91.4B out of 153.5B, 59.6%) and energy (16.2T out of 79.7T, 20.4%)",
+      "Average core utilization is only 45.5% with 1.6x imbalance between most and least busy cores, suggesting synchronization or communication overhead",
+      "DRAM BW increase from 64 to 128 regressed the objective (+5.5%), confirming compute-bound rather than memory-bound behavior",
+      "FFN1 tilings are purely compute-bound (99.9% compute time) and represent the largest single latency contributor",
+      "FFN2 tilings show mixed compute/communication/memory pressure and sit on the critical path",
+      "Attention group has 192 layers (384 occurrences) with significant memory and communication energy (48% and 32% of attention energy)",
+      "The critical path ends at norm2/res2 layers that are memory/communication-bound, suggesting tail synchronization overhead"
+    ],
+    "tool_confidence": "high"
+  }
+}

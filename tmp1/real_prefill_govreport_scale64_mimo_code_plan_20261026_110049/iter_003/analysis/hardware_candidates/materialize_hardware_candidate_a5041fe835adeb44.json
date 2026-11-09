@@ -1,0 +1,203 @@
+{
+  "num_chiplets": 32,
+  "chip_x": 4,
+  "chip_y": 8,
+  "chiplets": [
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    },
+    {
+      "type": "ws",
+      "buffer_size": 8192,
+      "compute_units": 16384,
+      "macs": "[8,8,16,16]"
+    }
+  ],
+  "dram_bw": 64,
+  "nop_bw": 128,
+  "micro_batch": 2,
+  "tensor_parall": 16
+}

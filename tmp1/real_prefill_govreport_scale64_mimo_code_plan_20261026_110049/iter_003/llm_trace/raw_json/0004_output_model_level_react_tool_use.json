@@ -1,0 +1,42 @@
+{
+  "response": {
+    "id": "92c8e55faab14537baa7b92f4a24d7b7",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\n  \"thought\": \"The rank views reveal clear patterns: (1) latency_sum is dominated by layer0_ffn1_tiling0-7 (all ~8.27s each), (2) critical_end is dominated by layer0_norm2, layer0_res2, and layer0_ffn2 tilings, (3) memory bottlenecks are in layer0_norm2 and QK_elt_P layers, (4) communication bottlenecks are in res1, res2, GeLU, and QK_elt_P layers. The ffn1 tilings are compute-heavy (~99.98% compute share) and dominate latency_sum. The critical path ends at layer0_norm2. I should also check operator groups to see the broader pattern, and then inspect the top candidate layers in detail.\",\n  \"action\": \"tool\",\n  \"tool\": {\n    \"name\": \"summarize_operator_groups\",\n    \"arguments\": {\n      \"sort_by\": \"latency_sum\",\n      \"top_groups\": 8,\n      \"include_components\": true\n    }\n  }\n}",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1792984291,
+    "model": "deepseek-v4-flash",
+    "object": "chat.completion",
+    "metadata": null,
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 232,
+      "prompt_tokens": 13718,
+      "total_tokens": 13950,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 5376,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "content": "{\n  \"thought\": \"The rank views reveal clear patterns: (1) latency_sum is dominated by layer0_ffn1_tiling0-7 (all ~8.27s each), (2) critical_end is dominated by layer0_norm2, layer0_res2, and layer0_ffn2 tilings, (3) memory bottlenecks are in layer0_norm2 and QK_elt_P layers, (4) communication bottlenecks are in res1, res2, GeLU, and QK_elt_P layers. The ffn1 tilings are compute-heavy (~99.98% compute share) and dominate latency_sum. The critical path ends at layer0_norm2. I should also check operator groups to see the broader pattern, and then inspect the top candidate layers in detail.\",\n  \"action\": \"tool\",\n  \"tool\": {\n    \"name\": \"summarize_operator_groups\",\n    \"arguments\": {\n      \"sort_by\": \"latency_sum\",\n      \"top_groups\": 8,\n      \"include_components\": true\n    }\n  }\n}"
+}

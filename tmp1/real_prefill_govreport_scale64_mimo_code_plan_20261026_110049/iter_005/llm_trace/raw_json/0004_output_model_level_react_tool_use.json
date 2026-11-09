@@ -1,0 +1,36 @@
+{
+  "response": {
+    "id": "0524bc55128c41bf862d8714cc43a93a",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"thought\": \"The operator groups confirm that FFN dominates latency (91.4B vs 61.9B for attention), while attention and FFN have similar energy. The FFN group has 64 layers (128 occurrences) and is compute-dominated. The attention group has 192 layers (384 occurrences) with significant memory/communication energy. I should now look at the execution timeline to understand critical-path behavior, idle gaps, and core utilization imbalance across chiplets.\", \"action\": \"tool\", \"tool\": {\"name\": \"build_execution_timeline\", \"arguments\": {\"include_sample_rows\": true, \"sample_limit\": 12}}}",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1792984856,
+    "model": "deepseek-v4-flash",
+    "object": "chat.completion",
+    "metadata": null,
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 135,
+      "prompt_tokens": 14440,
+      "total_tokens": 14575,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    }
+  },
+  "content": "{\"thought\": \"The operator groups confirm that FFN dominates latency (91.4B vs 61.9B for attention), while attention and FFN have similar energy. The FFN group has 64 layers (128 occurrences) and is compute-dominated. The attention group has 192 layers (384 occurrences) with significant memory/communication energy. I should now look at the execution timeline to understand critical-path behavior, idle gaps, and core utilization imbalance across chiplets.\", \"action\": \"tool\", \"tool\": {\"name\": \"build_execution_timeline\", \"arguments\": {\"include_sample_rows\": true, \"sample_limit\": 12}}}"
+}

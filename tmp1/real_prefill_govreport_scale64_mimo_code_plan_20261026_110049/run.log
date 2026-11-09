@@ -1,0 +1,88 @@
+[iter=init][step=1/1:evaluator][START][elapsed=00:00:00][eta=unknown] run initial baseline evaluation detail=hardware_fingerprint=3e6138cc9624dffd
+[iter=init][step=1/1:evaluator][DONE][elapsed=00:01:20][eta=00:00:00][step_time=00:01:19] run initial baseline evaluation detail=hardware_fingerprint=3e6138cc9624dffd
+[iter=1/5][step=1/7:model_agent][START][elapsed=00:01:20][eta=unknown] analyze model-level bottlenecks
+[iter=1/5][step=1/7:model_agent][DONE][elapsed=00:02:10][eta=unknown][step_time=00:00:49] analyze model-level bottlenecks
+[iter=1/5][step=2/7:layer_agent][START][elapsed=00:02:10][eta=unknown] diagnose candidate layers
+[iter=1/5][step=2/7:layer_agent][DONE][elapsed=00:02:59][eta=unknown][step_time=00:00:49] diagnose candidate layers
+[iter=1/5][step=3/7:solution_agent][START][elapsed=00:02:59][eta=unknown] retrieve history and propose hardware update
+[iter=1/5][step=3/7:solution_agent][DONE][elapsed=00:03:32][eta=unknown][step_time=00:00:32] retrieve history and propose hardware update
+[iter=1/5][step=4/7:trace][START][elapsed=00:03:32][eta=unknown] write agent trace and LLM trace index
+[iter=1/5][step=4/7:trace][DONE][elapsed=00:03:32][eta=unknown][step_time=00:00:00] write agent trace and LLM trace index
+[iter=1/5][step=5/7:pipeline][START][elapsed=00:03:32][eta=unknown] validate hardware proposal uniqueness detail=hardware_fingerprint=771e71e98c62f9f4, duplicate=False
+[iter=1/5][step=5/7:pipeline][DONE][elapsed=00:03:32][eta=unknown][step_time=00:00:00] validate hardware proposal uniqueness detail=hardware_fingerprint=771e71e98c62f9f4, duplicate=False
+[iter=1/5][step=6/7:evaluator][START][elapsed=00:03:32][eta=unknown] evaluate proposed hardware detail=hardware_fingerprint=771e71e98c62f9f4
+[iter=1/5][step=6/7:evaluator][DONE][elapsed=00:06:53][eta=unknown][step_time=00:03:20] evaluate proposed hardware detail=hardware_fingerprint=771e71e98c62f9f4
+[iter=1/5][step=7/7:rag][START][elapsed=00:06:53][eta=unknown] commit evaluated transition to history database
+[iter=1/5][step=7/7:rag][DONE][elapsed=00:06:53][eta=00:22:09][step_time=00:00:00] commit evaluated transition to history database
+[iter=1/5][iteration][INFO][elapsed=00:06:53][eta=unknown] DONE phase=guided bottleneck=latency/compute actions=chiplets.compute_units: {'4096': 16}->{'16384': 16}, chiplets.macs: {'[8,8,8,8]': 16}->{'[8,8,16,16]': 16}, compute_units: changed on 16 chiplets
+[iter=2/5][step=1/7:model_agent][START][elapsed=00:06:53][eta=00:22:09] analyze model-level bottlenecks
+[iter=2/5][step=1/7:model_agent][DONE][elapsed=00:07:38][eta=00:21:12][step_time=00:00:45] analyze model-level bottlenecks
+[iter=2/5][step=2/7:layer_agent][START][elapsed=00:07:38][eta=00:21:12] diagnose candidate layers
+[iter=2/5][step=2/7:layer_agent][DONE][elapsed=00:08:26][eta=00:20:21][step_time=00:00:48] diagnose candidate layers
+[iter=2/5][step=3/7:solution_agent][START][elapsed=00:08:26][eta=00:20:21] retrieve history and propose hardware update
+[iter=2/5][step=3/7:solution_agent][DONE][elapsed=00:09:07][eta=00:20:00][step_time=00:00:40] retrieve history and propose hardware update
+[iter=2/5][step=4/7:trace][START][elapsed=00:09:07][eta=00:20:00] write agent trace and LLM trace index
+[iter=2/5][step=4/7:trace][DONE][elapsed=00:09:07][eta=00:20:00][step_time=00:00:00] write agent trace and LLM trace index
+[iter=2/5][step=5/7:pipeline][START][elapsed=00:09:07][eta=00:20:00] validate hardware proposal uniqueness detail=hardware_fingerprint=1c9c412827b94c25, duplicate=False
+[iter=2/5][step=5/7:pipeline][DONE][elapsed=00:09:07][eta=00:20:00][step_time=00:00:00] validate hardware proposal uniqueness detail=hardware_fingerprint=1c9c412827b94c25, duplicate=False
+[iter=2/5][step=6/7:evaluator][START][elapsed=00:09:07][eta=00:20:00] evaluate proposed hardware detail=hardware_fingerprint=1c9c412827b94c25
+[iter=2/5][step=6/7:evaluator][DONE][elapsed=00:10:28][eta=00:13:42][step_time=00:01:21] evaluate proposed hardware detail=hardware_fingerprint=1c9c412827b94c25
+[iter=2/5][step=7/7:rag][START][elapsed=00:10:28][eta=00:13:42] commit evaluated transition to history database
+[iter=2/5][step=7/7:rag][DONE][elapsed=00:10:28][eta=00:13:41][step_time=00:00:00] commit evaluated transition to history database
+[iter=2/5][iteration][INFO][elapsed=00:10:28][eta=unknown] DONE phase=guided bottleneck=mixed/mixed actions=nop_bw: 128->256
+[iter=3/5][step=1/7:model_agent][START][elapsed=00:10:28][eta=00:13:41] analyze model-level bottlenecks
+[iter=3/5][step=1/7:model_agent][DONE][elapsed=00:10:59][eta=00:12:43][step_time=00:00:31] analyze model-level bottlenecks
+[iter=3/5][step=2/7:layer_agent][START][elapsed=00:10:59][eta=00:12:43] diagnose candidate layers
+[iter=3/5][step=2/7:layer_agent][DONE][elapsed=00:11:28][eta=00:11:41][step_time=00:00:28] diagnose candidate layers
+[iter=3/5][step=3/7:solution_agent][START][elapsed=00:11:28][eta=00:11:41] retrieve history and propose hardware update
+[iter=3/5][step=3/7:solution_agent][DONE][elapsed=00:12:37][eta=00:11:26][step_time=00:01:09] retrieve history and propose hardware update
+[iter=3/5][step=4/7:trace][START][elapsed=00:12:37][eta=00:11:26] write agent trace and LLM trace index
+[iter=3/5][step=4/7:trace][DONE][elapsed=00:12:37][eta=00:11:26][step_time=00:00:00] write agent trace and LLM trace index
+[iter=3/5][step=5/7:pipeline][START][elapsed=00:12:37][eta=00:11:26] validate hardware proposal uniqueness detail=hardware_fingerprint=b848ff07736452bd, duplicate=False
+[iter=3/5][step=5/7:pipeline][DONE][elapsed=00:12:37][eta=00:11:26][step_time=00:00:00] validate hardware proposal uniqueness detail=hardware_fingerprint=b848ff07736452bd, duplicate=False
+[iter=3/5][step=6/7:evaluator][START][elapsed=00:12:37][eta=00:11:26] evaluate proposed hardware detail=hardware_fingerprint=b848ff07736452bd
+[iter=3/5][step=6/7:evaluator][DONE][elapsed=00:15:24][eta=00:09:22][step_time=00:02:46] evaluate proposed hardware detail=hardware_fingerprint=b848ff07736452bd
+[iter=3/5][step=7/7:rag][START][elapsed=00:15:24][eta=00:09:22] commit evaluated transition to history database
+[iter=3/5][step=7/7:rag][DONE][elapsed=00:15:24][eta=00:09:22][step_time=00:00:00] commit evaluated transition to history database
+[iter=3/5][iteration][INFO][elapsed=00:15:24][eta=unknown] DONE phase=guided bottleneck=mixed/mixed actions=num_chiplets: 16->32, chip_y: 4->8 (derived), tensor_parall: 16->32, chiplets.type: {'ws': 16}->{'ws': 32}, chiplets.compute_units: {'16384': 16}->{'16384': 32}, chiplets.buffer_size: {'8192': 16}->{'8192': 32}, chiplets.macs: {'[8,8,16,16]': 16}->{'[8,8,16,16]': 32}, chip_y: 4->8, chip_shape: 4x4->8x4
+[iter=4/5][step=1/7:model_agent][START][elapsed=00:15:24][eta=00:09:22] analyze model-level bottlenecks
+[iter=4/5][step=1/7:model_agent][DONE][elapsed=00:16:08][eta=00:08:40][step_time=00:00:44] analyze model-level bottlenecks
+[iter=4/5][step=2/7:layer_agent][START][elapsed=00:16:08][eta=00:08:40] diagnose candidate layers
+[iter=4/5][step=2/7:layer_agent][DONE][elapsed=00:16:43][eta=00:07:56][step_time=00:00:35] diagnose candidate layers
+[iter=4/5][step=3/7:solution_agent][START][elapsed=00:16:43][eta=00:07:56] retrieve history and propose hardware update
+[iter=4/5][step=3/7:solution_agent][DONE][elapsed=00:17:26][eta=00:07:08][step_time=00:00:42] retrieve history and propose hardware update
+[iter=4/5][step=4/7:trace][START][elapsed=00:17:26][eta=00:07:08] write agent trace and LLM trace index
+[iter=4/5][step=4/7:trace][DONE][elapsed=00:17:26][eta=00:07:08][step_time=00:00:00] write agent trace and LLM trace index
+[iter=4/5][step=5/7:pipeline][START][elapsed=00:17:26][eta=00:07:08] validate hardware proposal uniqueness detail=hardware_fingerprint=610a634ba8b055a6, duplicate=False
+[iter=4/5][step=5/7:pipeline][DONE][elapsed=00:17:26][eta=00:07:08][step_time=00:00:00] validate hardware proposal uniqueness detail=hardware_fingerprint=610a634ba8b055a6, duplicate=False
+[iter=4/5][step=6/7:evaluator][START][elapsed=00:17:27][eta=00:07:08] evaluate proposed hardware detail=hardware_fingerprint=610a634ba8b055a6
+[iter=4/5][step=6/7:evaluator][DONE][elapsed=00:19:52][eta=00:04:37][step_time=00:02:25] evaluate proposed hardware detail=hardware_fingerprint=610a634ba8b055a6
+[iter=4/5][step=7/7:rag][START][elapsed=00:19:52][eta=00:04:37] commit evaluated transition to history database
+[iter=4/5][step=7/7:rag][DONE][elapsed=00:19:53][eta=00:04:37][step_time=00:00:00] commit evaluated transition to history database
+[iter=4/5][iteration][INFO][elapsed=00:19:53][eta=unknown] DONE phase=guided bottleneck=mixed/mixed actions=dram_bw: 64->128
+[iter=5/5][step=1/7:model_agent][START][elapsed=00:19:53][eta=00:04:37] analyze model-level bottlenecks
+[iter=5/5][step=1/7:model_agent][DONE][elapsed=00:20:58][eta=00:03:55][step_time=00:01:05] analyze model-level bottlenecks
+[iter=5/5][step=2/7:layer_agent][START][elapsed=00:20:58][eta=00:03:55] diagnose candidate layers
+[iter=5/5][step=2/7:layer_agent][DONE][elapsed=00:21:38][eta=00:03:14][step_time=00:00:40] diagnose candidate layers
+[iter=5/5][step=3/7:solution_agent][START][elapsed=00:21:38][eta=00:03:14] retrieve history and propose hardware update
+[iter=5/5][step=3/7:solution_agent][DONE][elapsed=00:22:24][eta=00:02:28][step_time=00:00:45] retrieve history and propose hardware update
+[iter=5/5][step=4/7:trace][START][elapsed=00:22:24][eta=00:02:28] write agent trace and LLM trace index
+[iter=5/5][step=4/7:trace][DONE][elapsed=00:22:24][eta=00:02:28][step_time=00:00:00] write agent trace and LLM trace index
+[iter=5/5][step=5/7:pipeline][START][elapsed=00:22:24][eta=00:02:28] validate hardware proposal uniqueness detail=hardware_fingerprint=014d45cf8c788912, duplicate=False
+[iter=5/5][step=5/7:pipeline][DONE][elapsed=00:22:24][eta=00:02:28][step_time=00:00:00] validate hardware proposal uniqueness detail=hardware_fingerprint=014d45cf8c788912, duplicate=False
+[iter=5/5][step=6/7:evaluator][START][elapsed=00:22:24][eta=00:02:28] evaluate proposed hardware detail=hardware_fingerprint=014d45cf8c788912
+[iter=5/5][step=6/7:evaluator][DONE][elapsed=00:26:55][eta=00:00:00][step_time=00:04:30] evaluate proposed hardware detail=hardware_fingerprint=014d45cf8c788912
+[iter=5/5][step=7/7:rag][START][elapsed=00:26:55][eta=00:00:00] commit evaluated transition to history database
+[iter=5/5][step=7/7:rag][DONE][elapsed=00:26:55][eta=00:00:00][step_time=00:00:00] commit evaluated transition to history database
+[iter=5/5][iteration][INFO][elapsed=00:26:55][eta=unknown] DONE phase=guided bottleneck=latency/compute actions=chiplets.buffer_size: {'8192': 32}->{'32768': 32}, buffer_size: changed on 32 chiplets
+Tuning completed.
+output_dir: /data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049
+full_summary_json: /data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/tuning_summary.json
+metrics_table: /data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/tuning_metrics_table.md
+timing_summary_md: /data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/timing_summary.md
+best_hardware: /data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/best_hardware.json
+resume_script: /data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/resume.sh
+best: iteration=3, phase=guided, objective=8.491e+26, latency=2.377e+10, energy=7.969e+13, mc=448.2
+evaluated: runs=6, designs=6, history_records=5
+llm_retries: attempts=4, exhausted=0
+checkpoint: type=sqlite, path=/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/langgraph_checkpoints.sqlite, resumed=False

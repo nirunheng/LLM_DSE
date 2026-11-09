@@ -1,0 +1,28 @@
+{
+  "metrics_table": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_103528/tuning_metrics_table.md",
+  "completed_evaluations": 1,
+  "latest_iteration": 0,
+  "rows": [
+    {
+      "iteration": 0,
+      "phase": "baseline",
+      "metrics": {
+        "latency": 71288884748.0,
+        "energy": 128794697495679.08,
+        "edp": 9.18163034592299e+24,
+        "mc": 228.65655611080837,
+        "objective": 2.099439974381241e+27
+      },
+      "objective_change_vs_initial": 0.0,
+      "objective_change_vs_previous_best": null,
+      "is_new_best": true,
+      "applied_change": {
+        "source_iteration": null,
+        "strategy": "initial_hardware",
+        "actions": [],
+        "summary": "initial hardware"
+      },
+      "hardware_fingerprint": "3e6138cc9624dffd"
+    }
+  ]
+}

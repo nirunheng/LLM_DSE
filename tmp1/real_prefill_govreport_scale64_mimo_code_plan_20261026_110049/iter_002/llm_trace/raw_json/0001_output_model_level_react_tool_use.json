@@ -1,0 +1,36 @@
+{
+  "response": {
+    "id": "9a82de714c1a4752b7cde803262b04ff",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"thought\": \"The current configuration (iteration 1) is the best so far, with a significant 54% objective improvement over iteration 0 by increasing compute units from 4096 to 16384. The hardware is homogeneous 16-chiplet WS layout with 16384 compute units, 8192 buffer, 64 DRAM BW, 128 NoP BW. I'll select the current (best) base for detailed bottleneck analysis.\", \"action\": \"tool\", \"tool\": {\"name\": \"select_analysis_base\", \"arguments\": {\"source\": \"current\", \"reason\": \"Current iteration 1 is the best evaluated configuration with 54% improved objective; analyze its model execution to identify bottleneck layers.\"}}}",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1792984072,
+    "model": "deepseek-v4-flash",
+    "object": "chat.completion",
+    "metadata": null,
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 149,
+      "prompt_tokens": 4961,
+      "total_tokens": 5110,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    }
+  },
+  "content": "{\"thought\": \"The current configuration (iteration 1) is the best so far, with a significant 54% objective improvement over iteration 0 by increasing compute units from 4096 to 16384. The hardware is homogeneous 16-chiplet WS layout with 16384 compute units, 8192 buffer, 64 DRAM BW, 128 NoP BW. I'll select the current (best) base for detailed bottleneck analysis.\", \"action\": \"tool\", \"tool\": {\"name\": \"select_analysis_base\", \"arguments\": {\"source\": \"current\", \"reason\": \"Current iteration 1 is the best evaluated configuration with 54% improved objective; analyze its model execution to identify bottleneck layers.\"}}}"
+}

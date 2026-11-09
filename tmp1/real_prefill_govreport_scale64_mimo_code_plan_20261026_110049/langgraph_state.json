@@ -1,0 +1,50 @@
+{
+  "backend": "langgraph",
+  "last_node": "finalize",
+  "iterations": 5,
+  "next_iteration": 6,
+  "completed_evaluations": 6,
+  "evaluated_designs": 6,
+  "checkpoint": {
+    "type": "sqlite",
+    "path": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/langgraph_checkpoints.sqlite",
+    "thread_id": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049",
+    "resumed": false
+  },
+  "best": {
+    "iteration": 3,
+    "phase": "guided",
+    "score": 8.490832154807479e+26,
+    "metrics": {
+      "latency": 23769806569.0,
+      "energy": 79694201953874.31,
+      "edp": 1.8943157651144142e+24,
+      "mc": 448.2268643472248,
+      "objective": 8.490832154807479e+26
+    }
+  },
+  "latest_metrics_row": {
+    "iteration": 5,
+    "phase": "guided",
+    "metrics": {
+      "latency": 20977773924.0,
+      "energy": 53228736305905.66,
+      "edp": 1.1166203964854997e+24,
+      "mc": 820.6265225774472,
+      "objective": 9.16328313006946e+26
+    },
+    "objective_change_vs_initial": -0.5635367887681516,
+    "objective_change_vs_previous_best": 0.07919729927545929,
+    "is_new_best": false,
+    "applied_change": {
+      "source_iteration": 5,
+      "strategy": "increase_buffer_size_to_32768",
+      "actions": [
+        "chiplets.buffer_size: {'8192': 32}->{'32768': 32}",
+        "buffer_size: changed on 32 chiplets"
+      ],
+      "summary": "increase_buffer_size_to_32768: chiplets.buffer_size: {'8192': 32}->{'32768': 32}; buffer_size: changed on 32 chiplets"
+    },
+    "hardware_fingerprint": "014d45cf8c788912"
+  }
+}

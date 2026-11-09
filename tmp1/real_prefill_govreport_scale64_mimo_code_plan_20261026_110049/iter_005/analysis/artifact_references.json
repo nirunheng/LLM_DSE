@@ -1,0 +1,390 @@
+{
+  "references": [
+    {
+      "tool": "summarize_layer_rank_views",
+      "arguments": {
+        "top_layers": 8,
+        "effective_top_layers": 8
+      },
+      "base": {
+        "source": "best",
+        "base_key": "best",
+        "iteration": 3,
+        "metrics": {
+          "latency": 23769806569.0,
+          "energy": 79694201953874.31,
+          "mc": 448.2268643472248,
+          "objective": 8.490832154807479e+26,
+          "edp": 1.8943157651144142e+24
+        },
+        "objective": 8.490832154807479e+26,
+        "selection_reason": "Best objective so far; understanding its bottleneck layers will guide further improvement"
+      },
+      "evaluation_run_dir": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003",
+      "files": {
+        "layer_rank_views_top8_json": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003/analysis/layer_rank_views_top8.json"
+      },
+      "reused": true
+    },
+    {
+      "tool": "summarize_operator_groups",
+      "arguments": {
+        "sort_by": "latency_sum",
+        "top_groups": 8,
+        "include_components": true
+      },
+      "base": {
+        "source": "best",
+        "base_key": "best",
+        "iteration": 3,
+        "metrics": {
+          "latency": 23769806569.0,
+          "energy": 79694201953874.31,
+          "mc": 448.2268643472248,
+          "objective": 8.490832154807479e+26,
+          "edp": 1.8943157651144142e+24
+        },
+        "objective": 8.490832154807479e+26,
+        "selection_reason": "Best objective so far; understanding its bottleneck layers will guide further improvement"
+      },
+      "evaluation_run_dir": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003",
+      "files": {
+        "operator_group_csv": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003/analysis/operator_group_summary.csv",
+        "operator_group_json": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003/analysis/operator_group_summary.json"
+      },
+      "reused": true
+    },
+    {
+      "tool": "build_execution_timeline",
+      "arguments": {},
+      "base": {
+        "source": "best",
+        "base_key": "best",
+        "iteration": 3,
+        "metrics": {
+          "latency": 23769806569.0,
+          "energy": 79694201953874.31,
+          "mc": 448.2268643472248,
+          "objective": 8.490832154807479e+26,
+          "edp": 1.8943157651144142e+24
+        },
+        "objective": 8.490832154807479e+26,
+        "selection_reason": "Best objective so far; understanding its bottleneck layers will guide further improvement"
+      },
+      "evaluation_run_dir": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003",
+      "files": {
+        "timeline_summary_json": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003/analysis/execution_timeline_summary.json",
+        "timeline_csv": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003/analysis/execution_timeline.csv",
+        "timeline_html": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003/analysis/execution_timeline.html"
+      },
+      "reused": true
+    },
+    {
+      "tool": "inspect_layer_details",
+      "arguments": {
+        "layers": [
+          {
+            "layer_id": 321,
+            "layer_name": "layer0_res1"
+          },
+          {
+            "layer_id": 323,
+            "layer_name": "layer0_ffn1_tiling0"
+          },
+          {
+            "layer_id": 324,
+            "layer_name": "layer0_ffn1_tiling1"
+          },
+          {
+            "layer_id": 355,
+            "layer_name": "layer0_GeLU"
+          },
+          {
+            "layer_id": 356,
+            "layer_name": "layer0_ffn2_tiling0"
+          },
+          {
+            "layer_id": 371,
+            "layer_name": "layer0_ffn2_tiling15"
+          },
+          {
+            "layer_id": 388,
+            "layer_name": "layer0_res2"
+          },
+          {
+            "layer_id": 389,
+            "layer_name": "layer0_norm2"
+          }
+        ],
+        "max_layers": 12,
+        "include_fields": [
+          "basic",
+          "breakdown",
+          "energy_components",
+          "root_cause",
+          "timing"
+        ]
+      },
+      "base": {
+        "source": "best",
+        "base_key": "best",
+        "iteration": 3,
+        "metrics": {
+          "latency": 23769806569.0,
+          "energy": 79694201953874.31,
+          "mc": 448.2268643472248,
+          "objective": 8.490832154807479e+26,
+          "edp": 1.8943157651144142e+24
+        },
+        "objective": 8.490832154807479e+26,
+        "selection_reason": "Best objective so far; understanding its bottleneck layers will guide further improvement"
+      },
+      "evaluation_run_dir": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003",
+      "files": {
+        "inspected_layer_details_json": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003/analysis/inspected_layer_details_args_57fe470734.json"
+      },
+      "reused": false
+    },
+    {
+      "tool": "inspect_layer_details",
+      "arguments": {
+        "layers": [
+          {
+            "layer_id": 321,
+            "layer_name": "layer0_res1"
+          },
+          {
+            "layer_id": 323,
+            "layer_name": "layer0_ffn1_tiling0"
+          },
+          {
+            "layer_id": 324,
+            "layer_name": "layer0_ffn1_tiling1"
+          },
+          {
+            "layer_id": 356,
+            "layer_name": "layer0_ffn2_tiling0"
+          },
+          {
+            "layer_id": 371,
+            "layer_name": "layer0_ffn2_tiling15"
+          },
+          {
+            "layer_id": 388,
+            "layer_name": "layer0_res2"
+          },
+          {
+            "layer_id": 389,
+            "layer_name": "layer0_norm2"
+          }
+        ],
+        "max_layers": 12,
+        "include_fields": [
+          "basic",
+          "breakdown",
+          "energy_components",
+          "features",
+          "placement",
+          "root_cause",
+          "timing"
+        ]
+      },
+      "base": {
+        "source": "best",
+        "base_key": "best",
+        "iteration": 3,
+        "metrics": {
+          "latency": 23769806569.0,
+          "energy": 79694201953874.31,
+          "mc": 448.2268643472248,
+          "objective": 8.490832154807479e+26,
+          "edp": 1.8943157651144142e+24
+        },
+        "objective": 8.490832154807479e+26,
+        "selection_reason": "Best objective so far; understanding its bottleneck layers will guide further improvement"
+      },
+      "evaluation_run_dir": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003",
+      "files": {
+        "inspected_layer_details_json": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003/analysis/inspected_layer_details_args_533344e7f2.json"
+      },
+      "reused": false
+    },
+    {
+      "tool": "build_execution_timeline",
+      "arguments": {},
+      "base": {
+        "source": "best",
+        "base_key": "best",
+        "iteration": 3,
+        "metrics": {
+          "latency": 23769806569.0,
+          "energy": 79694201953874.31,
+          "mc": 448.2268643472248,
+          "objective": 8.490832154807479e+26,
+          "edp": 1.8943157651144142e+24
+        },
+        "objective": 8.490832154807479e+26,
+        "selection_reason": "Best objective so far; understanding its bottleneck layers will guide further improvement"
+      },
+      "evaluation_run_dir": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003",
+      "files": {
+        "timeline_summary_json": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003/analysis/execution_timeline_summary.json",
+        "timeline_csv": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003/analysis/execution_timeline.csv",
+        "timeline_html": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003/analysis/execution_timeline.html"
+      },
+      "reused": true
+    },
+    {
+      "tool": "aggregate_layer_loads",
+      "arguments": {
+        "view": "layers",
+        "layer_ids": [
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334
+        ],
+        "include_fields": [
+          "basic",
+          "placement",
+          "timing"
+        ]
+      },
+      "base": {
+        "source": "best",
+        "base_key": "best",
+        "iteration": 3,
+        "metrics": {
+          "latency": 23769806569.0,
+          "energy": 79694201953874.31,
+          "mc": 448.2268643472248,
+          "objective": 8.490832154807479e+26,
+          "edp": 1.8943157651144142e+24
+        },
+        "objective": 8.490832154807479e+26,
+        "selection_reason": "Best objective so far; understanding its bottleneck layers will guide further improvement"
+      },
+      "evaluation_run_dir": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003",
+      "files": {
+        "layer_loads_json": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003/analysis/layer_loads.json",
+        "energy_table_csv": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003/analysis/layer_energy_table.csv"
+      },
+      "reused": true
+    },
+    {
+      "tool": "summarize_operator_groups",
+      "arguments": {
+        "sort_by": "latency_sum",
+        "top_groups": 5,
+        "include_components": true
+      },
+      "base": {
+        "source": "best",
+        "base_key": "best",
+        "iteration": 3,
+        "metrics": {
+          "latency": 23769806569.0,
+          "energy": 79694201953874.31,
+          "mc": 448.2268643472248,
+          "objective": 8.490832154807479e+26,
+          "edp": 1.8943157651144142e+24
+        },
+        "objective": 8.490832154807479e+26,
+        "selection_reason": "Best objective so far; understanding its bottleneck layers will guide further improvement"
+      },
+      "evaluation_run_dir": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003",
+      "files": {
+        "operator_group_csv": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003/analysis/operator_group_summary.csv",
+        "operator_group_json": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003/analysis/operator_group_summary.json"
+      },
+      "reused": true
+    },
+    {
+      "tool": "summarize_operator_groups",
+      "arguments": {
+        "sort_by": "latency_sum",
+        "top_groups": 8,
+        "include_components": true
+      },
+      "base": {
+        "source": "best",
+        "base_key": "best",
+        "iteration": 3,
+        "metrics": {
+          "latency": 23769806569.0,
+          "energy": 79694201953874.31,
+          "mc": 448.2268643472248,
+          "objective": 8.490832154807479e+26,
+          "edp": 1.8943157651144142e+24
+        },
+        "objective": 8.490832154807479e+26,
+        "selection_reason": "Best objective (iteration 3, 8.49e26) is the reference for proposing the next improvement. Understanding its bottleneck layers in detail will guide the next parameter change."
+      },
+      "evaluation_run_dir": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003",
+      "files": {
+        "operator_group_csv": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003/analysis/operator_group_summary.csv",
+        "operator_group_json": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003/analysis/operator_group_summary.json"
+      },
+      "reused": true
+    },
+    {
+      "tool": "summarize_layer_rank_views",
+      "arguments": {
+        "top_layers": 6,
+        "effective_top_layers": 6
+      },
+      "base": {
+        "source": "best",
+        "base_key": "best",
+        "iteration": 3,
+        "metrics": {
+          "latency": 23769806569.0,
+          "energy": 79694201953874.31,
+          "mc": 448.2268643472248,
+          "objective": 8.490832154807479e+26,
+          "edp": 1.8943157651144142e+24
+        },
+        "objective": 8.490832154807479e+26,
+        "selection_reason": "Best objective (iteration 3, 8.49e26) is the reference for proposing the next improvement. Understanding its bottleneck layers in detail will guide the next parameter change."
+      },
+      "evaluation_run_dir": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003",
+      "files": {
+        "layer_rank_views_top6_json": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003/analysis/layer_rank_views_top6.json"
+      },
+      "reused": false
+    },
+    {
+      "tool": "build_execution_timeline",
+      "arguments": {},
+      "base": {
+        "source": "best",
+        "base_key": "best",
+        "iteration": 3,
+        "metrics": {
+          "latency": 23769806569.0,
+          "energy": 79694201953874.31,
+          "mc": 448.2268643472248,
+          "objective": 8.490832154807479e+26,
+          "edp": 1.8943157651144142e+24
+        },
+        "objective": 8.490832154807479e+26,
+        "selection_reason": "Best objective (iteration 3, 8.49e26) is the reference for proposing the next improvement. Understanding its bottleneck layers in detail will guide the next parameter change."
+      },
+      "evaluation_run_dir": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003",
+      "files": {
+        "timeline_summary_json": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003/analysis/execution_timeline_summary.json",
+        "timeline_csv": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003/analysis/execution_timeline.csv",
+        "timeline_html": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_003/analysis/execution_timeline.html"
+      },
+      "reused": true
+    }
+  ]
+}

@@ -1,0 +1,498 @@
+{
+  "metrics": {
+    "latency": 46686531266.0,
+    "energy": 86955220214505.08,
+    "edp": 4.0596376072864065e+24,
+    "mc": 237.62477441756562,
+    "objective": 9.646704706484981e+26
+  },
+  "layers": [
+    {
+      "layer_id": 307,
+      "layer_name": "layer0_ffn1_tiling0",
+      "operator_group": "ffn",
+      "timing": {
+        "latency_sum": 8270487552.0,
+        "latency_max": 5513658368.0,
+        "critical_end": 19643573379.0,
+        "calc_time": 8270487552.0,
+        "noc_time": 980328.0,
+        "dram_time": 816940.0
+      },
+      "breakdown": {
+        "time": {
+          "compute": 0.9997827362041918,
+          "communication": 0.00011850752498630723,
+          "memory": 9.87562708219227e-05
+        },
+        "energy": {
+          "compute": 0.9755883852927923,
+          "buffer": 0.0003032249762276822,
+          "communication": 0.008840916071482517,
+          "memory": 0.015267473659497417
+        }
+      },
+      "root_cause": {
+        "dominant_dimension": "compute"
+      },
+      "impact_types": [
+        "latency",
+        "energy"
+      ],
+      "root_causes": [
+        "compute"
+      ],
+      "dominant_root_cause": "compute",
+      "shares": {
+        "objective_reference": 9.646704706484981e+26
+      }
+    },
+    {
+      "layer_id": 308,
+      "layer_name": "layer0_ffn1_tiling1",
+      "operator_group": "ffn",
+      "timing": {
+        "latency_sum": 8270487552.0,
+        "latency_max": 5513658368.0,
+        "critical_end": 19643573379.0,
+        "calc_time": 8270487552.0,
+        "noc_time": 669936.0,
+        "dram_time": 800592.0
+      },
+      "breakdown": {
+        "time": {
+          "compute": 0.9998222273389471,
+          "communication": 8.098880501096543e-05,
+          "memory": 9.678385604197839e-05
+        },
+        "energy": {
+          "compute": 0.9773933671405227,
+          "buffer": 0.00030378598698398103,
+          "communication": 0.007313212811507107,
+          "memory": 0.014989634060986082
+        }
+      },
+      "root_cause": {
+        "dominant_dimension": "compute"
+      },
+      "impact_types": [
+        "latency",
+        "energy"
+      ],
+      "root_causes": [
+        "compute"
+      ],
+      "dominant_root_cause": "compute",
+      "shares": {
+        "objective_reference": 9.646704706484981e+26
+      }
+    },
+    {
+      "layer_id": 309,
+      "layer_name": "layer0_ffn1_tiling2",
+      "operator_group": "ffn",
+      "timing": {
+        "latency_sum": 8270487552.0,
+        "latency_max": 5513658368.0,
+        "critical_end": 19643573379.0,
+        "calc_time": 8270487552.0,
+        "noc_time": 669936.0,
+        "dram_time": 800592.0
+      },
+      "breakdown": {
+        "time": {
+          "compute": 0.9998222273389471,
+          "communication": 8.098880501096543e-05,
+          "memory": 9.678385604197839e-05
+        },
+        "energy": {
+          "compute": 0.9774504801683516,
+          "buffer": 0.0003038037384217459,
+          "communication": 0.007255206127598637,
+          "memory": 0.01499050996562801
+        }
+      },
+      "root_cause": {
+        "dominant_dimension": "compute"
+      },
+      "impact_types": [
+        "latency",
+        "energy"
+      ],
+      "root_causes": [
+        "compute"
+      ],
+      "dominant_root_cause": "compute",
+      "shares": {
+        "objective_reference": 9.646704706484981e+26
+      }
+    },
+    {
+      "layer_id": 310,
+      "layer_name": "layer0_ffn1_tiling3",
+      "operator_group": "ffn",
+      "timing": {
+        "latency_sum": 8270487552.0,
+        "latency_max": 5513658368.0,
+        "critical_end": 19643573379.0,
+        "calc_time": 8270487552.0,
+        "noc_time": 669936.0,
+        "dram_time": 800592.0
+      },
+      "breakdown": {
+        "time": {
+          "compute": 0.9998222273389471,
+          "communication": 8.098880501096543e-05,
+          "memory": 9.678385604197839e-05
+        },
+        "energy": {
+          "compute": 0.9775075998712585,
+          "buffer": 0.00030382149193420796,
+          "communication": 0.00719719266416605,
+          "memory": 0.014991385972641188
+        }
+      },
+      "root_cause": {
+        "dominant_dimension": "compute"
+      },
+      "impact_types": [
+        "latency",
+        "energy"
+      ],
+      "root_causes": [
+        "compute"
+      ],
+      "dominant_root_cause": "compute",
+      "shares": {
+        "objective_reference": 9.646704706484981e+26
+      }
+    },
+    {
+      "layer_id": 311,
+      "layer_name": "layer0_ffn1_tiling4",
+      "operator_group": "ffn",
+      "timing": {
+        "latency_sum": 8270487552.0,
+        "latency_max": 5513658368.0,
+        "critical_end": 19647449911.0,
+        "calc_time": 8270487552.0,
+        "noc_time": 669936.0,
+        "dram_time": 800592.0
+      },
+      "breakdown": {
+        "time": {
+          "compute": 0.9998222273389471,
+          "communication": 8.098880501096543e-05,
+          "memory": 9.678385604197839e-05
+        },
+        "energy": {
+          "compute": 0.9774504801683516,
+          "buffer": 0.0003038037384217459,
+          "communication": 0.007255206127598637,
+          "memory": 0.01499050996562801
+        }
+      },
+      "root_cause": {
+        "dominant_dimension": "compute"
+      },
+      "impact_types": [
+        "latency",
+        "energy"
+      ],
+      "root_causes": [
+        "compute"
+      ],
+      "dominant_root_cause": "compute",
+      "shares": {
+        "objective_reference": 9.646704706484981e+26
+      }
+    },
+    {
+      "layer_id": 312,
+      "layer_name": "layer0_ffn1_tiling5",
+      "operator_group": "ffn",
+      "timing": {
+        "latency_sum": 8270487552.0,
+        "latency_max": 5513658368.0,
+        "critical_end": 19643573379.0,
+        "calc_time": 8270487552.0,
+        "noc_time": 702704.0,
+        "dram_time": 800592.0
+      },
+      "breakdown": {
+        "time": {
+          "compute": 0.9998182667234982,
+          "communication": 8.494980385162051e-05,
+          "memory": 9.678347265018638e-05
+        },
+        "energy": {
+          "compute": 0.9773362607866021,
+          "buffer": 0.00030376823762054964,
+          "communication": 0.007371212717079786,
+          "memory": 0.014988758258697459
+        }
+      },
+      "root_cause": {
+        "dominant_dimension": "compute"
+      },
+      "impact_types": [
+        "latency",
+        "energy"
+      ],
+      "root_causes": [
+        "compute"
+      ],
+      "dominant_root_cause": "compute",
+      "shares": {
+        "objective_reference": 9.646704706484981e+26
+      }
+    },
+    {
+      "layer_id": 313,
+      "layer_name": "layer0_ffn1_tiling6",
+      "operator_group": "ffn",
+      "timing": {
+        "latency_sum": 8270487552.0,
+        "latency_max": 5513658368.0,
+        "critical_end": 19643573379.0,
+        "calc_time": 8270487552.0,
+        "noc_time": 702704.0,
+        "dram_time": 800592.0
+      },
+      "breakdown": {
+        "time": {
+          "compute": 0.9998182667234982,
+          "communication": 8.494980385162051e-05,
+          "memory": 9.678347265018638e-05
+        },
+        "energy": {
+          "compute": 0.9773933671405227,
+          "buffer": 0.00030378598698398103,
+          "communication": 0.007313212811507107,
+          "memory": 0.014989634060986082
+        }
+      },
+      "root_cause": {
+        "dominant_dimension": "compute"
+      },
+      "impact_types": [
+        "latency",
+        "energy"
+      ],
+      "root_causes": [
+        "compute"
+      ],
+      "dominant_root_cause": "compute",
+      "shares": {
+        "objective_reference": 9.646704706484981e+26
+      }
+    },
+    {
+      "layer_id": 314,
+      "layer_name": "layer0_ffn1_tiling7",
+      "operator_group": "ffn",
+      "timing": {
+        "latency_sum": 8270487552.0,
+        "latency_max": 5513658368.0,
+        "critical_end": 19643573379.0,
+        "calc_time": 8270487552.0,
+        "noc_time": 702704.0,
+        "dram_time": 800592.0
+      },
+      "breakdown": {
+        "time": {
+          "compute": 0.9998182667234982,
+          "communication": 8.494980385162051e-05,
+          "memory": 9.678347265018638e-05
+        },
+        "energy": {
+          "compute": 0.9774504801683516,
+          "buffer": 0.0003038037384217459,
+          "communication": 0.007255206127598637,
+          "memory": 0.01499050996562801
+        }
+      },
+      "root_cause": {
+        "dominant_dimension": "compute"
+      },
+      "impact_types": [
+        "latency",
+        "energy"
+      ],
+      "root_causes": [
+        "compute"
+      ],
+      "dominant_root_cause": "compute",
+      "shares": {
+        "objective_reference": 9.646704706484981e+26
+      }
+    },
+    {
+      "layer_id": 324,
+      "layer_name": "layer0_ffn2_tiling0",
+      "operator_group": "ffn",
+      "timing": {
+        "latency_sum": 42059581.0,
+        "latency_max": 34915605.0,
+        "critical_end": 19687492928.0,
+        "calc_time": 42059581.0,
+        "noc_time": 2614208.0,
+        "dram_time": 2655055.0
+      },
+      "breakdown": {
+        "time": {
+          "compute": 0.8886669828656707,
+          "communication": 0.055234985244938584,
+          "memory": 0.05609803188939075
+        },
+        "energy": {
+          "compute": 0.08978693913173966,
+          "buffer": 0.0015444139904810627,
+          "communication": 0.29507319856339465,
+          "memory": 0.6135954483143846
+        }
+      },
+      "root_cause": {
+        "dominant_dimension": "compute"
+      },
+      "impact_types": [
+        "unknown"
+      ],
+      "root_causes": [
+        "compute",
+        "memory",
+        "communication"
+      ],
+      "dominant_root_cause": "compute",
+      "shares": {
+        "objective_reference": 9.646704706484981e+26
+      }
+    },
+    {
+      "layer_id": 327,
+      "layer_name": "layer0_ffn2_tiling3",
+      "operator_group": "ffn",
+      "timing": {
+        "latency_sum": 42059581.0,
+        "latency_max": 34915605.0,
+        "critical_end": 19689509492.0,
+        "calc_time": 42059581.0,
+        "noc_time": 2614208.0,
+        "dram_time": 2628739.0
+      },
+      "breakdown": {
+        "time": {
+          "compute": 0.8891613784362645,
+          "communication": 0.055265714339834016,
+          "memory": 0.05557290722390144
+        },
+        "energy": {
+          "compute": 0.09079857023820091,
+          "buffer": 0.0015618149315214096,
+          "communication": 0.2932810473076752,
+          "memory": 0.6143585675226024
+        }
+      },
+      "root_cause": {
+        "dominant_dimension": "compute"
+      },
+      "impact_types": [
+        "unknown"
+      ],
+      "root_causes": [
+        "compute",
+        "memory",
+        "communication"
+      ],
+      "dominant_root_cause": "compute",
+      "shares": {
+        "objective_reference": 9.646704706484981e+26
+      }
+    },
+    {
+      "layer_id": 337,
+      "layer_name": "layer0_ffn2_tiling13",
+      "operator_group": "ffn",
+      "timing": {
+        "latency_sum": 42059581.0,
+        "latency_max": 34915605.0,
+        "critical_end": 19690759502.0,
+        "calc_time": 42059581.0,
+        "noc_time": 3921312.0,
+        "dram_time": 2628739.0
+      },
+      "breakdown": {
+        "time": {
+          "compute": 0.8652519936789482,
+          "communication": 0.08066944427803938,
+          "memory": 0.05407856204301238
+        },
+        "energy": {
+          "compute": 0.08572051372818922,
+          "buffer": 0.0014744679120734202,
+          "communication": 0.3328054447629783,
+          "memory": 0.579999573596759
+        }
+      },
+      "root_cause": {
+        "dominant_dimension": "compute"
+      },
+      "impact_types": [
+        "unknown"
+      ],
+      "root_causes": [
+        "compute",
+        "memory",
+        "communication"
+      ],
+      "dominant_root_cause": "compute",
+      "shares": {
+        "objective_reference": 9.646704706484981e+26
+      }
+    },
+    {
+      "layer_id": 338,
+      "layer_name": "layer0_ffn2_tiling14",
+      "operator_group": "ffn",
+      "timing": {
+        "latency_sum": 42059581.0,
+        "latency_max": 34915605.0,
+        "critical_end": 19691590702.0,
+        "calc_time": 42059581.0,
+        "noc_time": 3921312.0,
+        "dram_time": 2628739.0
+      },
+      "breakdown": {
+        "time": {
+          "compute": 0.8652519936789482,
+          "communication": 0.08066944427803938,
+          "memory": 0.05407856204301238
+        },
+        "energy": {
+          "compute": 0.08577957798545452,
+          "buffer": 0.0014754838690281846,
+          "communication": 0.33234572573957766,
+          "memory": 0.5803992124059396
+        }
+      },
+      "root_cause": {
+        "dominant_dimension": "compute"
+      },
+      "impact_types": [
+        "unknown"
+      ],
+      "root_causes": [
+        "compute",
+        "memory",
+        "communication"
+      ],
+      "dominant_root_cause": "compute",
+      "shares": {
+        "objective_reference": 9.646704706484981e+26
+      }
+    }
+  ],
+  "layer_count": 12,
+  "requested_layer_count": 15,
+  "truncated": true
+}

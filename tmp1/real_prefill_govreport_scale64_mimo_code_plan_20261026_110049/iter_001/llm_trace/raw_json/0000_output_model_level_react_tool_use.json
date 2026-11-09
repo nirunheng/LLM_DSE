@@ -1,0 +1,36 @@
+{
+  "response": {
+    "id": "a188aacdcb5b40bbb423feaa217c5cfc",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\n  \"thought\": \"I need to start by inspecting the search state to understand the current, previous, and best evaluated states. This will help me decide which analysis base to select for bottleneck discovery.\",\n  \"action\": \"tool\",\n  \"tool\": {\n    \"name\": \"compare_search_states\",\n    \"arguments\": {}\n  }\n}",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1792983732,
+    "model": "deepseek-v4-flash",
+    "object": "chat.completion",
+    "metadata": null,
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 72,
+      "prompt_tokens": 3444,
+      "total_tokens": 3516,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    }
+  },
+  "content": "{\n  \"thought\": \"I need to start by inspecting the search state to understand the current, previous, and best evaluated states. This will help me decide which analysis base to select for bottleneck discovery.\",\n  \"action\": \"tool\",\n  \"tool\": {\n    \"name\": \"compare_search_states\",\n    \"arguments\": {}\n  }\n}"
+}

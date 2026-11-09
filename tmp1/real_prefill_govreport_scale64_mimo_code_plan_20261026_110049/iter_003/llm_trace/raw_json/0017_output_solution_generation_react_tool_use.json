@@ -1,0 +1,42 @@
+{
+  "response": {
+    "id": "67d5a5aefc1f479e8d28b80451aaa4e9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"thought\": \"Key insights from operator groups:\\n- FFN dominates latency (133B ns, 64 occurrences) and is purely compute-bound (100% calc_time).\\n- Attention is also compute-bound (99.8% calc_time) with 384 occurrences.\\n- 'Other' group (norm, res, GeLU) is memory/communication-bound (dram_time=12.5ms, noc_time=10.4ms vs calc_time=0.057ms) but has tiny latency contribution (12.8ms total).\\n\\nSo the primary bottleneck is compute-bound FFN and attention layers. Since compute_units is already at max (16384), the only way to reduce compute latency is to add more chiplets (increasing parallelism) or change the dataflow type.\\n\\nLet me check if switching to OS chiplet type could help. OS (output-stationary) dataflow might be more efficient for the FFN GEMM operations. Let me also check the layer-level details for the FFN tilings to understand the compute pattern better.\", \"action\": \"tool\", \"tool\": {\"name\": \"summarize_layer_rank_views\", \"arguments\": {\"top_layers\": 6}}}",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1792984356,
+    "model": "deepseek-v4-flash",
+    "object": "chat.completion",
+    "metadata": null,
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 259,
+      "prompt_tokens": 17958,
+      "total_tokens": 18217,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 3328,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "content": "{\"thought\": \"Key insights from operator groups:\\n- FFN dominates latency (133B ns, 64 occurrences) and is purely compute-bound (100% calc_time).\\n- Attention is also compute-bound (99.8% calc_time) with 384 occurrences.\\n- 'Other' group (norm, res, GeLU) is memory/communication-bound (dram_time=12.5ms, noc_time=10.4ms vs calc_time=0.057ms) but has tiny latency contribution (12.8ms total).\\n\\nSo the primary bottleneck is compute-bound FFN and attention layers. Since compute_units is already at max (16384), the only way to reduce compute latency is to add more chiplets (increasing parallelism) or change the dataflow type.\\n\\nLet me check if switching to OS chiplet type could help. OS (output-stationary) dataflow might be more efficient for the FFN GEMM operations. Let me also check the layer-level details for the FFN tilings to understand the compute pattern better.\", \"action\": \"tool\", \"tool\": {\"name\": \"summarize_layer_rank_views\", \"arguments\": {\"top_layers\": 6}}}"
+}

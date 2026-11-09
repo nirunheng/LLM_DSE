@@ -1,0 +1,1024 @@
+{
+  "schema_version": 1,
+  "description": "Pipeline timings are local wall-clock durations. LLM API timings are measured per chat-completion call from request start to response/exception handling, so they include network latency and provider-side generation time.",
+  "pipeline": {
+    "event_count": 36,
+    "total_recorded_s": 1613.055218,
+    "by_component": {
+      "agent:layer_level": {
+        "count": 5,
+        "total_s": 201.601979,
+        "avg_s": 40.320396,
+        "max_s": 49.117352
+      },
+      "agent:model_level": {
+        "count": 5,
+        "total_s": 235.58584,
+        "avg_s": 47.117168,
+        "max_s": 65.175203
+      },
+      "agent:solution_generation": {
+        "count": 5,
+        "total_s": 230.560642,
+        "avg_s": 46.112128,
+        "max_s": 69.407512
+      },
+      "evaluator": {
+        "count": 6,
+        "total_s": 944.256041,
+        "avg_s": 157.376007,
+        "max_s": 270.786819
+      },
+      "pipeline": {
+        "count": 5,
+        "total_s": 0.00069,
+        "avg_s": 0.000138,
+        "max_s": 0.000241
+      },
+      "rag": {
+        "count": 5,
+        "total_s": 0.583525,
+        "avg_s": 0.116705,
+        "max_s": 0.130549
+      },
+      "trace": {
+        "count": 5,
+        "total_s": 0.466501,
+        "avg_s": 0.0933,
+        "max_s": 0.411343
+      }
+    },
+    "by_iteration": {
+      "iter_000": {
+        "iteration": 0,
+        "pipeline_event_count": 1,
+        "pipeline_total_s": 79.843751,
+        "pipeline_by_component": {
+          "evaluator": {
+            "count": 1,
+            "total_s": 79.843751,
+            "avg_s": 79.843751,
+            "max_s": 79.843751
+          }
+        },
+        "pipeline_events": [
+          {
+            "iteration": 0,
+            "component": "evaluator",
+            "action": "run initial baseline evaluation",
+            "duration_s": 79.843751,
+            "metadata": {
+              "hardware_fingerprint": "3e6138cc9624dffd"
+            }
+          }
+        ]
+      },
+      "iter_001": {
+        "iteration": 1,
+        "pipeline_event_count": 7,
+        "pipeline_total_s": 332.297497,
+        "pipeline_by_component": {
+          "agent:layer_level": {
+            "count": 1,
+            "total_s": 49.117352,
+            "avg_s": 49.117352,
+            "max_s": 49.117352
+          },
+          "agent:model_level": {
+            "count": 1,
+            "total_s": 49.942172,
+            "avg_s": 49.942172,
+            "max_s": 49.942172
+          },
+          "agent:solution_generation": {
+            "count": 1,
+            "total_s": 32.729934,
+            "avg_s": 32.729934,
+            "max_s": 32.729934
+          },
+          "evaluator": {
+            "count": 1,
+            "total_s": 200.360835,
+            "avg_s": 200.360835,
+            "max_s": 200.360835
+          },
+          "pipeline": {
+            "count": 1,
+            "total_s": 0.000118,
+            "avg_s": 0.000118,
+            "max_s": 0.000118
+          },
+          "rag": {
+            "count": 1,
+            "total_s": 0.129618,
+            "avg_s": 0.129618,
+            "max_s": 0.129618
+          },
+          "trace": {
+            "count": 1,
+            "total_s": 0.017468,
+            "avg_s": 0.017468,
+            "max_s": 0.017468
+          }
+        },
+        "pipeline_events": [
+          {
+            "iteration": 1,
+            "component": "agent:model_level",
+            "action": "analyze model-level bottlenecks",
+            "duration_s": 49.942172
+          },
+          {
+            "iteration": 1,
+            "component": "agent:layer_level",
+            "action": "diagnose candidate layers",
+            "duration_s": 49.117352
+          },
+          {
+            "iteration": 1,
+            "component": "agent:solution_generation",
+            "action": "retrieve history and propose hardware update",
+            "duration_s": 32.729934
+          },
+          {
+            "iteration": 1,
+            "component": "trace",
+            "action": "write agent trace and LLM trace index",
+            "duration_s": 0.017468
+          },
+          {
+            "iteration": 1,
+            "component": "pipeline",
+            "action": "validate hardware proposal uniqueness",
+            "duration_s": 0.000118,
+            "metadata": {
+              "hardware_fingerprint": "771e71e98c62f9f4",
+              "duplicate": false
+            }
+          },
+          {
+            "iteration": 1,
+            "component": "evaluator",
+            "action": "evaluate proposed hardware",
+            "duration_s": 200.360835,
+            "metadata": {
+              "hardware_fingerprint": "771e71e98c62f9f4"
+            }
+          },
+          {
+            "iteration": 1,
+            "component": "rag",
+            "action": "commit evaluated transition to history database",
+            "duration_s": 0.129618
+          }
+        ]
+      },
+      "iter_002": {
+        "iteration": 2,
+        "pipeline_event_count": 7,
+        "pipeline_total_s": 215.591661,
+        "pipeline_by_component": {
+          "agent:layer_level": {
+            "count": 1,
+            "total_s": 48.132079,
+            "avg_s": 48.132079,
+            "max_s": 48.132079
+          },
+          "agent:model_level": {
+            "count": 1,
+            "total_s": 45.176848,
+            "avg_s": 45.176848,
+            "max_s": 45.176848
+          },
+          "agent:solution_generation": {
+            "count": 1,
+            "total_s": 40.533682,
+            "avg_s": 40.533682,
+            "max_s": 40.533682
+          },
+          "evaluator": {
+            "count": 1,
+            "total_s": 81.637995,
+            "avg_s": 81.637995,
+            "max_s": 81.637995
+          },
+          "pipeline": {
+            "count": 1,
+            "total_s": 0.0001,
+            "avg_s": 0.0001,
+            "max_s": 0.0001
+          },
+          "rag": {
+            "count": 1,
+            "total_s": 0.099909,
+            "avg_s": 0.099909,
+            "max_s": 0.099909
+          },
+          "trace": {
+            "count": 1,
+            "total_s": 0.011048,
+            "avg_s": 0.011048,
+            "max_s": 0.011048
+          }
+        },
+        "pipeline_events": [
+          {
+            "iteration": 2,
+            "component": "agent:model_level",
+            "action": "analyze model-level bottlenecks",
+            "duration_s": 45.176848
+          },
+          {
+            "iteration": 2,
+            "component": "agent:layer_level",
+            "action": "diagnose candidate layers",
+            "duration_s": 48.132079
+          },
+          {
+            "iteration": 2,
+            "component": "agent:solution_generation",
+            "action": "retrieve history and propose hardware update",
+            "duration_s": 40.533682
+          },
+          {
+            "iteration": 2,
+            "component": "trace",
+            "action": "write agent trace and LLM trace index",
+            "duration_s": 0.011048
+          },
+          {
+            "iteration": 2,
+            "component": "pipeline",
+            "action": "validate hardware proposal uniqueness",
+            "duration_s": 0.0001,
+            "metadata": {
+              "hardware_fingerprint": "1c9c412827b94c25",
+              "duplicate": false
+            }
+          },
+          {
+            "iteration": 2,
+            "component": "evaluator",
+            "action": "evaluate proposed hardware",
+            "duration_s": 81.637995,
+            "metadata": {
+              "hardware_fingerprint": "1c9c412827b94c25"
+            }
+          },
+          {
+            "iteration": 2,
+            "component": "rag",
+            "action": "commit evaluated transition to history database",
+            "duration_s": 0.099909
+          }
+        ]
+      },
+      "iter_003": {
+        "iteration": 3,
+        "pipeline_event_count": 7,
+        "pipeline_total_s": 295.12049,
+        "pipeline_by_component": {
+          "agent:layer_level": {
+            "count": 1,
+            "total_s": 28.474632,
+            "avg_s": 28.474632,
+            "max_s": 28.474632
+          },
+          "agent:model_level": {
+            "count": 1,
+            "total_s": 31.045493,
+            "avg_s": 31.045493,
+            "max_s": 31.045493
+          },
+          "agent:solution_generation": {
+            "count": 1,
+            "total_s": 69.407512,
+            "avg_s": 69.407512,
+            "max_s": 69.407512
+          },
+          "evaluator": {
+            "count": 1,
+            "total_s": 166.079356,
+            "avg_s": 166.079356,
+            "max_s": 166.079356
+          },
+          "pipeline": {
+            "count": 1,
+            "total_s": 0.000121,
+            "avg_s": 0.000121,
+            "max_s": 0.000121
+          },
+          "rag": {
+            "count": 1,
+            "total_s": 0.101887,
+            "avg_s": 0.101887,
+            "max_s": 0.101887
+          },
+          "trace": {
+            "count": 1,
+            "total_s": 0.011489,
+            "avg_s": 0.011489,
+            "max_s": 0.011489
+          }
+        },
+        "pipeline_events": [
+          {
+            "iteration": 3,
+            "component": "agent:model_level",
+            "action": "analyze model-level bottlenecks",
+            "duration_s": 31.045493
+          },
+          {
+            "iteration": 3,
+            "component": "agent:layer_level",
+            "action": "diagnose candidate layers",
+            "duration_s": 28.474632
+          },
+          {
+            "iteration": 3,
+            "component": "agent:solution_generation",
+            "action": "retrieve history and propose hardware update",
+            "duration_s": 69.407512
+          },
+          {
+            "iteration": 3,
+            "component": "trace",
+            "action": "write agent trace and LLM trace index",
+            "duration_s": 0.011489
+          },
+          {
+            "iteration": 3,
+            "component": "pipeline",
+            "action": "validate hardware proposal uniqueness",
+            "duration_s": 0.000121,
+            "metadata": {
+              "hardware_fingerprint": "b848ff07736452bd",
+              "duplicate": false
+            }
+          },
+          {
+            "iteration": 3,
+            "component": "evaluator",
+            "action": "evaluate proposed hardware",
+            "duration_s": 166.079356,
+            "metadata": {
+              "hardware_fingerprint": "b848ff07736452bd"
+            }
+          },
+          {
+            "iteration": 3,
+            "component": "rag",
+            "action": "commit evaluated transition to history database",
+            "duration_s": 0.101887
+          }
+        ]
+      },
+      "iter_004": {
+        "iteration": 4,
+        "pipeline_event_count": 7,
+        "pipeline_total_s": 268.245764,
+        "pipeline_by_component": {
+          "agent:layer_level": {
+            "count": 1,
+            "total_s": 35.205492,
+            "avg_s": 35.205492,
+            "max_s": 35.205492
+          },
+          "agent:model_level": {
+            "count": 1,
+            "total_s": 44.246124,
+            "avg_s": 44.246124,
+            "max_s": 44.246124
+          },
+          "agent:solution_generation": {
+            "count": 1,
+            "total_s": 42.713717,
+            "avg_s": 42.713717,
+            "max_s": 42.713717
+          },
+          "evaluator": {
+            "count": 1,
+            "total_s": 145.547285,
+            "avg_s": 145.547285,
+            "max_s": 145.547285
+          },
+          "pipeline": {
+            "count": 1,
+            "total_s": 0.000241,
+            "avg_s": 0.000241,
+            "max_s": 0.000241
+          },
+          "rag": {
+            "count": 1,
+            "total_s": 0.121562,
+            "avg_s": 0.121562,
+            "max_s": 0.121562
+          },
+          "trace": {
+            "count": 1,
+            "total_s": 0.411343,
+            "avg_s": 0.411343,
+            "max_s": 0.411343
+          }
+        },
+        "pipeline_events": [
+          {
+            "iteration": 4,
+            "component": "agent:model_level",
+            "action": "analyze model-level bottlenecks",
+            "duration_s": 44.246124
+          },
+          {
+            "iteration": 4,
+            "component": "agent:layer_level",
+            "action": "diagnose candidate layers",
+            "duration_s": 35.205492
+          },
+          {
+            "iteration": 4,
+            "component": "agent:solution_generation",
+            "action": "retrieve history and propose hardware update",
+            "duration_s": 42.713717
+          },
+          {
+            "iteration": 4,
+            "component": "trace",
+            "action": "write agent trace and LLM trace index",
+            "duration_s": 0.411343
+          },
+          {
+            "iteration": 4,
+            "component": "pipeline",
+            "action": "validate hardware proposal uniqueness",
+            "duration_s": 0.000241,
+            "metadata": {
+              "hardware_fingerprint": "610a634ba8b055a6",
+              "duplicate": false
+            }
+          },
+          {
+            "iteration": 4,
+            "component": "evaluator",
+            "action": "evaluate proposed hardware",
+            "duration_s": 145.547285,
+            "metadata": {
+              "hardware_fingerprint": "610a634ba8b055a6"
+            }
+          },
+          {
+            "iteration": 4,
+            "component": "rag",
+            "action": "commit evaluated transition to history database",
+            "duration_s": 0.121562
+          }
+        ]
+      },
+      "iter_005": {
+        "iteration": 5,
+        "pipeline_event_count": 7,
+        "pipeline_total_s": 421.956055,
+        "pipeline_by_component": {
+          "agent:layer_level": {
+            "count": 1,
+            "total_s": 40.672424,
+            "avg_s": 40.672424,
+            "max_s": 40.672424
+          },
+          "agent:model_level": {
+            "count": 1,
+            "total_s": 65.175203,
+            "avg_s": 65.175203,
+            "max_s": 65.175203
+          },
+          "agent:solution_generation": {
+            "count": 1,
+            "total_s": 45.175797,
+            "avg_s": 45.175797,
+            "max_s": 45.175797
+          },
+          "evaluator": {
+            "count": 1,
+            "total_s": 270.786819,
+            "avg_s": 270.786819,
+            "max_s": 270.786819
+          },
+          "pipeline": {
+            "count": 1,
+            "total_s": 0.00011,
+            "avg_s": 0.00011,
+            "max_s": 0.00011
+          },
+          "rag": {
+            "count": 1,
+            "total_s": 0.130549,
+            "avg_s": 0.130549,
+            "max_s": 0.130549
+          },
+          "trace": {
+            "count": 1,
+            "total_s": 0.015153,
+            "avg_s": 0.015153,
+            "max_s": 0.015153
+          }
+        },
+        "pipeline_events": [
+          {
+            "iteration": 5,
+            "component": "agent:model_level",
+            "action": "analyze model-level bottlenecks",
+            "duration_s": 65.175203
+          },
+          {
+            "iteration": 5,
+            "component": "agent:layer_level",
+            "action": "diagnose candidate layers",
+            "duration_s": 40.672424
+          },
+          {
+            "iteration": 5,
+            "component": "agent:solution_generation",
+            "action": "retrieve history and propose hardware update",
+            "duration_s": 45.175797
+          },
+          {
+            "iteration": 5,
+            "component": "trace",
+            "action": "write agent trace and LLM trace index",
+            "duration_s": 0.015153
+          },
+          {
+            "iteration": 5,
+            "component": "pipeline",
+            "action": "validate hardware proposal uniqueness",
+            "duration_s": 0.00011,
+            "metadata": {
+              "hardware_fingerprint": "014d45cf8c788912",
+              "duplicate": false
+            }
+          },
+          {
+            "iteration": 5,
+            "component": "evaluator",
+            "action": "evaluate proposed hardware",
+            "duration_s": 270.786819,
+            "metadata": {
+              "hardware_fingerprint": "014d45cf8c788912"
+            }
+          },
+          {
+            "iteration": 5,
+            "component": "rag",
+            "action": "commit evaluated transition to history database",
+            "duration_s": 0.130549
+          }
+        ]
+      }
+    },
+    "events": [
+      {
+        "iteration": 0,
+        "component": "evaluator",
+        "action": "run initial baseline evaluation",
+        "duration_s": 79.843751,
+        "metadata": {
+          "hardware_fingerprint": "3e6138cc9624dffd"
+        }
+      },
+      {
+        "iteration": 1,
+        "component": "agent:model_level",
+        "action": "analyze model-level bottlenecks",
+        "duration_s": 49.942172
+      },
+      {
+        "iteration": 1,
+        "component": "agent:layer_level",
+        "action": "diagnose candidate layers",
+        "duration_s": 49.117352
+      },
+      {
+        "iteration": 1,
+        "component": "agent:solution_generation",
+        "action": "retrieve history and propose hardware update",
+        "duration_s": 32.729934
+      },
+      {
+        "iteration": 1,
+        "component": "trace",
+        "action": "write agent trace and LLM trace index",
+        "duration_s": 0.017468
+      },
+      {
+        "iteration": 1,
+        "component": "pipeline",
+        "action": "validate hardware proposal uniqueness",
+        "duration_s": 0.000118,
+        "metadata": {
+          "hardware_fingerprint": "771e71e98c62f9f4",
+          "duplicate": false
+        }
+      },
+      {
+        "iteration": 1,
+        "component": "evaluator",
+        "action": "evaluate proposed hardware",
+        "duration_s": 200.360835,
+        "metadata": {
+          "hardware_fingerprint": "771e71e98c62f9f4"
+        }
+      },
+      {
+        "iteration": 1,
+        "component": "rag",
+        "action": "commit evaluated transition to history database",
+        "duration_s": 0.129618
+      },
+      {
+        "iteration": 2,
+        "component": "agent:model_level",
+        "action": "analyze model-level bottlenecks",
+        "duration_s": 45.176848
+      },
+      {
+        "iteration": 2,
+        "component": "agent:layer_level",
+        "action": "diagnose candidate layers",
+        "duration_s": 48.132079
+      },
+      {
+        "iteration": 2,
+        "component": "agent:solution_generation",
+        "action": "retrieve history and propose hardware update",
+        "duration_s": 40.533682
+      },
+      {
+        "iteration": 2,
+        "component": "trace",
+        "action": "write agent trace and LLM trace index",
+        "duration_s": 0.011048
+      },
+      {
+        "iteration": 2,
+        "component": "pipeline",
+        "action": "validate hardware proposal uniqueness",
+        "duration_s": 0.0001,
+        "metadata": {
+          "hardware_fingerprint": "1c9c412827b94c25",
+          "duplicate": false
+        }
+      },
+      {
+        "iteration": 2,
+        "component": "evaluator",
+        "action": "evaluate proposed hardware",
+        "duration_s": 81.637995,
+        "metadata": {
+          "hardware_fingerprint": "1c9c412827b94c25"
+        }
+      },
+      {
+        "iteration": 2,
+        "component": "rag",
+        "action": "commit evaluated transition to history database",
+        "duration_s": 0.099909
+      },
+      {
+        "iteration": 3,
+        "component": "agent:model_level",
+        "action": "analyze model-level bottlenecks",
+        "duration_s": 31.045493
+      },
+      {
+        "iteration": 3,
+        "component": "agent:layer_level",
+        "action": "diagnose candidate layers",
+        "duration_s": 28.474632
+      },
+      {
+        "iteration": 3,
+        "component": "agent:solution_generation",
+        "action": "retrieve history and propose hardware update",
+        "duration_s": 69.407512
+      },
+      {
+        "iteration": 3,
+        "component": "trace",
+        "action": "write agent trace and LLM trace index",
+        "duration_s": 0.011489
+      },
+      {
+        "iteration": 3,
+        "component": "pipeline",
+        "action": "validate hardware proposal uniqueness",
+        "duration_s": 0.000121,
+        "metadata": {
+          "hardware_fingerprint": "b848ff07736452bd",
+          "duplicate": false
+        }
+      },
+      {
+        "iteration": 3,
+        "component": "evaluator",
+        "action": "evaluate proposed hardware",
+        "duration_s": 166.079356,
+        "metadata": {
+          "hardware_fingerprint": "b848ff07736452bd"
+        }
+      },
+      {
+        "iteration": 3,
+        "component": "rag",
+        "action": "commit evaluated transition to history database",
+        "duration_s": 0.101887
+      },
+      {
+        "iteration": 4,
+        "component": "agent:model_level",
+        "action": "analyze model-level bottlenecks",
+        "duration_s": 44.246124
+      },
+      {
+        "iteration": 4,
+        "component": "agent:layer_level",
+        "action": "diagnose candidate layers",
+        "duration_s": 35.205492
+      },
+      {
+        "iteration": 4,
+        "component": "agent:solution_generation",
+        "action": "retrieve history and propose hardware update",
+        "duration_s": 42.713717
+      },
+      {
+        "iteration": 4,
+        "component": "trace",
+        "action": "write agent trace and LLM trace index",
+        "duration_s": 0.411343
+      },
+      {
+        "iteration": 4,
+        "component": "pipeline",
+        "action": "validate hardware proposal uniqueness",
+        "duration_s": 0.000241,
+        "metadata": {
+          "hardware_fingerprint": "610a634ba8b055a6",
+          "duplicate": false
+        }
+      },
+      {
+        "iteration": 4,
+        "component": "evaluator",
+        "action": "evaluate proposed hardware",
+        "duration_s": 145.547285,
+        "metadata": {
+          "hardware_fingerprint": "610a634ba8b055a6"
+        }
+      },
+      {
+        "iteration": 4,
+        "component": "rag",
+        "action": "commit evaluated transition to history database",
+        "duration_s": 0.121562
+      },
+      {
+        "iteration": 5,
+        "component": "agent:model_level",
+        "action": "analyze model-level bottlenecks",
+        "duration_s": 65.175203
+      },
+      {
+        "iteration": 5,
+        "component": "agent:layer_level",
+        "action": "diagnose candidate layers",
+        "duration_s": 40.672424
+      },
+      {
+        "iteration": 5,
+        "component": "agent:solution_generation",
+        "action": "retrieve history and propose hardware update",
+        "duration_s": 45.175797
+      },
+      {
+        "iteration": 5,
+        "component": "trace",
+        "action": "write agent trace and LLM trace index",
+        "duration_s": 0.015153
+      },
+      {
+        "iteration": 5,
+        "component": "pipeline",
+        "action": "validate hardware proposal uniqueness",
+        "duration_s": 0.00011,
+        "metadata": {
+          "hardware_fingerprint": "014d45cf8c788912",
+          "duplicate": false
+        }
+      },
+      {
+        "iteration": 5,
+        "component": "evaluator",
+        "action": "evaluate proposed hardware",
+        "duration_s": 270.786819,
+        "metadata": {
+          "hardware_fingerprint": "014d45cf8c788912"
+        }
+      },
+      {
+        "iteration": 5,
+        "component": "rag",
+        "action": "commit evaluated transition to history database",
+        "duration_s": 0.130549
+      }
+    ]
+  },
+  "llm_api": {
+    "total": {
+      "call_count": 120,
+      "duration_s": 659.562769,
+      "avg_duration_s": 5.496356,
+      "max_duration_s": 40.48765,
+      "usage": {
+        "completion_tokens": 54518,
+        "prompt_tokens": 1827905,
+        "total_tokens": 1882423,
+        "prompt_tokens_details": {
+          "cached_tokens": 996608
+        }
+      }
+    },
+    "by_agent": {
+      "layer_level": {
+        "call_count": 24,
+        "duration_s": 199.521488,
+        "avg_duration_s": 8.313395,
+        "max_duration_s": 39.368403,
+        "usage": {
+          "completion_tokens": 18510,
+          "prompt_tokens": 225995,
+          "total_tokens": 244505,
+          "prompt_tokens_details": {
+            "cached_tokens": 102400
+          }
+        }
+      },
+      "model_level": {
+        "call_count": 44,
+        "duration_s": 233.096646,
+        "avg_duration_s": 5.297651,
+        "max_duration_s": 40.48765,
+        "usage": {
+          "completion_tokens": 15648,
+          "prompt_tokens": 552319,
+          "total_tokens": 567967,
+          "prompt_tokens_details": {
+            "cached_tokens": 260352
+          }
+        }
+      },
+      "solution_generation": {
+        "call_count": 52,
+        "duration_s": 226.944635,
+        "avg_duration_s": 4.36432,
+        "max_duration_s": 11.00445,
+        "usage": {
+          "completion_tokens": 20360,
+          "prompt_tokens": 1049591,
+          "total_tokens": 1069951,
+          "prompt_tokens_details": {
+            "cached_tokens": 633856
+          }
+        }
+      }
+    },
+    "by_task": {
+      "llm_retry_correction": {
+        "call_count": 5,
+        "duration_s": 23.849692,
+        "avg_duration_s": 4.769938,
+        "max_duration_s": 11.752923,
+        "usage": {
+          "completion_tokens": 3226,
+          "prompt_tokens": 64589,
+          "total_tokens": 67815,
+          "prompt_tokens_details": {
+            "cached_tokens": 47360
+          }
+        }
+      },
+      "react_tool_use": {
+        "call_count": 115,
+        "duration_s": 635.713077,
+        "avg_duration_s": 5.52794,
+        "max_duration_s": 40.48765,
+        "usage": {
+          "completion_tokens": 51292,
+          "prompt_tokens": 1763316,
+          "total_tokens": 1814608,
+          "prompt_tokens_details": {
+            "cached_tokens": 949248
+          }
+        }
+      }
+    },
+    "traces": [
+      {
+        "run_dir": "iter_001",
+        "trace_dir": "iter_001/llm_trace",
+        "statuses": {
+          "ok": 23,
+          "error": 2
+        },
+        "call_count": 25,
+        "duration_s": 130.258036,
+        "avg_duration_s": 5.210321,
+        "max_duration_s": 29.936975,
+        "usage": {
+          "completion_tokens": 10882,
+          "prompt_tokens": 297863,
+          "total_tokens": 308745,
+          "prompt_tokens_details": {
+            "cached_tokens": 162304
+          }
+        }
+      },
+      {
+        "run_dir": "iter_002",
+        "trace_dir": "iter_002/llm_trace",
+        "statuses": {
+          "ok": 21,
+          "error": 1
+        },
+        "call_count": 22,
+        "duration_s": 132.179147,
+        "avg_duration_s": 6.008143,
+        "max_duration_s": 39.368403,
+        "usage": {
+          "completion_tokens": 9269,
+          "prompt_tokens": 281361,
+          "total_tokens": 290630,
+          "prompt_tokens_details": {
+            "cached_tokens": 130816
+          }
+        }
+      },
+      {
+        "run_dir": "iter_003",
+        "trace_dir": "iter_003/llm_trace",
+        "statuses": {
+          "ok": 25
+        },
+        "call_count": 25,
+        "duration_s": 127.055007,
+        "avg_duration_s": 5.0822,
+        "max_duration_s": 12.234629,
+        "usage": {
+          "completion_tokens": 12138,
+          "prompt_tokens": 418720,
+          "total_tokens": 430858,
+          "prompt_tokens_details": {
+            "cached_tokens": 229376
+          }
+        }
+      },
+      {
+        "run_dir": "iter_004",
+        "trace_dir": "iter_004/llm_trace",
+        "statuses": {
+          "ok": 21
+        },
+        "call_count": 21,
+        "duration_s": 120.317009,
+        "avg_duration_s": 5.729381,
+        "max_duration_s": 28.203399,
+        "usage": {
+          "completion_tokens": 10429,
+          "prompt_tokens": 346720,
+          "total_tokens": 357149,
+          "prompt_tokens_details": {
+            "cached_tokens": 194816
+          }
+        }
+      },
+      {
+        "run_dir": "iter_005",
+        "trace_dir": "iter_005/llm_trace",
+        "statuses": {
+          "ok": 26,
+          "error": 1
+        },
+        "call_count": 27,
+        "duration_s": 149.75357,
+        "avg_duration_s": 5.546429,
+        "max_duration_s": 40.48765,
+        "usage": {
+          "completion_tokens": 11800,
+          "prompt_tokens": 483241,
+          "total_tokens": 495041,
+          "prompt_tokens_details": {
+            "cached_tokens": 279296
+          }
+        }
+      }
+    ]
+  }
+}

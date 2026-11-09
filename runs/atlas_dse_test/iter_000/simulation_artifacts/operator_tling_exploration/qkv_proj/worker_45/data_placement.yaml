@@ -1,0 +1,28 @@
+tensor:
+- base_addr: 0
+  element_size: 2
+  name: input_qkv_proj
+  shape:
+  - 8
+  - 2304
+  strides:
+  - 2304
+  - 1
+- base_addr: 131072
+  element_size: 2
+  name: output_qkv_proj
+  shape:
+  - 8
+  - 864
+  strides:
+  - 864
+  - 1
+- base_addr: 262144
+  element_size: 2
+  name: weight_qkv_proj_b0
+  shape:
+  - 2304
+  - 864
+  strides:
+  - 1
+  - 2304

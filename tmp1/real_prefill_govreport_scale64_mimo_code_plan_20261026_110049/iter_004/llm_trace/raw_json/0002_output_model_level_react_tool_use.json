@@ -1,0 +1,42 @@
+{
+  "response": {
+    "id": "287b9edbc7c2471babcf6f499a50f1d9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"thought\": \"Now I have the current best base selected. I'll start gathering model-level evidence by requesting layer rank views to identify candidate bottleneck layers across latency, energy, critical-path, compute, memory, communication, and buffer dimensions.\", \"action\": \"tool\", \"tool\": {\"name\": \"summarize_layer_rank_views\", \"arguments\": {\"top_layers\": 8}}}",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1792984583,
+    "model": "deepseek-v4-flash",
+    "object": "chat.completion",
+    "metadata": null,
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 82,
+      "prompt_tokens": 5705,
+      "total_tokens": 5787,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 3072,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "content": "{\"thought\": \"Now I have the current best base selected. I'll start gathering model-level evidence by requesting layer rank views to identify candidate bottleneck layers across latency, energy, critical-path, compute, memory, communication, and buffer dimensions.\", \"action\": \"tool\", \"tool\": {\"name\": \"summarize_layer_rank_views\", \"arguments\": {\"top_layers\": 8}}}"
+}

@@ -1,0 +1,678 @@
+[
+  {
+    "index": 0,
+    "display_index": "0000",
+    "resume_generation": 0,
+    "agent_name": "model_level",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:11:19.641268Z",
+    "ended_at": "2026-10-26T03:11:23.535385Z",
+    "duration_s": 3.89409,
+    "message_count": 2,
+    "error": null,
+    "input_json": "raw_json/0000_input_model_level_react_tool_use.json",
+    "output_json": "raw_json/0000_output_model_level_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 72,
+      "prompt_tokens": 3445,
+      "total_tokens": 3517,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    }
+  },
+  {
+    "index": 1,
+    "display_index": "0001",
+    "resume_generation": 0,
+    "agent_name": "model_level",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:11:23.542015Z",
+    "ended_at": "2026-10-26T03:11:26.859024Z",
+    "duration_s": 3.316982,
+    "message_count": 4,
+    "error": null,
+    "input_json": "raw_json/0001_input_model_level_react_tool_use.json",
+    "output_json": "raw_json/0001_output_model_level_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 135,
+      "prompt_tokens": 4905,
+      "total_tokens": 5040,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 3328,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  {
+    "index": 2,
+    "display_index": "0002",
+    "resume_generation": 0,
+    "agent_name": "model_level",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:11:26.869506Z",
+    "ended_at": "2026-10-26T03:11:28.443020Z",
+    "duration_s": 1.573477,
+    "message_count": 6,
+    "error": null,
+    "input_json": "raw_json/0002_input_model_level_react_tool_use.json",
+    "output_json": "raw_json/0002_output_model_level_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 73,
+      "prompt_tokens": 5437,
+      "total_tokens": 5510,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 4864,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  {
+    "index": 3,
+    "display_index": "0003",
+    "resume_generation": 0,
+    "agent_name": "model_level",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:11:28.458713Z",
+    "ended_at": "2026-10-26T03:11:29.949671Z",
+    "duration_s": 1.490917,
+    "message_count": 8,
+    "error": null,
+    "input_json": "raw_json/0003_input_model_level_react_tool_use.json",
+    "output_json": "raw_json/0003_output_model_level_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 111,
+      "prompt_tokens": 5945,
+      "total_tokens": 6056,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 3072,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  {
+    "index": 4,
+    "display_index": "0004",
+    "resume_generation": 0,
+    "agent_name": "model_level",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:11:29.970316Z",
+    "ended_at": "2026-10-26T03:11:33.500997Z",
+    "duration_s": 3.530637,
+    "message_count": 10,
+    "error": null,
+    "input_json": "raw_json/0004_input_model_level_react_tool_use.json",
+    "output_json": "raw_json/0004_output_model_level_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 232,
+      "prompt_tokens": 13718,
+      "total_tokens": 13950,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 5376,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  {
+    "index": 5,
+    "display_index": "0005",
+    "resume_generation": 0,
+    "agent_name": "model_level",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:11:33.522694Z",
+    "ended_at": "2026-10-26T03:11:37.624862Z",
+    "duration_s": 4.102128,
+    "message_count": 12,
+    "error": null,
+    "input_json": "raw_json/0005_input_model_level_react_tool_use.json",
+    "output_json": "raw_json/0005_output_model_level_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 209,
+      "prompt_tokens": 14910,
+      "total_tokens": 15119,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 13568,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  {
+    "index": 6,
+    "display_index": "0006",
+    "resume_generation": 0,
+    "agent_name": "model_level",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:11:37.684016Z",
+    "ended_at": "2026-10-26T03:11:41.564753Z",
+    "duration_s": 3.880711,
+    "message_count": 14,
+    "error": null,
+    "input_json": "raw_json/0006_input_model_level_react_tool_use.json",
+    "output_json": "raw_json/0006_output_model_level_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 383,
+      "prompt_tokens": 17391,
+      "total_tokens": 17774,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 5888,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  {
+    "index": 7,
+    "display_index": "0007",
+    "resume_generation": 0,
+    "agent_name": "model_level",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:11:41.658527Z",
+    "ended_at": "2026-10-26T03:11:50.515289Z",
+    "duration_s": 8.856695,
+    "message_count": 16,
+    "error": null,
+    "input_json": "raw_json/0007_input_model_level_react_tool_use.json",
+    "output_json": "raw_json/0007_output_model_level_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 1482,
+      "prompt_tokens": 18448,
+      "total_tokens": 19930,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 15104,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  {
+    "index": 8,
+    "display_index": "0008",
+    "resume_generation": 0,
+    "agent_name": "layer_level",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:11:50.670308Z",
+    "ended_at": "2026-10-26T03:11:55.057290Z",
+    "duration_s": 4.386929,
+    "message_count": 2,
+    "error": null,
+    "input_json": "raw_json/0008_input_layer_level_react_tool_use.json",
+    "output_json": "raw_json/0008_output_layer_level_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 339,
+      "prompt_tokens": 5419,
+      "total_tokens": 5758,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 3072,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  {
+    "index": 9,
+    "display_index": "0009",
+    "resume_generation": 0,
+    "agent_name": "layer_level",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:11:55.125956Z",
+    "ended_at": "2026-10-26T03:11:58.235916Z",
+    "duration_s": 3.109933,
+    "message_count": 4,
+    "error": null,
+    "input_json": "raw_json/0009_input_layer_level_react_tool_use.json",
+    "output_json": "raw_json/0009_output_layer_level_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 203,
+      "prompt_tokens": 8015,
+      "total_tokens": 8218,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    }
+  },
+  {
+    "index": 10,
+    "display_index": "0010",
+    "resume_generation": 0,
+    "agent_name": "layer_level",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:11:58.253808Z",
+    "ended_at": "2026-10-26T03:12:02.924273Z",
+    "duration_s": 4.670439,
+    "message_count": 6,
+    "error": null,
+    "input_json": "raw_json/0010_input_layer_level_react_tool_use.json",
+    "output_json": "raw_json/0010_output_layer_level_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 206,
+      "prompt_tokens": 9701,
+      "total_tokens": 9907,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 3072,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  {
+    "index": 11,
+    "display_index": "0011",
+    "resume_generation": 0,
+    "agent_name": "layer_level",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:12:02.947992Z",
+    "ended_at": "2026-10-26T03:12:06.517961Z",
+    "duration_s": 3.569937,
+    "message_count": 8,
+    "error": null,
+    "input_json": "raw_json/0011_input_layer_level_react_tool_use.json",
+    "output_json": "raw_json/0011_output_layer_level_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 214,
+      "prompt_tokens": 10661,
+      "total_tokens": 10875,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 9728,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  {
+    "index": 12,
+    "display_index": "0012",
+    "resume_generation": 0,
+    "agent_name": "layer_level",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:12:06.629929Z",
+    "ended_at": "2026-10-26T03:12:18.864609Z",
+    "duration_s": 12.234629,
+    "message_count": 10,
+    "error": null,
+    "input_json": "raw_json/0012_input_layer_level_react_tool_use.json",
+    "output_json": "raw_json/0012_output_layer_level_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 2786,
+      "prompt_tokens": 11546,
+      "total_tokens": 14332,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    }
+  },
+  {
+    "index": 13,
+    "display_index": "0013",
+    "resume_generation": 0,
+    "agent_name": "solution_generation",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:12:19.353125Z",
+    "ended_at": "2026-10-26T03:12:22.116866Z",
+    "duration_s": 2.763689,
+    "message_count": 2,
+    "error": null,
+    "input_json": "raw_json/0013_input_solution_generation_react_tool_use.json",
+    "output_json": "raw_json/0013_output_solution_generation_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 186,
+      "prompt_tokens": 12829,
+      "total_tokens": 13015,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 3328,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  {
+    "index": 14,
+    "display_index": "0014",
+    "resume_generation": 0,
+    "agent_name": "solution_generation",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:12:22.269101Z",
+    "ended_at": "2026-10-26T03:12:26.411805Z",
+    "duration_s": 4.14266,
+    "message_count": 4,
+    "error": null,
+    "input_json": "raw_json/0014_input_solution_generation_react_tool_use.json",
+    "output_json": "raw_json/0014_output_solution_generation_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 276,
+      "prompt_tokens": 15540,
+      "total_tokens": 15816,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 3328,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  {
+    "index": 15,
+    "display_index": "0015",
+    "resume_generation": 0,
+    "agent_name": "solution_generation",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:12:26.458840Z",
+    "ended_at": "2026-10-26T03:12:29.879936Z",
+    "duration_s": 3.421063,
+    "message_count": 6,
+    "error": null,
+    "input_json": "raw_json/0015_input_solution_generation_react_tool_use.json",
+    "output_json": "raw_json/0015_output_solution_generation_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 148,
+      "prompt_tokens": 16204,
+      "total_tokens": 16352,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    }
+  },
+  {
+    "index": 16,
+    "display_index": "0016",
+    "resume_generation": 0,
+    "agent_name": "solution_generation",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:12:29.907487Z",
+    "ended_at": "2026-10-26T03:12:34.420705Z",
+    "duration_s": 4.513192,
+    "message_count": 8,
+    "error": null,
+    "input_json": "raw_json/0016_input_solution_generation_react_tool_use.json",
+    "output_json": "raw_json/0016_output_solution_generation_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 368,
+      "prompt_tokens": 16613,
+      "total_tokens": 16981,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 15360,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  {
+    "index": 17,
+    "display_index": "0017",
+    "resume_generation": 0,
+    "agent_name": "solution_generation",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:12:34.446594Z",
+    "ended_at": "2026-10-26T03:12:37.961392Z",
+    "duration_s": 3.514774,
+    "message_count": 10,
+    "error": null,
+    "input_json": "raw_json/0017_input_solution_generation_react_tool_use.json",
+    "output_json": "raw_json/0017_output_solution_generation_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 259,
+      "prompt_tokens": 17958,
+      "total_tokens": 18217,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 3328,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  {
+    "index": 18,
+    "display_index": "0018",
+    "resume_generation": 0,
+    "agent_name": "solution_generation",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:12:38.006225Z",
+    "ended_at": "2026-10-26T03:12:42.657372Z",
+    "duration_s": 4.65112,
+    "message_count": 12,
+    "error": null,
+    "input_json": "raw_json/0018_input_solution_generation_react_tool_use.json",
+    "output_json": "raw_json/0018_output_solution_generation_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 370,
+      "prompt_tokens": 24066,
+      "total_tokens": 24436,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 3328,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  {
+    "index": 19,
+    "display_index": "0019",
+    "resume_generation": 0,
+    "agent_name": "solution_generation",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:12:42.675766Z",
+    "ended_at": "2026-10-26T03:12:52.468585Z",
+    "duration_s": 9.7928,
+    "message_count": 14,
+    "error": null,
+    "input_json": "raw_json/0019_input_solution_generation_react_tool_use.json",
+    "output_json": "raw_json/0019_output_solution_generation_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 542,
+      "prompt_tokens": 25123,
+      "total_tokens": 25665,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 18176,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  {
+    "index": 20,
+    "display_index": "0020",
+    "resume_generation": 0,
+    "agent_name": "solution_generation",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:12:52.490528Z",
+    "ended_at": "2026-10-26T03:12:59.956495Z",
+    "duration_s": 7.465938,
+    "message_count": 16,
+    "error": null,
+    "input_json": "raw_json/0020_input_solution_generation_react_tool_use.json",
+    "output_json": "raw_json/0020_output_solution_generation_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 747,
+      "prompt_tokens": 27155,
+      "total_tokens": 27902,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 16896,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  {
+    "index": 21,
+    "display_index": "0021",
+    "resume_generation": 0,
+    "agent_name": "solution_generation",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:12:59.990136Z",
+    "ended_at": "2026-10-26T03:13:06.709249Z",
+    "duration_s": 6.719084,
+    "message_count": 18,
+    "error": null,
+    "input_json": "raw_json/0021_input_solution_generation_react_tool_use.json",
+    "output_json": "raw_json/0021_output_solution_generation_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 660,
+      "prompt_tokens": 29906,
+      "total_tokens": 30566,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 12800,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  {
+    "index": 22,
+    "display_index": "0022",
+    "resume_generation": 0,
+    "agent_name": "solution_generation",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:13:06.745243Z",
+    "ended_at": "2026-10-26T03:13:10.621069Z",
+    "duration_s": 3.875799,
+    "message_count": 20,
+    "error": null,
+    "input_json": "raw_json/0022_input_solution_generation_react_tool_use.json",
+    "output_json": "raw_json/0022_output_solution_generation_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 255,
+      "prompt_tokens": 32284,
+      "total_tokens": 32539,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 27648,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  {
+    "index": 23,
+    "display_index": "0023",
+    "resume_generation": 0,
+    "agent_name": "solution_generation",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:13:10.649751Z",
+    "ended_at": "2026-10-26T03:13:21.654231Z",
+    "duration_s": 11.00445,
+    "message_count": 22,
+    "error": null,
+    "input_json": "raw_json/0023_input_solution_generation_react_tool_use.json",
+    "output_json": "raw_json/0023_output_solution_generation_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 1028,
+      "prompt_tokens": 34636,
+      "total_tokens": 35664,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 32512,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  {
+    "index": 24,
+    "display_index": "0024",
+    "resume_generation": 0,
+    "agent_name": "solution_generation",
+    "task": "react_tool_use",
+    "status": "ok",
+    "started_at": "2026-10-26T03:13:21.844785Z",
+    "ended_at": "2026-10-26T03:13:28.417773Z",
+    "duration_s": 6.572934,
+    "message_count": 24,
+    "error": null,
+    "input_json": "raw_json/0024_input_solution_generation_react_tool_use.json",
+    "output_json": "raw_json/0024_output_solution_generation_react_tool_use.json",
+    "usage": {
+      "completion_tokens": 854,
+      "prompt_tokens": 36865,
+      "total_tokens": 37719,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 25600,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  }
+]

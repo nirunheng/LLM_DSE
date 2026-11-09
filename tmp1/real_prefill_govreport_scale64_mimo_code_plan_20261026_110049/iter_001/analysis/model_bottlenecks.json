@@ -1,0 +1,239 @@
+{
+  "selected_by": "model_level_agent",
+  "analysis_base": {
+    "source": "current",
+    "base_key": "current",
+    "iteration": 0,
+    "metrics": {
+      "latency": 71288884748.0,
+      "energy": 128794697495679.08,
+      "mc": 228.65655611080837,
+      "objective": 2.099439974381241e+27,
+      "edp": 9.18163034592299e+24
+    },
+    "objective": 2.099439974381241e+27,
+    "selection_reason": "Initial state; current is best and only evaluated iteration."
+  },
+  "candidate_layers": [
+    {
+      "layer_id": 307,
+      "layer_name": "layer0_ffn1_tiling0",
+      "operator_group": "ffn",
+      "concern_types": [
+        "latency"
+      ],
+      "rank_metric": "latency_sum",
+      "rank_value": 14479663104.0,
+      "evidence": [
+        "latency_share=0.045 of total model latency",
+        "compute_bound=0.99987",
+        "latency_max=9653108736.0",
+        "critical_end=28916427913.0"
+      ],
+      "confidence": "high"
+    },
+    {
+      "layer_id": 308,
+      "layer_name": "layer0_ffn1_tiling1",
+      "operator_group": "ffn",
+      "concern_types": [
+        "latency"
+      ],
+      "rank_metric": "latency_sum",
+      "rank_value": 14479663104.0,
+      "evidence": [
+        "latency_share=0.045 of total model latency",
+        "compute_bound=0.99990",
+        "latency_max=9653108736.0",
+        "critical_end=28916427913.0"
+      ],
+      "confidence": "high"
+    },
+    {
+      "layer_id": 309,
+      "layer_name": "layer0_ffn1_tiling2",
+      "operator_group": "ffn",
+      "concern_types": [
+        "latency"
+      ],
+      "rank_metric": "latency_sum",
+      "rank_value": 14479663104.0,
+      "evidence": [
+        "latency_share=0.045 of total model latency",
+        "compute_bound=0.99990",
+        "latency_max=9653108736.0",
+        "critical_end=28916427913.0"
+      ],
+      "confidence": "high"
+    },
+    {
+      "layer_id": 310,
+      "layer_name": "layer0_ffn1_tiling3",
+      "operator_group": "ffn",
+      "concern_types": [
+        "latency"
+      ],
+      "rank_metric": "latency_sum",
+      "rank_value": 14479663104.0,
+      "evidence": [
+        "latency_share=0.045 of total model latency",
+        "compute_bound=0.99990",
+        "latency_max=9653108736.0",
+        "critical_end=28916427913.0"
+      ],
+      "confidence": "high"
+    },
+    {
+      "layer_id": 311,
+      "layer_name": "layer0_ffn1_tiling4",
+      "operator_group": "ffn",
+      "concern_types": [
+        "latency"
+      ],
+      "rank_metric": "latency_sum",
+      "rank_value": 14479663104.0,
+      "evidence": [
+        "latency_share=0.045 of total model latency",
+        "compute_bound=0.99990",
+        "latency_max=9653108736.0",
+        "critical_end=28916427913.0"
+      ],
+      "confidence": "high"
+    },
+    {
+      "layer_id": 312,
+      "layer_name": "layer0_ffn1_tiling5",
+      "operator_group": "ffn",
+      "concern_types": [
+        "latency"
+      ],
+      "rank_metric": "latency_sum",
+      "rank_value": 14479663104.0,
+      "evidence": [
+        "latency_share=0.045 of total model latency",
+        "compute_bound=0.99990",
+        "latency_max=9653108736.0",
+        "critical_end=28916427913.0"
+      ],
+      "confidence": "high"
+    },
+    {
+      "layer_id": 313,
+      "layer_name": "layer0_ffn1_tiling6",
+      "operator_group": "ffn",
+      "concern_types": [
+        "latency"
+      ],
+      "rank_metric": "latency_sum",
+      "rank_value": 14479663104.0,
+      "evidence": [
+        "latency_share=0.045 of total model latency",
+        "compute_bound=0.99990",
+        "latency_max=9653108736.0",
+        "critical_end=28916427913.0"
+      ],
+      "confidence": "high"
+    },
+    {
+      "layer_id": 314,
+      "layer_name": "layer0_ffn1_tiling7",
+      "operator_group": "ffn",
+      "concern_types": [
+        "latency"
+      ],
+      "rank_metric": "latency_sum",
+      "rank_value": 14479663104.0,
+      "evidence": [
+        "latency_share=0.045 of total model latency",
+        "compute_bound=0.99990",
+        "latency_max=9653108736.0",
+        "critical_end=28916427913.0"
+      ],
+      "confidence": "high"
+    },
+    {
+      "layer_id": 324,
+      "layer_name": "layer0_ffn2_tiling0",
+      "operator_group": "ffn",
+      "concern_types": [
+        "mixed"
+      ],
+      "rank_metric": "critical_end",
+      "rank_value": 29082323305.0,
+      "evidence": [
+        "critical_path_position=0.999 of total time",
+        "compute_bound=0.969",
+        "memory_energy_share=0.543",
+        "communication_energy_share=0.261"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "layer_id": 339,
+      "layer_name": "layer0_ffn2_tiling15",
+      "operator_group": "ffn",
+      "concern_types": [
+        "mixed"
+      ],
+      "rank_metric": "critical_end",
+      "rank_value": 29104655651.0,
+      "evidence": [
+        "critical_path_position=1.000 of total time",
+        "compute_bound=0.961",
+        "memory_energy_share=0.517",
+        "communication_energy_share=0.295"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "layer_id": 341,
+      "layer_name": "layer0_norm2",
+      "operator_group": "other",
+      "concern_types": [
+        "latency"
+      ],
+      "rank_metric": "critical_end",
+      "rank_value": 29106355279.0,
+      "evidence": [
+        "critical_path_end=29106355279.0",
+        "critical_core=core5",
+        "final_layer_on_critical_path"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "layer_id": 340,
+      "layer_name": "layer0_res2",
+      "operator_group": "other",
+      "concern_types": [
+        "latency"
+      ],
+      "rank_metric": "critical_end",
+      "rank_value": 29105524079.0,
+      "evidence": [
+        "critical_path_position=0.99997 of total time",
+        "communication_share=0.454"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "selection_notes": {
+    "selected_bottleneck_objective": "latency",
+    "selected_rank_views": [
+      "latency_sum",
+      "critical_end",
+      "compute",
+      "energy"
+    ],
+    "global_findings": [
+      "FFN operator group dominates total latency at ~73% (234.3B out of 320.8B total layer latency)",
+      "All 16 FFN1 tilings have identical latency ~14.48B each and are ~99.99% compute-bound",
+      "Average core utilization is only 68.5%, indicating significant idle gaps and potential for better load balancing",
+      "Energy is dominated by memory (47.6%) and communication (25.6%), while compute dominates time (74.5%)",
+      "Critical path ends at layer0_norm2 on core5 at 29.1B total time",
+      "FFN2 tilings have more balanced compute/memory/communication profiles and appear at the critical path end",
+      "Monetary cost is $228.66; not a primary bottleneck driver in this configuration"
+    ],
+    "tool_confidence": "high"
+  }
+}

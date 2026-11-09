@@ -1,0 +1,1680 @@
+{
+  "metrics": {
+    "latency": 46686531266.0,
+    "energy": 86955220214505.08,
+    "edp": 4.0596376072864065e+24,
+    "mc": 237.62477441756562,
+    "objective": 9.646704706484981e+26
+  },
+  "layer_count": 342,
+  "aggregate_breakdown": {
+    "time": {
+      "compute": 0.675929,
+      "memory": 0.177869,
+      "communication": 0.146202
+    },
+    "energy": {
+      "compute": 0.223541,
+      "memory": 0.497753,
+      "communication": 0.266718,
+      "buffer": 0.011988
+    }
+  },
+  "layer_rank_views": {
+    "latency_sum": [
+      {
+        "layer_id": 307,
+        "layer_name": "layer0_ffn1_tiling0",
+        "operator_group": null,
+        "rank_metric": "latency_sum",
+        "rank_value": 8270487552.0,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 1150647327239.4888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 308,
+        "layer_name": "layer0_ffn1_tiling1",
+        "operator_group": null,
+        "rank_metric": "latency_sum",
+        "rank_value": 8270487552.0,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 1148522392071.4888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 309,
+        "layer_name": "layer0_ffn1_tiling2",
+        "operator_group": null,
+        "rank_metric": "latency_sum",
+        "rank_value": 8270487552.0,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 1148455283207.4888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 310,
+        "layer_name": "layer0_ffn1_tiling3",
+        "operator_group": null,
+        "rank_metric": "latency_sum",
+        "rank_value": 8270487552.0,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 1148388174343.4888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 311,
+        "layer_name": "layer0_ffn1_tiling4",
+        "operator_group": null,
+        "rank_metric": "latency_sum",
+        "rank_value": 8270487552.0,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 1148455283207.4888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 312,
+        "layer_name": "layer0_ffn1_tiling5",
+        "operator_group": null,
+        "rank_metric": "latency_sum",
+        "rank_value": 8270487552.0,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 1148589500935.4888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 313,
+        "layer_name": "layer0_ffn1_tiling6",
+        "operator_group": null,
+        "rank_metric": "latency_sum",
+        "rank_value": 8270487552.0,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 1148522392071.4888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 314,
+        "layer_name": "layer0_ffn1_tiling7",
+        "operator_group": null,
+        "rank_metric": "latency_sum",
+        "rank_value": 8270487552.0,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 1148455283207.4888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      }
+    ],
+    "energy": [
+      {
+        "layer_id": 307,
+        "layer_name": "layer0_ffn1_tiling0",
+        "operator_group": null,
+        "rank_metric": "energy",
+        "rank_value": 1150647327239.4888,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 1150647327239.4888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 322,
+        "layer_name": "layer0_ffn1_tiling15",
+        "operator_group": null,
+        "rank_metric": "energy",
+        "rank_value": 1150514326023.4888,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 1150514326023.4888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 316,
+        "layer_name": "layer0_ffn1_tiling9",
+        "operator_group": null,
+        "rank_metric": "energy",
+        "rank_value": 1150296222215.4888,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 1150296222215.4888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 317,
+        "layer_name": "layer0_ffn1_tiling10",
+        "operator_group": null,
+        "rank_metric": "energy",
+        "rank_value": 1150229113351.4888,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 1150229113351.4888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 319,
+        "layer_name": "layer0_ffn1_tiling12",
+        "operator_group": null,
+        "rank_metric": "energy",
+        "rank_value": 1150229113351.4888,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 1150229113351.4888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 318,
+        "layer_name": "layer0_ffn1_tiling11",
+        "operator_group": null,
+        "rank_metric": "energy",
+        "rank_value": 1150162004487.4888,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 1150162004487.4888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 320,
+        "layer_name": "layer0_ffn1_tiling13",
+        "operator_group": null,
+        "rank_metric": "energy",
+        "rank_value": 1150094895623.4888,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 1150094895623.4888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 321,
+        "layer_name": "layer0_ffn1_tiling14",
+        "operator_group": null,
+        "rank_metric": "energy",
+        "rank_value": 1150027786759.4888,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 1150027786759.4888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      }
+    ],
+    "critical_end": [
+      {
+        "layer_id": 341,
+        "layer_name": "layer0_norm2",
+        "operator_group": null,
+        "rank_metric": "critical_end",
+        "rank_value": 19696167798.0,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 42662089574.31808
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 340,
+        "layer_name": "layer0_res2",
+        "operator_group": null,
+        "rank_metric": "critical_end",
+        "rank_value": 19695336598.0,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 55170008831.09888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 339,
+        "layer_name": "layer0_ffn2_tiling15",
+        "operator_group": null,
+        "rank_metric": "critical_end",
+        "rank_value": 19694468170.0,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 97882266631.84352
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 338,
+        "layer_name": "layer0_ffn2_tiling14",
+        "operator_group": null,
+        "rank_metric": "critical_end",
+        "rank_value": 19691590702.0,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 97395727367.84352
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 337,
+        "layer_name": "layer0_ffn2_tiling13",
+        "operator_group": null,
+        "rank_metric": "critical_end",
+        "rank_value": 19690759502.0,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 97462836231.84352
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 327,
+        "layer_name": "layer0_ffn2_tiling3",
+        "operator_group": null,
+        "rank_metric": "critical_end",
+        "rank_value": 19689509492.0,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 92012069895.84352
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 334,
+        "layer_name": "layer0_ffn2_tiling10",
+        "operator_group": null,
+        "rank_metric": "critical_end",
+        "rank_value": 19689509492.0,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 97597053959.84352
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 324,
+        "layer_name": "layer0_ffn2_tiling0",
+        "operator_group": null,
+        "rank_metric": "critical_end",
+        "rank_value": 19687492928.0,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 93048771591.84352
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      }
+    ],
+    "compute": [
+      {
+        "layer_id": 308,
+        "layer_name": "layer0_ffn1_tiling1",
+        "operator_group": null,
+        "rank_metric": "compute",
+        "rank_value": 0.9998222273389471,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 1148522392071.4888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 309,
+        "layer_name": "layer0_ffn1_tiling2",
+        "operator_group": null,
+        "rank_metric": "compute",
+        "rank_value": 0.9998222273389471,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 1148455283207.4888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 310,
+        "layer_name": "layer0_ffn1_tiling3",
+        "operator_group": null,
+        "rank_metric": "compute",
+        "rank_value": 0.9998222273389471,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 1148388174343.4888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 311,
+        "layer_name": "layer0_ffn1_tiling4",
+        "operator_group": null,
+        "rank_metric": "compute",
+        "rank_value": 0.9998222273389471,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 1148455283207.4888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 312,
+        "layer_name": "layer0_ffn1_tiling5",
+        "operator_group": null,
+        "rank_metric": "compute",
+        "rank_value": 0.9998182667234982,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 1148589500935.4888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 313,
+        "layer_name": "layer0_ffn1_tiling6",
+        "operator_group": null,
+        "rank_metric": "compute",
+        "rank_value": 0.9998182667234982,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 1148522392071.4888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 314,
+        "layer_name": "layer0_ffn1_tiling7",
+        "operator_group": null,
+        "rank_metric": "compute",
+        "rank_value": 0.9998182667234982,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 1148455283207.4888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 315,
+        "layer_name": "layer0_ffn1_tiling8",
+        "operator_group": null,
+        "rank_metric": "compute",
+        "rank_value": 0.9998182667234982,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 1148522392071.4888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      }
+    ],
+    "memory": [
+      {
+        "layer_id": 341,
+        "layer_name": "layer0_norm2",
+        "operator_group": null,
+        "rank_metric": "memory",
+        "rank_value": 0.6620195961461457,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 42662089574.31808
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 53,
+        "layer_name": "layer0_head5_req1_QK_elt_P",
+        "operator_group": null,
+        "rank_metric": "memory",
+        "rank_value": 0.6617346838756765,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 72102450637.10529
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 107,
+        "layer_name": "layer0_head11_req1_QK_elt_P",
+        "operator_group": null,
+        "rank_metric": "memory",
+        "rank_value": 0.6616607227587896,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 71198300557.10529
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 260,
+        "layer_name": "layer0_head28_req1_QK_elt_P",
+        "operator_group": null,
+        "rank_metric": "memory",
+        "rank_value": 0.6616607227587896,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 71600145037.10529
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 233,
+        "layer_name": "layer0_head25_req1_QK_elt_P",
+        "operator_group": null,
+        "rank_metric": "memory",
+        "rank_value": 0.6616606145875616,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 71198203789.10529
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 26,
+        "layer_name": "layer0_head2_req1_QK_elt_P",
+        "operator_group": null,
+        "rank_metric": "memory",
+        "rank_value": 0.6615843965252265,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 70294053709.10529
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 278,
+        "layer_name": "layer0_head30_req1_QK_elt_P",
+        "operator_group": null,
+        "rank_metric": "memory",
+        "rank_value": 0.6615843965252265,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 70561978701.10529
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 23,
+        "layer_name": "layer0_head2_req0_QK_elt_P",
+        "operator_group": null,
+        "rank_metric": "memory",
+        "rank_value": 0.6612389535523028,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 43867307946.269264
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      }
+    ],
+    "communication": [
+      {
+        "layer_id": 305,
+        "layer_name": "layer0_res1",
+        "operator_group": null,
+        "rank_metric": "communication",
+        "rank_value": 0.5443809589342499,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 59982057215.09888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 340,
+        "layer_name": "layer0_res2",
+        "operator_group": null,
+        "rank_metric": "communication",
+        "rank_value": 0.45990530245545874,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 55170008831.09888
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 323,
+        "layer_name": "layer0_GeLU",
+        "operator_group": null,
+        "rank_metric": "communication",
+        "rank_value": 0.4555292209602574,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 172178759901.5117
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 122,
+        "layer_name": "layer0_head13_req0_QK_elt_P",
+        "operator_group": null,
+        "rank_metric": "communication",
+        "rank_value": 0.45289736417908544,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 45331820650.269264
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 140,
+        "layer_name": "layer0_head15_req0_QK_elt_P",
+        "operator_group": null,
+        "rank_metric": "communication",
+        "rank_value": 0.45289736417908544,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 45734005290.269264
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 284,
+        "layer_name": "layer0_head31_req0_QK_elt_P",
+        "operator_group": null,
+        "rank_metric": "communication",
+        "rank_value": 0.45289736417908544,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 45868005674.269264
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 95,
+        "layer_name": "layer0_head10_req0_QK_elt_P",
+        "operator_group": null,
+        "rank_metric": "communication",
+        "rank_value": 0.4497701909675939,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 46957320330.269264
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 80,
+        "layer_name": "layer0_head8_req1_QK_elt_P",
+        "operator_group": null,
+        "rank_metric": "communication",
+        "rank_value": 0.4434767775128558,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 75591312077.10529
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      }
+    ],
+    "buffer": [
+      {
+        "layer_id": 41,
+        "layer_name": "layer0_head4_req0_QK_elt_P",
+        "operator_group": null,
+        "rank_metric": "buffer",
+        "rank_value": 0.036424422293612826,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 42442579210.269264
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 149,
+        "layer_name": "layer0_head16_req0_QK_elt_P",
+        "operator_group": null,
+        "rank_metric": "buffer",
+        "rank_value": 0.036424422293612826,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 42442579210.269264
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 185,
+        "layer_name": "layer0_head20_req0_QK_elt_P",
+        "operator_group": null,
+        "rank_metric": "buffer",
+        "rank_value": 0.036424422293612826,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 42442579210.269264
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 239,
+        "layer_name": "layer0_head26_req0_QK_elt_P",
+        "operator_group": null,
+        "rank_metric": "buffer",
+        "rank_value": 0.036195788219807054,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 42710671722.269264
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 86,
+        "layer_name": "layer0_head9_req0_QK_elt_P",
+        "operator_group": null,
+        "rank_metric": "buffer",
+        "rank_value": 0.03598388672188599,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 42962185834.269264
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 203,
+        "layer_name": "layer0_head22_req0_QK_elt_P",
+        "operator_group": null,
+        "rank_metric": "buffer",
+        "rank_value": 0.035872000843768514,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 43096186218.269264
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 5,
+        "layer_name": "layer0_head0_req0_QK_elt_P",
+        "operator_group": null,
+        "rank_metric": "buffer",
+        "rank_value": 0.03565007725920003,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 43364462218.269264
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      },
+      {
+        "layer_id": 167,
+        "layer_name": "layer0_head18_req0_QK_elt_P",
+        "operator_group": null,
+        "rank_metric": "buffer",
+        "rank_value": 0.035540179475356544,
+        "placement": {
+          "occurrences": 0,
+          "core_count": 0,
+          "cores": [],
+          "batch_count": 0
+        },
+        "timing": {
+          "latency_sum": null,
+          "latency_max": null,
+          "critical_end": null,
+          "calc_time": null,
+          "noc_time": null,
+          "dram_time": null
+        },
+        "energy": {
+          "total": {
+            "total": 43498554346.269264
+          }
+        },
+        "root_cause": {
+          "dominant_dimension": null
+        }
+      }
+    ]
+  },
+  "rank_notes": {
+    "no_single_bottleneck_metric": true,
+    "agent_should_choose_bottleneck_objective": true,
+    "available_views": [
+      "buffer",
+      "communication",
+      "compute",
+      "critical_end",
+      "energy",
+      "latency_sum",
+      "memory"
+    ],
+    "requested_top_layers": 8,
+    "effective_top_layers": 8,
+    "top_layers_default": 8,
+    "top_layers_cap": 12
+  }
+}

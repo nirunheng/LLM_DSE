@@ -1,0 +1,42 @@
+{
+  "response": {
+    "id": "9df9e890f8b6418db734de4ce990a5bb",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"thought\": \"Now that I've selected the best iteration (3) as my analysis base, I should gather layer-level evidence to identify bottleneck candidates. The summarize_layer_rank_views tool will give me independent rankings by latency, energy, critical-path position, compute, memory, communication, and buffer — perfect for candidate discovery.\", \"action\": \"tool\", \"tool\": {\"name\": \"summarize_layer_rank_views\", \"arguments\": {\"top_layers\": 8}}}",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1792984849,
+    "model": "deepseek-v4-flash",
+    "object": "chat.completion",
+    "metadata": null,
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 101,
+      "prompt_tokens": 5565,
+      "total_tokens": 5666,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 5120,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "content": "{\"thought\": \"Now that I've selected the best iteration (3) as my analysis base, I should gather layer-level evidence to identify bottleneck candidates. The summarize_layer_rank_views tool will give me independent rankings by latency, energy, critical-path position, compute, memory, communication, and buffer — perfect for candidate discovery.\", \"action\": \"tool\", \"tool\": {\"name\": \"summarize_layer_rank_views\", \"arguments\": {\"top_layers\": 8}}}"
+}

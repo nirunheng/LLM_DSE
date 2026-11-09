@@ -1,0 +1,77 @@
+operator:
+- execution:
+    buffer_load:
+    - byte_count: 534528
+      is_write: false
+      name: gemm_tile_load
+    - byte_count: 1728
+      is_write: false
+      name: gemm_tile_accumulation_load
+    buffer_store:
+    - byte_count: 1728
+      is_write: true
+      name: gemm_tile_store
+    - byte_count: 1728
+      is_write: true
+      name: gemm_tile_accumulation_store
+    dram:
+    - access_base:
+      - 0
+      - 0
+      access_extent:
+      - 8
+      - 2304
+      access_offset_add:
+      - 8
+      - 2304
+      access_stride_add:
+      - 8
+      - 1
+      init_iter: 0
+      is_write: false
+      name: input_qkv_proj
+      stride_iter: 8
+      total_iter: 1
+    - access_base:
+      - 0
+      - 0
+      access_extent:
+      - 2304
+      - 108
+      access_offset_add:
+      - 2304
+      - 108
+      access_stride_add:
+      - 1
+      - 1
+      init_iter: 0
+      is_write: false
+      name: weight_qkv_proj_b0
+      stride_iter: 1
+      total_iter: 8
+    - access_base:
+      - 0
+      - 0
+      access_extent:
+      - 8
+      - 108
+      access_offset_add:
+      - 8
+      - 108
+      access_stride_add:
+      - 8
+      - 1
+      init_iter: 2
+      is_write: true
+      name: output_qkv_proj
+      stride_iter: 1
+      total_iter: 8
+    matrix:
+    - mac_count: 1990656
+      name: gemm_tile
+    vector:
+    - name: gemm_tile_accumulation
+      vec_count: 864
+  iteration: 8
+  name: qkv_proj
+  type: SimulatorOperatorType.GEMM

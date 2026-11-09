@@ -1,0 +1,59 @@
+[
+  {
+    "index": 0,
+    "display_index": "0000",
+    "resume_generation": 0,
+    "agent_name": "model_level",
+    "task": "react_tool_use",
+    "status": "error",
+    "started_at": "2026-10-26T02:38:44.948562Z",
+    "ended_at": "2026-10-26T02:38:46.360921Z",
+    "duration_s": 1.41231,
+    "message_count": 2,
+    "error": {
+      "type": "Error",
+      "message": "LLM request failed via OpenAI SDK (type=APIConnectionError, retryable=True): Connection error."
+    },
+    "input_json": "raw_json/0000_input_model_level_react_tool_use.json",
+    "output_json": "raw_json/0000_output_model_level_react_tool_use.json",
+    "usage": {}
+  },
+  {
+    "index": 1,
+    "display_index": "0001",
+    "resume_generation": 0,
+    "agent_name": "model_level",
+    "task": "llm_retry_correction",
+    "status": "error",
+    "started_at": "2026-10-26T02:38:46.368898Z",
+    "ended_at": "2026-10-26T02:38:47.731949Z",
+    "duration_s": 1.363004,
+    "message_count": 3,
+    "error": {
+      "type": "Error",
+      "message": "LLM request failed via OpenAI SDK (type=APIConnectionError, retryable=True): Connection error."
+    },
+    "input_json": "raw_json/0001_input_model_level_llm_retry_correction.json",
+    "output_json": "raw_json/0001_output_model_level_llm_retry_correction.json",
+    "usage": {}
+  },
+  {
+    "index": 2,
+    "display_index": "0002",
+    "resume_generation": 0,
+    "agent_name": "model_level",
+    "task": "llm_retry_correction",
+    "status": "error",
+    "started_at": "2026-10-26T02:38:47.737422Z",
+    "ended_at": "2026-10-26T02:38:49.032432Z",
+    "duration_s": 1.294982,
+    "message_count": 4,
+    "error": {
+      "type": "Error",
+      "message": "LLM request failed via OpenAI SDK (type=APIConnectionError, retryable=True): Connection error."
+    },
+    "input_json": "raw_json/0002_input_model_level_llm_retry_correction.json",
+    "output_json": "raw_json/0002_output_model_level_llm_retry_correction.json",
+    "usage": {}
+  }
+]

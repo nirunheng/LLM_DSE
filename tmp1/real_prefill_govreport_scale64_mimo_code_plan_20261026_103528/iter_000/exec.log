@@ -1,0 +1,2456 @@
+Current directory: /data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_103528/iter_000
+DEBUG [src/main.cpp:105] tensor_parall:  16 
+DEBUG [src/main.cpp:136] chips created 
+DEBUG [src/main.cpp:148] chiplet number 16 4 4 
+DEBUG [src/main.cpp:153] noc created 
+DEBUG [src/main.cpp:189] model 0 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:25,type:Prefill,lens:5670,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:28,type:Prefill,lens:13760,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:26,type:Prefill,lens:17780,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:27,type:Prefill,lens:21202,his_lens:0 
+DEBUG [src/main.cpp:189] model 1 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:30,type:Prefill,lens:3660,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:32,type:Prefill,lens:7044,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:29,type:Prefill,lens:7157,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:31,type:Prefill,lens:8709,his_lens:0 
+DEBUG [src/main.cpp:189] model 2 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:33,type:Prefill,lens:4503,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:36,type:Prefill,lens:4682,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:35,type:Prefill,lens:7460,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:34,type:Prefill,lens:17602,his_lens:0 
+DEBUG [src/main.cpp:189] model 3 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:40,type:Prefill,lens:3229,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:38,type:Prefill,lens:6898,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:39,type:Prefill,lens:7200,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:37,type:Prefill,lens:10007,his_lens:0 
+DEBUG [src/main.cpp:189] model 4 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:43,type:Prefill,lens:3517,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:41,type:Prefill,lens:3822,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:44,type:Prefill,lens:4238,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:42,type:Prefill,lens:7813,his_lens:0 
+DEBUG [src/main.cpp:189] model 5 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:48,type:Prefill,lens:5130,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:45,type:Prefill,lens:12661,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:46,type:Prefill,lens:13271,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:47,type:Prefill,lens:14173,his_lens:0 
+DEBUG [src/main.cpp:189] model 6 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:52,type:Prefill,lens:4061,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:49,type:Prefill,lens:5489,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:50,type:Prefill,lens:6154,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:51,type:Prefill,lens:10307,his_lens:0 
+DEBUG [src/main.cpp:189] model 7 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:54,type:Prefill,lens:2676,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:53,type:Prefill,lens:3077,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:56,type:Prefill,lens:3102,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:55,type:Prefill,lens:8456,his_lens:0 
+DEBUG [src/main.cpp:189] model 8 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:58,type:Prefill,lens:4603,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:59,type:Prefill,lens:5252,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:60,type:Prefill,lens:16260,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:57,type:Prefill,lens:23450,his_lens:0 
+DEBUG [src/main.cpp:189] model 9 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:64,type:Prefill,lens:3122,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:61,type:Prefill,lens:6834,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:63,type:Prefill,lens:9513,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:62,type:Prefill,lens:12251,his_lens:0 
+DEBUG [src/main.cpp:189] model 10 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:67,type:Prefill,lens:4787,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:66,type:Prefill,lens:5439,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:68,type:Prefill,lens:5631,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:65,type:Prefill,lens:9964,his_lens:0 
+DEBUG [src/main.cpp:189] model 11 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:70,type:Prefill,lens:4216,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:72,type:Prefill,lens:6688,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:69,type:Prefill,lens:8154,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:71,type:Prefill,lens:21718,his_lens:0 
+DEBUG [src/main.cpp:189] model 12 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:75,type:Prefill,lens:3462,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:76,type:Prefill,lens:5638,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:73,type:Prefill,lens:11502,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:74,type:Prefill,lens:13890,his_lens:0 
+DEBUG [src/main.cpp:189] model 13 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:77,type:Prefill,lens:2866,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:80,type:Prefill,lens:3621,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:79,type:Prefill,lens:5239,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:78,type:Prefill,lens:8369,his_lens:0 
+DEBUG [src/main.cpp:189] model 14 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:81,type:Prefill,lens:8576,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:84,type:Prefill,lens:10857,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:83,type:Prefill,lens:13774,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:82,type:Prefill,lens:15602,his_lens:0 
+DEBUG [src/main.cpp:189] model 15 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:85,type:Prefill,lens:4263,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:87,type:Prefill,lens:12393,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:86,type:Prefill,lens:28097,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:88,type:Prefill,lens:30950,his_lens:0 
+DEBUG [src/main.cpp:189] model 16 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:89,type:Prefill,lens:3148,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:91,type:Prefill,lens:4186,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:92,type:Prefill,lens:4310,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:90,type:Prefill,lens:11306,his_lens:0 
+DEBUG [src/main.cpp:189] model 17 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:94,type:Prefill,lens:9579,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:96,type:Prefill,lens:10578,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:93,type:Prefill,lens:12113,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:95,type:Prefill,lens:14105,his_lens:0 
+DEBUG [src/main.cpp:189] model 18 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:97,type:Prefill,lens:4554,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:98,type:Prefill,lens:5601,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:100,type:Prefill,lens:7513,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:99,type:Prefill,lens:11213,his_lens:0 
+DEBUG [src/main.cpp:189] model 19 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:102,type:Prefill,lens:3769,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:103,type:Prefill,lens:6466,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:101,type:Prefill,lens:9022,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:104,type:Prefill,lens:10764,his_lens:0 
+DEBUG [src/main.cpp:189] model 20 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:107,type:Prefill,lens:5294,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:106,type:Prefill,lens:5418,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:105,type:Prefill,lens:7284,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:108,type:Prefill,lens:9280,his_lens:0 
+DEBUG [src/main.cpp:189] model 21 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:112,type:Prefill,lens:3573,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:109,type:Prefill,lens:4603,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:110,type:Prefill,lens:6697,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:111,type:Prefill,lens:8165,his_lens:0 
+DEBUG [src/main.cpp:189] model 22 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:115,type:Prefill,lens:3639,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:113,type:Prefill,lens:6687,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:116,type:Prefill,lens:9295,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:114,type:Prefill,lens:9727,his_lens:0 
+DEBUG [src/main.cpp:189] model 23 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:119,type:Prefill,lens:2455,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:118,type:Prefill,lens:8119,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:120,type:Prefill,lens:14006,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:117,type:Prefill,lens:18201,his_lens:0 
+DEBUG [src/main.cpp:189] model 24 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:124,type:Prefill,lens:6250,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:123,type:Prefill,lens:11776,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:121,type:Prefill,lens:16779,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:122,type:Prefill,lens:17187,his_lens:0 
+DEBUG [src/main.cpp:189] model 25 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:126,type:Prefill,lens:2210,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:128,type:Prefill,lens:3732,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:127,type:Prefill,lens:4130,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:125,type:Prefill,lens:12419,his_lens:0 
+DEBUG [src/main.cpp:189] model 26 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:131,type:Prefill,lens:9500,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:130,type:Prefill,lens:11121,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:129,type:Prefill,lens:12005,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:132,type:Prefill,lens:13297,his_lens:0 
+DEBUG [src/main.cpp:189] model 27 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:134,type:Prefill,lens:3538,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:136,type:Prefill,lens:8013,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:135,type:Prefill,lens:8809,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:133,type:Prefill,lens:17544,his_lens:0 
+DEBUG [src/main.cpp:189] model 28 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:137,type:Prefill,lens:4158,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:140,type:Prefill,lens:5489,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:138,type:Prefill,lens:11601,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:139,type:Prefill,lens:12788,his_lens:0 
+DEBUG [src/main.cpp:189] model 29 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:143,type:Prefill,lens:2368,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:141,type:Prefill,lens:3126,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:144,type:Prefill,lens:8972,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:142,type:Prefill,lens:13950,his_lens:0 
+DEBUG [src/main.cpp:189] model 30 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:146,type:Prefill,lens:5069,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:148,type:Prefill,lens:6942,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:147,type:Prefill,lens:10793,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:145,type:Prefill,lens:14047,his_lens:0 
+DEBUG [src/main.cpp:189] model 31 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:150,type:Prefill,lens:3134,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:149,type:Prefill,lens:8936,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:151,type:Prefill,lens:10120,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:152,type:Prefill,lens:19579,his_lens:0 
+DEBUG [src/main.cpp:189] model 32 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:156,type:Prefill,lens:3008,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:154,type:Prefill,lens:3794,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:153,type:Prefill,lens:14441,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:155,type:Prefill,lens:19442,his_lens:0 
+DEBUG [src/main.cpp:189] model 33 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:157,type:Prefill,lens:2959,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:158,type:Prefill,lens:3801,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:159,type:Prefill,lens:10714,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:160,type:Prefill,lens:22555,his_lens:0 
+DEBUG [src/main.cpp:189] model 34 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:162,type:Prefill,lens:2505,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:161,type:Prefill,lens:3876,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:164,type:Prefill,lens:8005,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:163,type:Prefill,lens:11577,his_lens:0 
+DEBUG [src/main.cpp:189] model 35 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:167,type:Prefill,lens:2479,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:165,type:Prefill,lens:2882,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:168,type:Prefill,lens:9310,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:166,type:Prefill,lens:15021,his_lens:0 
+DEBUG [src/main.cpp:189] model 36 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:169,type:Prefill,lens:2435,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:170,type:Prefill,lens:5526,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:172,type:Prefill,lens:5764,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:171,type:Prefill,lens:19225,his_lens:0 
+DEBUG [src/main.cpp:189] model 37 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:173,type:Prefill,lens:3353,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:174,type:Prefill,lens:5243,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:175,type:Prefill,lens:12111,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:176,type:Prefill,lens:13660,his_lens:0 
+DEBUG [src/main.cpp:189] model 38 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:178,type:Prefill,lens:9400,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:180,type:Prefill,lens:11394,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:177,type:Prefill,lens:11480,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:179,type:Prefill,lens:12868,his_lens:0 
+DEBUG [src/main.cpp:189] model 39 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:184,type:Prefill,lens:4957,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:183,type:Prefill,lens:8320,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:182,type:Prefill,lens:9700,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:181,type:Prefill,lens:10904,his_lens:0 
+DEBUG [src/main.cpp:189] model 40 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:185,type:Prefill,lens:7343,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:187,type:Prefill,lens:9160,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:188,type:Prefill,lens:11313,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:186,type:Prefill,lens:11535,his_lens:0 
+DEBUG [src/main.cpp:189] model 41 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:191,type:Prefill,lens:2819,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:190,type:Prefill,lens:5866,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:189,type:Prefill,lens:9561,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:192,type:Prefill,lens:11256,his_lens:0 
+DEBUG [src/main.cpp:189] model 42 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:193,type:Prefill,lens:10556,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:196,type:Prefill,lens:11248,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:195,type:Prefill,lens:11376,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:194,type:Prefill,lens:15530,his_lens:0 
+DEBUG [src/main.cpp:189] model 43 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:200,type:Prefill,lens:3002,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:199,type:Prefill,lens:9080,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:198,type:Prefill,lens:12780,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:197,type:Prefill,lens:22295,his_lens:0 
+DEBUG [src/main.cpp:189] model 44 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:202,type:Prefill,lens:4499,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:204,type:Prefill,lens:6268,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:203,type:Prefill,lens:7847,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:201,type:Prefill,lens:10012,his_lens:0 
+DEBUG [src/main.cpp:189] model 45 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:206,type:Prefill,lens:7406,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:207,type:Prefill,lens:11931,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:205,type:Prefill,lens:12475,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:208,type:Prefill,lens:14709,his_lens:0 
+DEBUG [src/main.cpp:189] model 46 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:209,type:Prefill,lens:6378,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:210,type:Prefill,lens:6507,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:212,type:Prefill,lens:8269,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:211,type:Prefill,lens:16501,his_lens:0 
+DEBUG [src/main.cpp:189] model 47 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:216,type:Prefill,lens:3732,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:215,type:Prefill,lens:11755,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:214,type:Prefill,lens:13388,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:213,type:Prefill,lens:26445,his_lens:0 
+DEBUG [src/main.cpp:189] model 48 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:219,type:Prefill,lens:10378,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:218,type:Prefill,lens:11806,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:217,type:Prefill,lens:15565,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:220,type:Prefill,lens:16412,his_lens:0 
+DEBUG [src/main.cpp:189] model 49 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:223,type:Prefill,lens:4747,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:224,type:Prefill,lens:6180,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:221,type:Prefill,lens:10120,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:222,type:Prefill,lens:12856,his_lens:0 
+DEBUG [src/main.cpp:189] model 50 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:227,type:Prefill,lens:6773,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:225,type:Prefill,lens:8920,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:228,type:Prefill,lens:13960,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:226,type:Prefill,lens:19533,his_lens:0 
+DEBUG [src/main.cpp:189] model 51 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:230,type:Prefill,lens:5956,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:231,type:Prefill,lens:7154,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:229,type:Prefill,lens:7484,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:232,type:Prefill,lens:14034,his_lens:0 
+DEBUG [src/main.cpp:189] model 52 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:234,type:Prefill,lens:8073,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:235,type:Prefill,lens:10508,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:236,type:Prefill,lens:16664,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:233,type:Prefill,lens:20048,his_lens:0 
+DEBUG [src/main.cpp:189] model 53 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:239,type:Prefill,lens:5057,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:238,type:Prefill,lens:6935,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:237,type:Prefill,lens:7643,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:240,type:Prefill,lens:8023,his_lens:0 
+DEBUG [src/main.cpp:189] model 54 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:241,type:Prefill,lens:5296,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:243,type:Prefill,lens:7098,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:244,type:Prefill,lens:7905,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:242,type:Prefill,lens:15893,his_lens:0 
+DEBUG [src/main.cpp:189] model 55 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:245,type:Prefill,lens:5602,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:247,type:Prefill,lens:12127,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:246,type:Prefill,lens:15883,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:248,type:Prefill,lens:17246,his_lens:0 
+DEBUG [src/main.cpp:189] model 56 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:251,type:Prefill,lens:3700,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:252,type:Prefill,lens:7145,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:250,type:Prefill,lens:9812,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:249,type:Prefill,lens:10834,his_lens:0 
+DEBUG [src/main.cpp:189] model 57 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:255,type:Prefill,lens:8749,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:256,type:Prefill,lens:11402,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:254,type:Prefill,lens:13726,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:253,type:Prefill,lens:17602,his_lens:0 
+DEBUG [src/main.cpp:189] model 58 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:257,type:Prefill,lens:2514,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:260,type:Prefill,lens:3098,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:259,type:Prefill,lens:4578,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:258,type:Prefill,lens:9056,his_lens:0 
+DEBUG [src/main.cpp:189] model 59 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:263,type:Prefill,lens:5042,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:261,type:Prefill,lens:7202,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:262,type:Prefill,lens:8055,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:264,type:Prefill,lens:9399,his_lens:0 
+DEBUG [src/main.cpp:189] model 60 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:267,type:Prefill,lens:2362,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:268,type:Prefill,lens:2976,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:266,type:Prefill,lens:5314,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:265,type:Prefill,lens:6186,his_lens:0 
+DEBUG [src/main.cpp:189] model 61 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:269,type:Prefill,lens:6612,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:270,type:Prefill,lens:10926,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:271,type:Prefill,lens:15524,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:272,type:Prefill,lens:18549,his_lens:0 
+DEBUG [src/main.cpp:189] model 62 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:273,type:Prefill,lens:5127,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:276,type:Prefill,lens:5359,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:275,type:Prefill,lens:11953,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:274,type:Prefill,lens:12230,his_lens:0 
+DEBUG [src/main.cpp:189] model 63 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:277,type:Prefill,lens:3682,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:278,type:Prefill,lens:6120,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:280,type:Prefill,lens:6371,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:279,type:Prefill,lens:7710,his_lens:0 
+DEBUG [src/main.cpp:189] model 64 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:281,type:Prefill,lens:3028,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:282,type:Prefill,lens:10178,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:284,type:Prefill,lens:12271,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:283,type:Prefill,lens:12399,his_lens:0 
+DEBUG [src/main.cpp:189] model 65 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:286,type:Prefill,lens:13549,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:285,type:Prefill,lens:14814,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:287,type:Prefill,lens:15620,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:288,type:Prefill,lens:16314,his_lens:0 
+DEBUG [src/main.cpp:189] model 66 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:290,type:Prefill,lens:6783,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:289,type:Prefill,lens:7710,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:292,type:Prefill,lens:8715,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:291,type:Prefill,lens:10544,his_lens:0 
+DEBUG [src/main.cpp:189] model 67 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:296,type:Prefill,lens:8509,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:293,type:Prefill,lens:13129,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:294,type:Prefill,lens:15621,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:295,type:Prefill,lens:17318,his_lens:0 
+DEBUG [src/main.cpp:189] model 68 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:300,type:Prefill,lens:3986,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:299,type:Prefill,lens:6041,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:297,type:Prefill,lens:7182,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:298,type:Prefill,lens:18263,his_lens:0 
+DEBUG [src/main.cpp:189] model 69 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:303,type:Prefill,lens:6479,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:302,type:Prefill,lens:9839,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:301,type:Prefill,lens:11337,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:304,type:Prefill,lens:13049,his_lens:0 
+DEBUG [src/main.cpp:189] model 70 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:305,type:Prefill,lens:11065,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:307,type:Prefill,lens:11648,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:306,type:Prefill,lens:11789,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:308,type:Prefill,lens:15084,his_lens:0 
+DEBUG [src/main.cpp:189] model 71 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:311,type:Prefill,lens:3646,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:312,type:Prefill,lens:6055,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:309,type:Prefill,lens:6978,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:310,type:Prefill,lens:19360,his_lens:0 
+DEBUG [src/main.cpp:189] model 72 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:313,type:Prefill,lens:4239,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:315,type:Prefill,lens:5155,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:314,type:Prefill,lens:9635,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:316,type:Prefill,lens:19636,his_lens:0 
+DEBUG [src/main.cpp:189] model 73 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:317,type:Prefill,lens:5345,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:318,type:Prefill,lens:9573,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:320,type:Prefill,lens:17651,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:319,type:Prefill,lens:22968,his_lens:0 
+DEBUG [src/main.cpp:189] model 74 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:324,type:Prefill,lens:3020,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:321,type:Prefill,lens:4487,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:322,type:Prefill,lens:7095,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:323,type:Prefill,lens:13202,his_lens:0 
+DEBUG [src/main.cpp:189] model 75 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:325,type:Prefill,lens:3528,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:326,type:Prefill,lens:8689,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:328,type:Prefill,lens:12362,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:327,type:Prefill,lens:18188,his_lens:0 
+DEBUG [src/main.cpp:189] model 76 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:331,type:Prefill,lens:3832,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:330,type:Prefill,lens:10603,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:329,type:Prefill,lens:11368,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:332,type:Prefill,lens:15187,his_lens:0 
+DEBUG [src/main.cpp:189] model 77 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:336,type:Prefill,lens:3756,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:334,type:Prefill,lens:8213,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:335,type:Prefill,lens:12275,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:333,type:Prefill,lens:12923,his_lens:0 
+DEBUG [src/main.cpp:189] model 78 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:337,type:Prefill,lens:5426,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:340,type:Prefill,lens:9888,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:339,type:Prefill,lens:12196,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:338,type:Prefill,lens:14454,his_lens:0 
+DEBUG [src/main.cpp:189] model 79 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:341,type:Prefill,lens:4540,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:343,type:Prefill,lens:9274,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:344,type:Prefill,lens:10854,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:342,type:Prefill,lens:11420,his_lens:0 
+DEBUG [src/main.cpp:189] model 80 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:347,type:Prefill,lens:4640,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:346,type:Prefill,lens:7052,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:348,type:Prefill,lens:8697,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:345,type:Prefill,lens:12565,his_lens:0 
+DEBUG [src/main.cpp:189] model 81 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:349,type:Prefill,lens:1058,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:352,type:Prefill,lens:5476,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:351,type:Prefill,lens:5846,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:350,type:Prefill,lens:8639,his_lens:0 
+DEBUG [src/main.cpp:189] model 82 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:355,type:Prefill,lens:3433,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:356,type:Prefill,lens:4033,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:354,type:Prefill,lens:11990,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:353,type:Prefill,lens:16110,his_lens:0 
+DEBUG [src/main.cpp:189] model 83 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:359,type:Prefill,lens:4709,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:358,type:Prefill,lens:10918,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:360,type:Prefill,lens:10937,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:357,type:Prefill,lens:11650,his_lens:0 
+DEBUG [src/main.cpp:189] model 84 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:361,type:Prefill,lens:2878,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:362,type:Prefill,lens:8508,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:364,type:Prefill,lens:8625,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:363,type:Prefill,lens:20242,his_lens:0 
+DEBUG [src/main.cpp:189] model 85 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:368,type:Prefill,lens:4775,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:365,type:Prefill,lens:6354,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:367,type:Prefill,lens:9481,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:366,type:Prefill,lens:17888,his_lens:0 
+DEBUG [src/main.cpp:189] model 86 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:369,type:Prefill,lens:3628,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:371,type:Prefill,lens:11420,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:370,type:Prefill,lens:17292,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:372,type:Prefill,lens:22395,his_lens:0 
+DEBUG [src/main.cpp:189] model 87 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:376,type:Prefill,lens:7427,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:374,type:Prefill,lens:8652,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:373,type:Prefill,lens:9464,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:375,type:Prefill,lens:14951,his_lens:0 
+DEBUG [src/main.cpp:189] model 88 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:377,type:Prefill,lens:3224,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:379,type:Prefill,lens:12846,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:378,type:Prefill,lens:13530,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:380,type:Prefill,lens:16163,his_lens:0 
+DEBUG [src/main.cpp:189] model 89 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:383,type:Prefill,lens:3081,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:381,type:Prefill,lens:4559,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:382,type:Prefill,lens:10869,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:384,type:Prefill,lens:14717,his_lens:0 
+DEBUG [src/main.cpp:189] model 90 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:388,type:Prefill,lens:3468,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:386,type:Prefill,lens:8459,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:387,type:Prefill,lens:11349,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:385,type:Prefill,lens:12300,his_lens:0 
+DEBUG [src/main.cpp:189] model 91 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:392,type:Prefill,lens:2841,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:390,type:Prefill,lens:4248,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:389,type:Prefill,lens:5061,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:391,type:Prefill,lens:5136,his_lens:0 
+DEBUG [src/main.cpp:189] model 92 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:395,type:Prefill,lens:4131,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:393,type:Prefill,lens:7684,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:396,type:Prefill,lens:8215,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:394,type:Prefill,lens:9825,his_lens:0 
+DEBUG [src/main.cpp:189] model 93 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:400,type:Prefill,lens:8150,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:397,type:Prefill,lens:8751,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:398,type:Prefill,lens:12519,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:399,type:Prefill,lens:13521,his_lens:0 
+DEBUG [src/main.cpp:189] model 94 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:404,type:Prefill,lens:171,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:403,type:Prefill,lens:5213,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:402,type:Prefill,lens:6015,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:401,type:Prefill,lens:8038,his_lens:0 
+DEBUG [src/main.cpp:189] model 95 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:405,type:Prefill,lens:10701,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:408,type:Prefill,lens:12683,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:407,type:Prefill,lens:14048,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:406,type:Prefill,lens:14453,his_lens:0 
+DEBUG [src/main.cpp:189] model 96 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:409,type:Prefill,lens:2996,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:412,type:Prefill,lens:10255,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:410,type:Prefill,lens:11308,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:411,type:Prefill,lens:17301,his_lens:0 
+DEBUG [src/main.cpp:189] model 97 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:416,type:Prefill,lens:8527,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:414,type:Prefill,lens:10168,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:413,type:Prefill,lens:16017,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:415,type:Prefill,lens:24793,his_lens:0 
+DEBUG [src/main.cpp:189] model 98 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:420,type:Prefill,lens:5774,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:418,type:Prefill,lens:10652,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:419,type:Prefill,lens:15960,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:417,type:Prefill,lens:19789,his_lens:0 
+DEBUG [src/main.cpp:189] model 99 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:421,type:Prefill,lens:4135,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:424,type:Prefill,lens:10453,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:423,type:Prefill,lens:10547,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:422,type:Prefill,lens:13460,his_lens:0 
+DEBUG [src/main.cpp:189] model 100 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:428,type:Prefill,lens:3818,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:427,type:Prefill,lens:5230,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:425,type:Prefill,lens:7739,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:426,type:Prefill,lens:13051,his_lens:0 
+DEBUG [src/main.cpp:189] model 101 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:430,type:Prefill,lens:3445,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:429,type:Prefill,lens:7515,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:432,type:Prefill,lens:16648,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:431,type:Prefill,lens:28365,his_lens:0 
+DEBUG [src/main.cpp:189] model 102 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:433,type:Prefill,lens:5564,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:436,type:Prefill,lens:7602,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:434,type:Prefill,lens:11457,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:435,type:Prefill,lens:11513,his_lens:0 
+DEBUG [src/main.cpp:189] model 103 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:438,type:Prefill,lens:10517,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:440,type:Prefill,lens:12031,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:439,type:Prefill,lens:12444,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:437,type:Prefill,lens:19899,his_lens:0 
+DEBUG [src/main.cpp:189] model 104 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:441,type:Prefill,lens:502,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:444,type:Prefill,lens:8514,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:442,type:Prefill,lens:9641,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:443,type:Prefill,lens:14714,his_lens:0 
+DEBUG [src/main.cpp:189] model 105 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:447,type:Prefill,lens:3194,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:445,type:Prefill,lens:5317,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:448,type:Prefill,lens:12060,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:446,type:Prefill,lens:14962,his_lens:0 
+DEBUG [src/main.cpp:189] model 106 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:449,type:Prefill,lens:2652,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:452,type:Prefill,lens:6400,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:450,type:Prefill,lens:10959,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:451,type:Prefill,lens:28772,his_lens:0 
+DEBUG [src/main.cpp:189] model 107 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:454,type:Prefill,lens:3829,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:455,type:Prefill,lens:4198,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:453,type:Prefill,lens:7573,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:456,type:Prefill,lens:8938,his_lens:0 
+DEBUG [src/main.cpp:189] model 108 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:459,type:Prefill,lens:2246,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:458,type:Prefill,lens:3791,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:460,type:Prefill,lens:4909,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:457,type:Prefill,lens:11155,his_lens:0 
+DEBUG [src/main.cpp:189] model 109 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:464,type:Prefill,lens:4911,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:462,type:Prefill,lens:8657,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:461,type:Prefill,lens:9549,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:463,type:Prefill,lens:17043,his_lens:0 
+DEBUG [src/main.cpp:189] model 110 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:467,type:Prefill,lens:2819,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:465,type:Prefill,lens:4960,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:466,type:Prefill,lens:7465,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:468,type:Prefill,lens:14163,his_lens:0 
+DEBUG [src/main.cpp:189] model 111 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:472,type:Prefill,lens:2203,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:469,type:Prefill,lens:10482,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:471,type:Prefill,lens:12141,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:470,type:Prefill,lens:12236,his_lens:0 
+DEBUG [src/main.cpp:189] model 112 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:474,type:Prefill,lens:3186,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:476,type:Prefill,lens:8501,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:473,type:Prefill,lens:12218,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:475,type:Prefill,lens:12450,his_lens:0 
+DEBUG [src/main.cpp:189] model 113 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:480,type:Prefill,lens:4930,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:478,type:Prefill,lens:5636,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:479,type:Prefill,lens:7719,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:477,type:Prefill,lens:13352,his_lens:0 
+DEBUG [src/main.cpp:189] model 114 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:484,type:Prefill,lens:5008,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:483,type:Prefill,lens:6931,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:481,type:Prefill,lens:9775,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:482,type:Prefill,lens:9788,his_lens:0 
+DEBUG [src/main.cpp:189] model 115 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:485,type:Prefill,lens:4940,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:486,type:Prefill,lens:7643,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:488,type:Prefill,lens:16102,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:487,type:Prefill,lens:18395,his_lens:0 
+DEBUG [src/main.cpp:189] model 116 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:490,type:Prefill,lens:8874,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:489,type:Prefill,lens:11287,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:492,type:Prefill,lens:14723,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:491,type:Prefill,lens:14946,his_lens:0 
+DEBUG [src/main.cpp:189] model 117 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:494,type:Prefill,lens:4422,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:493,type:Prefill,lens:5194,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:496,type:Prefill,lens:5218,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:495,type:Prefill,lens:13799,his_lens:0 
+DEBUG [src/main.cpp:189] model 118 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:499,type:Prefill,lens:3583,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:498,type:Prefill,lens:4283,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:500,type:Prefill,lens:4298,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:497,type:Prefill,lens:16115,his_lens:0 
+DEBUG [src/main.cpp:189] model 119 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:502,type:Prefill,lens:3415,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:501,type:Prefill,lens:3990,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:504,type:Prefill,lens:8059,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:503,type:Prefill,lens:10695,his_lens:0 
+DEBUG [src/main.cpp:189] model 120 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:505,type:Prefill,lens:2747,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:508,type:Prefill,lens:11311,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:507,type:Prefill,lens:20003,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:506,type:Prefill,lens:21688,his_lens:0 
+DEBUG [src/main.cpp:189] model 121 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:509,type:Prefill,lens:2240,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:510,type:Prefill,lens:7057,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:512,type:Prefill,lens:10883,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:511,type:Prefill,lens:34540,his_lens:0 
+DEBUG [src/main.cpp:189] model 122 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:513,type:Prefill,lens:3099,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:514,type:Prefill,lens:4858,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:515,type:Prefill,lens:8973,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:516,type:Prefill,lens:9695,his_lens:0 
+DEBUG [src/main.cpp:189] model 123 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:518,type:Prefill,lens:6619,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:520,type:Prefill,lens:8151,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:519,type:Prefill,lens:11901,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:517,type:Prefill,lens:11968,his_lens:0 
+DEBUG [src/main.cpp:189] model 124 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:524,type:Prefill,lens:3501,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:522,type:Prefill,lens:11680,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:521,type:Prefill,lens:11757,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:523,type:Prefill,lens:18267,his_lens:0 
+DEBUG [src/main.cpp:189] model 125 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:525,type:Prefill,lens:3703,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:527,type:Prefill,lens:4234,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:526,type:Prefill,lens:18243,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:528,type:Prefill,lens:21242,his_lens:0 
+DEBUG [src/main.cpp:189] model 126 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:530,type:Prefill,lens:2949,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:531,type:Prefill,lens:6680,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:529,type:Prefill,lens:7442,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:532,type:Prefill,lens:7694,his_lens:0 
+DEBUG [src/main.cpp:189] model 127 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:534,type:Prefill,lens:3283,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:535,type:Prefill,lens:8619,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:536,type:Prefill,lens:12504,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:533,type:Prefill,lens:12638,his_lens:0 
+DEBUG [src/main.cpp:189] model 128 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:540,type:Prefill,lens:4871,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:538,type:Prefill,lens:5277,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:539,type:Prefill,lens:5920,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:537,type:Prefill,lens:11255,his_lens:0 
+DEBUG [src/main.cpp:189] model 129 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:543,type:Prefill,lens:3391,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:544,type:Prefill,lens:6976,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:542,type:Prefill,lens:8874,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:541,type:Prefill,lens:16744,his_lens:0 
+DEBUG [src/main.cpp:189] model 130 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:547,type:Prefill,lens:4717,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:545,type:Prefill,lens:8014,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:546,type:Prefill,lens:10203,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:548,type:Prefill,lens:12180,his_lens:0 
+DEBUG [src/main.cpp:189] model 131 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:549,type:Prefill,lens:7136,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:550,type:Prefill,lens:10555,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:552,type:Prefill,lens:12989,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:551,type:Prefill,lens:13155,his_lens:0 
+DEBUG [src/main.cpp:189] model 132 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:554,type:Prefill,lens:4706,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:555,type:Prefill,lens:8069,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:553,type:Prefill,lens:9007,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:556,type:Prefill,lens:17245,his_lens:0 
+DEBUG [src/main.cpp:189] model 133 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:557,type:Prefill,lens:4541,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:558,type:Prefill,lens:8418,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:559,type:Prefill,lens:8525,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:560,type:Prefill,lens:22482,his_lens:0 
+DEBUG [src/main.cpp:189] model 134 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:564,type:Prefill,lens:3942,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:561,type:Prefill,lens:5301,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:562,type:Prefill,lens:13500,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:563,type:Prefill,lens:18054,his_lens:0 
+DEBUG [src/main.cpp:189] model 135 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:566,type:Prefill,lens:3549,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:565,type:Prefill,lens:3764,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:567,type:Prefill,lens:9485,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:568,type:Prefill,lens:9561,his_lens:0 
+DEBUG [src/main.cpp:189] model 136 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:571,type:Prefill,lens:5947,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:572,type:Prefill,lens:8839,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:569,type:Prefill,lens:9610,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:570,type:Prefill,lens:10870,his_lens:0 
+DEBUG [src/main.cpp:189] model 137 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:573,type:Prefill,lens:4389,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:576,type:Prefill,lens:4413,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:575,type:Prefill,lens:9530,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:574,type:Prefill,lens:14909,his_lens:0 
+DEBUG [src/main.cpp:189] model 138 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:580,type:Prefill,lens:3607,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:577,type:Prefill,lens:6385,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:579,type:Prefill,lens:18881,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:578,type:Prefill,lens:21222,his_lens:0 
+DEBUG [src/main.cpp:189] model 139 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:581,type:Prefill,lens:2622,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:582,type:Prefill,lens:4108,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:584,type:Prefill,lens:7524,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:583,type:Prefill,lens:8113,his_lens:0 
+DEBUG [src/main.cpp:189] model 140 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:588,type:Prefill,lens:6756,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:587,type:Prefill,lens:7728,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:585,type:Prefill,lens:8341,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:586,type:Prefill,lens:11413,his_lens:0 
+DEBUG [src/main.cpp:189] model 141 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:590,type:Prefill,lens:3816,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:589,type:Prefill,lens:3929,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:591,type:Prefill,lens:10130,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:592,type:Prefill,lens:13020,his_lens:0 
+DEBUG [src/main.cpp:189] model 142 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:593,type:Prefill,lens:3642,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:594,type:Prefill,lens:3776,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:595,type:Prefill,lens:4049,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:596,type:Prefill,lens:19482,his_lens:0 
+DEBUG [src/main.cpp:189] model 143 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:598,type:Prefill,lens:2303,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:597,type:Prefill,lens:9153,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:600,type:Prefill,lens:15729,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:599,type:Prefill,lens:17689,his_lens:0 
+DEBUG [src/main.cpp:189] model 144 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:603,type:Prefill,lens:2992,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:601,type:Prefill,lens:5592,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:604,type:Prefill,lens:7240,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:602,type:Prefill,lens:10393,his_lens:0 
+DEBUG [src/main.cpp:189] model 145 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:608,type:Prefill,lens:6380,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:606,type:Prefill,lens:9242,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:607,type:Prefill,lens:11725,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:605,type:Prefill,lens:13022,his_lens:0 
+DEBUG [src/main.cpp:189] model 146 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:612,type:Prefill,lens:10281,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:609,type:Prefill,lens:13220,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:610,type:Prefill,lens:17653,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:611,type:Prefill,lens:18660,his_lens:0 
+DEBUG [src/main.cpp:189] model 147 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:615,type:Prefill,lens:4674,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:613,type:Prefill,lens:5128,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:614,type:Prefill,lens:8108,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:616,type:Prefill,lens:15633,his_lens:0 
+DEBUG [src/main.cpp:189] model 148 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:620,type:Prefill,lens:3522,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:618,type:Prefill,lens:6278,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:617,type:Prefill,lens:7721,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:619,type:Prefill,lens:11617,his_lens:0 
+DEBUG [src/main.cpp:189] model 149 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:623,type:Prefill,lens:2761,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:621,type:Prefill,lens:3637,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:624,type:Prefill,lens:6749,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:622,type:Prefill,lens:7896,his_lens:0 
+DEBUG [src/main.cpp:189] model 150 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:627,type:Prefill,lens:5590,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:625,type:Prefill,lens:5705,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:628,type:Prefill,lens:6712,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:626,type:Prefill,lens:8172,his_lens:0 
+DEBUG [src/main.cpp:189] model 151 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:629,type:Prefill,lens:4136,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:631,type:Prefill,lens:4631,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:630,type:Prefill,lens:7374,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:632,type:Prefill,lens:11642,his_lens:0 
+DEBUG [src/main.cpp:189] model 152 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:634,type:Prefill,lens:5324,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:635,type:Prefill,lens:5437,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:633,type:Prefill,lens:19650,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:636,type:Prefill,lens:21712,his_lens:0 
+DEBUG [src/main.cpp:189] model 153 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:638,type:Prefill,lens:2896,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:637,type:Prefill,lens:5125,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:639,type:Prefill,lens:13662,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:640,type:Prefill,lens:31202,his_lens:0 
+DEBUG [src/main.cpp:189] model 154 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:644,type:Prefill,lens:4858,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:643,type:Prefill,lens:8246,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:642,type:Prefill,lens:10324,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:641,type:Prefill,lens:24253,his_lens:0 
+DEBUG [src/main.cpp:189] model 155 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:646,type:Prefill,lens:4706,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:647,type:Prefill,lens:4866,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:645,type:Prefill,lens:5237,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:648,type:Prefill,lens:9866,his_lens:0 
+DEBUG [src/main.cpp:189] model 156 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:650,type:Prefill,lens:2979,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:651,type:Prefill,lens:4770,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:649,type:Prefill,lens:14643,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:652,type:Prefill,lens:17282,his_lens:0 
+DEBUG [src/main.cpp:189] model 157 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:656,type:Prefill,lens:4017,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:654,type:Prefill,lens:4081,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:653,type:Prefill,lens:7095,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:655,type:Prefill,lens:9436,his_lens:0 
+DEBUG [src/main.cpp:189] model 158 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:658,type:Prefill,lens:12084,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:659,type:Prefill,lens:12760,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:657,type:Prefill,lens:14742,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:660,type:Prefill,lens:24769,his_lens:0 
+DEBUG [src/main.cpp:189] model 159 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:663,type:Prefill,lens:3748,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:664,type:Prefill,lens:7070,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:662,type:Prefill,lens:8815,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:661,type:Prefill,lens:10754,his_lens:0 
+DEBUG [src/main.cpp:189] model 160 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:666,type:Prefill,lens:2871,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:667,type:Prefill,lens:4248,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:668,type:Prefill,lens:7041,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:665,type:Prefill,lens:11799,his_lens:0 
+DEBUG [src/main.cpp:189] model 161 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:669,type:Prefill,lens:5064,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:672,type:Prefill,lens:7525,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:671,type:Prefill,lens:11563,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:670,type:Prefill,lens:11622,his_lens:0 
+DEBUG [src/main.cpp:189] model 162 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:673,type:Prefill,lens:11926,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:675,type:Prefill,lens:13797,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:674,type:Prefill,lens:16236,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:676,type:Prefill,lens:16276,his_lens:0 
+DEBUG [src/main.cpp:189] model 163 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:677,type:Prefill,lens:3989,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:680,type:Prefill,lens:13403,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:679,type:Prefill,lens:17882,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:678,type:Prefill,lens:27610,his_lens:0 
+DEBUG [src/main.cpp:189] model 164 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:682,type:Prefill,lens:4278,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:684,type:Prefill,lens:4583,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:683,type:Prefill,lens:6816,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:681,type:Prefill,lens:24864,his_lens:0 
+DEBUG [src/main.cpp:189] model 165 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:687,type:Prefill,lens:3221,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:685,type:Prefill,lens:4760,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:686,type:Prefill,lens:8732,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:688,type:Prefill,lens:18059,his_lens:0 
+DEBUG [src/main.cpp:189] model 166 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:690,type:Prefill,lens:3435,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:689,type:Prefill,lens:3672,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:692,type:Prefill,lens:6657,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:691,type:Prefill,lens:12112,his_lens:0 
+DEBUG [src/main.cpp:189] model 167 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:695,type:Prefill,lens:4515,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:696,type:Prefill,lens:4906,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:693,type:Prefill,lens:5484,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:694,type:Prefill,lens:8310,his_lens:0 
+DEBUG [src/main.cpp:189] model 168 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:698,type:Prefill,lens:3202,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:697,type:Prefill,lens:6176,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:700,type:Prefill,lens:12167,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:699,type:Prefill,lens:12297,his_lens:0 
+DEBUG [src/main.cpp:189] model 169 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:703,type:Prefill,lens:5730,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:704,type:Prefill,lens:9644,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:701,type:Prefill,lens:15182,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:702,type:Prefill,lens:17492,his_lens:0 
+DEBUG [src/main.cpp:189] model 170 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:706,type:Prefill,lens:6496,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:708,type:Prefill,lens:6790,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:707,type:Prefill,lens:9137,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:705,type:Prefill,lens:10390,his_lens:0 
+DEBUG [src/main.cpp:189] model 171 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:709,type:Prefill,lens:2720,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:712,type:Prefill,lens:12615,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:711,type:Prefill,lens:12619,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:710,type:Prefill,lens:15784,his_lens:0 
+DEBUG [src/main.cpp:189] model 172 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:713,type:Prefill,lens:6792,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:715,type:Prefill,lens:6885,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:716,type:Prefill,lens:8651,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:714,type:Prefill,lens:13069,his_lens:0 
+DEBUG [src/main.cpp:189] model 173 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:717,type:Prefill,lens:4844,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:719,type:Prefill,lens:7879,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:720,type:Prefill,lens:13384,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:718,type:Prefill,lens:13974,his_lens:0 
+DEBUG [src/main.cpp:189] model 174 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:721,type:Prefill,lens:3289,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:723,type:Prefill,lens:4609,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:722,type:Prefill,lens:11902,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:724,type:Prefill,lens:15518,his_lens:0 
+DEBUG [src/main.cpp:189] model 175 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:726,type:Prefill,lens:4209,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:725,type:Prefill,lens:4633,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:728,type:Prefill,lens:5100,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:727,type:Prefill,lens:5360,his_lens:0 
+DEBUG [src/main.cpp:189] model 176 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:732,type:Prefill,lens:7248,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:729,type:Prefill,lens:8076,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:730,type:Prefill,lens:10298,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:731,type:Prefill,lens:27332,his_lens:0 
+DEBUG [src/main.cpp:189] model 177 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:734,type:Prefill,lens:7809,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:733,type:Prefill,lens:11401,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:736,type:Prefill,lens:11418,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:735,type:Prefill,lens:12581,his_lens:0 
+DEBUG [src/main.cpp:189] model 178 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:740,type:Prefill,lens:5302,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:739,type:Prefill,lens:6727,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:738,type:Prefill,lens:8936,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:737,type:Prefill,lens:13796,his_lens:0 
+DEBUG [src/main.cpp:189] model 179 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:741,type:Prefill,lens:4385,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:742,type:Prefill,lens:5794,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:743,type:Prefill,lens:7338,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:744,type:Prefill,lens:7390,his_lens:0 
+DEBUG [src/main.cpp:189] model 180 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:745,type:Prefill,lens:6654,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:748,type:Prefill,lens:10414,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:746,type:Prefill,lens:11364,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:747,type:Prefill,lens:12384,his_lens:0 
+DEBUG [src/main.cpp:189] model 181 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:749,type:Prefill,lens:7508,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:750,type:Prefill,lens:9110,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:751,type:Prefill,lens:13224,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:752,type:Prefill,lens:13784,his_lens:0 
+DEBUG [src/main.cpp:189] model 182 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:756,type:Prefill,lens:3482,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:755,type:Prefill,lens:4773,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:753,type:Prefill,lens:10098,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:754,type:Prefill,lens:17526,his_lens:0 
+DEBUG [src/main.cpp:189] model 183 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:760,type:Prefill,lens:6447,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:758,type:Prefill,lens:7733,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:757,type:Prefill,lens:11073,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:759,type:Prefill,lens:15278,his_lens:0 
+DEBUG [src/main.cpp:189] model 184 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:762,type:Prefill,lens:7205,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:764,type:Prefill,lens:8613,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:761,type:Prefill,lens:10096,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:763,type:Prefill,lens:15391,his_lens:0 
+DEBUG [src/main.cpp:189] model 185 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:766,type:Prefill,lens:6225,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:765,type:Prefill,lens:7093,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:767,type:Prefill,lens:11995,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:768,type:Prefill,lens:20568,his_lens:0 
+DEBUG [src/main.cpp:189] model 186 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:769,type:Prefill,lens:3011,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:772,type:Prefill,lens:5668,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:770,type:Prefill,lens:5925,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:771,type:Prefill,lens:10070,his_lens:0 
+[2KReqGenerator: generate requests and create model [===============================>                  ]  62% 00:00:00<00:00:00, 0.000 it/sDEBUG [src/main.cpp:189] model 187 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:775,type:Prefill,lens:6373,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:774,type:Prefill,lens:7570,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:776,type:Prefill,lens:8106,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:773,type:Prefill,lens:20269,his_lens:0 
+DEBUG [src/main.cpp:189] model 188 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:778,type:Prefill,lens:7050,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:779,type:Prefill,lens:9185,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:780,type:Prefill,lens:11989,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:777,type:Prefill,lens:13988,his_lens:0 
+DEBUG [src/main.cpp:189] model 189 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:781,type:Prefill,lens:5913,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:782,type:Prefill,lens:14644,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:784,type:Prefill,lens:14748,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:783,type:Prefill,lens:18469,his_lens:0 
+DEBUG [src/main.cpp:189] model 190 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:787,type:Prefill,lens:5486,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:788,type:Prefill,lens:8783,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:785,type:Prefill,lens:15229,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:786,type:Prefill,lens:17837,his_lens:0 
+DEBUG [src/main.cpp:189] model 191 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:792,type:Prefill,lens:4882,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:790,type:Prefill,lens:11032,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:789,type:Prefill,lens:11379,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:791,type:Prefill,lens:13012,his_lens:0 
+DEBUG [src/main.cpp:189] model 192 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:796,type:Prefill,lens:5039,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:794,type:Prefill,lens:7885,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:793,type:Prefill,lens:12283,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:795,type:Prefill,lens:14026,his_lens:0 
+DEBUG [src/main.cpp:189] model 193 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:800,type:Prefill,lens:4526,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:798,type:Prefill,lens:5070,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:799,type:Prefill,lens:8943,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:797,type:Prefill,lens:23227,his_lens:0 
+DEBUG [src/main.cpp:189] model 194 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:802,type:Prefill,lens:4604,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:803,type:Prefill,lens:5183,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:801,type:Prefill,lens:5595,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:804,type:Prefill,lens:12837,his_lens:0 
+DEBUG [src/main.cpp:189] model 195 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:805,type:Prefill,lens:4886,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:808,type:Prefill,lens:12806,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:806,type:Prefill,lens:13369,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:807,type:Prefill,lens:17084,his_lens:0 
+DEBUG [src/main.cpp:189] model 196 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:810,type:Prefill,lens:5515,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:811,type:Prefill,lens:5948,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:812,type:Prefill,lens:6871,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:809,type:Prefill,lens:10698,his_lens:0 
+DEBUG [src/main.cpp:189] model 197 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:814,type:Prefill,lens:2905,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:815,type:Prefill,lens:9389,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:813,type:Prefill,lens:10580,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:816,type:Prefill,lens:29069,his_lens:0 
+DEBUG [src/main.cpp:189] model 198 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:820,type:Prefill,lens:7389,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:818,type:Prefill,lens:9193,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:819,type:Prefill,lens:9612,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:817,type:Prefill,lens:10842,his_lens:0 
+DEBUG [src/main.cpp:189] model 199 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:821,type:Prefill,lens:5098,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:824,type:Prefill,lens:9342,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:822,type:Prefill,lens:9922,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:823,type:Prefill,lens:14327,his_lens:0 
+DEBUG [src/main.cpp:189] model 200 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:827,type:Prefill,lens:3418,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:826,type:Prefill,lens:13030,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:825,type:Prefill,lens:16488,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:828,type:Prefill,lens:16842,his_lens:0 
+DEBUG [src/main.cpp:189] model 201 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:830,type:Prefill,lens:3583,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:831,type:Prefill,lens:3802,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:832,type:Prefill,lens:5009,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:829,type:Prefill,lens:5470,his_lens:0 
+DEBUG [src/main.cpp:189] model 202 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:834,type:Prefill,lens:4725,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:833,type:Prefill,lens:6999,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:835,type:Prefill,lens:7284,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:836,type:Prefill,lens:9677,his_lens:0 
+DEBUG [src/main.cpp:189] model 203 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:838,type:Prefill,lens:4589,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:839,type:Prefill,lens:6629,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:840,type:Prefill,lens:13148,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:837,type:Prefill,lens:19314,his_lens:0 
+DEBUG [src/main.cpp:189] model 204 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:843,type:Prefill,lens:4398,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:841,type:Prefill,lens:5061,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:844,type:Prefill,lens:8479,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:842,type:Prefill,lens:10480,his_lens:0 
+DEBUG [src/main.cpp:189] model 205 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:846,type:Prefill,lens:2459,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:845,type:Prefill,lens:9441,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:848,type:Prefill,lens:12977,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:847,type:Prefill,lens:18303,his_lens:0 
+DEBUG [src/main.cpp:189] model 206 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:850,type:Prefill,lens:2242,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:849,type:Prefill,lens:2362,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:852,type:Prefill,lens:8794,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:851,type:Prefill,lens:18379,his_lens:0 
+DEBUG [src/main.cpp:189] model 207 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:855,type:Prefill,lens:5242,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:856,type:Prefill,lens:5498,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:853,type:Prefill,lens:6342,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:854,type:Prefill,lens:22959,his_lens:0 
+DEBUG [src/main.cpp:189] model 208 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:860,type:Prefill,lens:3829,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:859,type:Prefill,lens:4779,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:858,type:Prefill,lens:5535,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:857,type:Prefill,lens:11315,his_lens:0 
+DEBUG [src/main.cpp:189] model 209 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:862,type:Prefill,lens:5183,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:864,type:Prefill,lens:7871,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:861,type:Prefill,lens:8456,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:863,type:Prefill,lens:22345,his_lens:0 
+DEBUG [src/main.cpp:189] model 210 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:865,type:Prefill,lens:4353,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:867,type:Prefill,lens:4702,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:866,type:Prefill,lens:7066,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:868,type:Prefill,lens:9017,his_lens:0 
+DEBUG [src/main.cpp:189] model 211 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:872,type:Prefill,lens:7692,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:870,type:Prefill,lens:10963,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:869,type:Prefill,lens:12856,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:871,type:Prefill,lens:20050,his_lens:0 
+DEBUG [src/main.cpp:189] model 212 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:876,type:Prefill,lens:3094,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:875,type:Prefill,lens:6923,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:874,type:Prefill,lens:15287,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:873,type:Prefill,lens:17738,his_lens:0 
+DEBUG [src/main.cpp:189] model 213 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:877,type:Prefill,lens:3251,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:878,type:Prefill,lens:8379,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:879,type:Prefill,lens:10961,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:880,type:Prefill,lens:13540,his_lens:0 
+DEBUG [src/main.cpp:189] model 214 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:884,type:Prefill,lens:9084,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:883,type:Prefill,lens:11750,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:882,type:Prefill,lens:14611,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:881,type:Prefill,lens:18427,his_lens:0 
+DEBUG [src/main.cpp:189] model 215 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:888,type:Prefill,lens:2674,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:886,type:Prefill,lens:3416,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:885,type:Prefill,lens:9395,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:887,type:Prefill,lens:12311,his_lens:0 
+DEBUG [src/main.cpp:189] model 216 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:891,type:Prefill,lens:3639,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:889,type:Prefill,lens:6962,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:890,type:Prefill,lens:8832,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:892,type:Prefill,lens:11082,his_lens:0 
+DEBUG [src/main.cpp:189] model 217 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:893,type:Prefill,lens:3575,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:896,type:Prefill,lens:8691,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:895,type:Prefill,lens:9893,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:894,type:Prefill,lens:23144,his_lens:0 
+DEBUG [src/main.cpp:189] model 218 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:897,type:Prefill,lens:5173,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:899,type:Prefill,lens:7474,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:898,type:Prefill,lens:8519,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:900,type:Prefill,lens:8548,his_lens:0 
+DEBUG [src/main.cpp:189] model 219 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:902,type:Prefill,lens:9765,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:904,type:Prefill,lens:13992,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:901,type:Prefill,lens:15719,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:903,type:Prefill,lens:36869,his_lens:0 
+DEBUG [src/main.cpp:189] model 220 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:906,type:Prefill,lens:3297,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:907,type:Prefill,lens:3800,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:905,type:Prefill,lens:7377,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:908,type:Prefill,lens:9507,his_lens:0 
+DEBUG [src/main.cpp:189] model 221 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:912,type:Prefill,lens:5526,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:909,type:Prefill,lens:6133,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:910,type:Prefill,lens:11325,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:911,type:Prefill,lens:12800,his_lens:0 
+DEBUG [src/main.cpp:189] model 222 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:915,type:Prefill,lens:3671,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:914,type:Prefill,lens:3915,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:913,type:Prefill,lens:4089,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:916,type:Prefill,lens:9060,his_lens:0 
+DEBUG [src/main.cpp:189] model 223 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:920,type:Prefill,lens:3746,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:918,type:Prefill,lens:4052,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:917,type:Prefill,lens:4224,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:919,type:Prefill,lens:15900,his_lens:0 
+DEBUG [src/main.cpp:189] model 224 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:923,type:Prefill,lens:2965,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:922,type:Prefill,lens:6705,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:921,type:Prefill,lens:8742,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:924,type:Prefill,lens:11393,his_lens:0 
+DEBUG [src/main.cpp:189] model 225 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:928,type:Prefill,lens:3061,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:927,type:Prefill,lens:3982,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:926,type:Prefill,lens:4268,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:925,type:Prefill,lens:7080,his_lens:0 
+DEBUG [src/main.cpp:189] model 226 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:929,type:Prefill,lens:5639,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:931,type:Prefill,lens:10111,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:932,type:Prefill,lens:11964,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:930,type:Prefill,lens:20169,his_lens:0 
+DEBUG [src/main.cpp:189] model 227 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:935,type:Prefill,lens:5346,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:933,type:Prefill,lens:6826,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:936,type:Prefill,lens:8991,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:934,type:Prefill,lens:22655,his_lens:0 
+DEBUG [src/main.cpp:189] model 228 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:937,type:Prefill,lens:4389,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:939,type:Prefill,lens:5023,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:940,type:Prefill,lens:5080,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:938,type:Prefill,lens:13648,his_lens:0 
+DEBUG [src/main.cpp:189] model 229 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:943,type:Prefill,lens:5287,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:944,type:Prefill,lens:9132,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:941,type:Prefill,lens:9190,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:942,type:Prefill,lens:9926,his_lens:0 
+DEBUG [src/main.cpp:189] model 230 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:947,type:Prefill,lens:5065,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:948,type:Prefill,lens:5321,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:945,type:Prefill,lens:5671,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:946,type:Prefill,lens:18962,his_lens:0 
+DEBUG [src/main.cpp:189] model 231 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:951,type:Prefill,lens:6943,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:950,type:Prefill,lens:7642,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:949,type:Prefill,lens:16851,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:952,type:Prefill,lens:22776,his_lens:0 
+DEBUG [src/main.cpp:189] model 232 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:953,type:Prefill,lens:3935,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:956,type:Prefill,lens:7842,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:954,type:Prefill,lens:8613,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:955,type:Prefill,lens:9312,his_lens:0 
+DEBUG [src/main.cpp:189] model 233 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:957,type:Prefill,lens:4170,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:958,type:Prefill,lens:7469,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:960,type:Prefill,lens:8366,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:959,type:Prefill,lens:15760,his_lens:0 
+DEBUG [src/main.cpp:189] model 234 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:964,type:Prefill,lens:4315,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:961,type:Prefill,lens:4525,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:962,type:Prefill,lens:12707,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:963,type:Prefill,lens:13118,his_lens:0 
+DEBUG [src/main.cpp:189] model 235 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:965,type:Prefill,lens:3183,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:968,type:Prefill,lens:9021,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:967,type:Prefill,lens:12867,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:966,type:Prefill,lens:18783,his_lens:0 
+DEBUG [src/main.cpp:189] model 236 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:972,type:Prefill,lens:8002,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:969,type:Prefill,lens:9342,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:970,type:Prefill,lens:14412,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:971,type:Prefill,lens:18878,his_lens:0 
+DEBUG [src/main.cpp:189] model 237 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:974,type:Prefill,lens:3118,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:976,type:Prefill,lens:3412,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:975,type:Prefill,lens:6383,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:973,type:Prefill,lens:7009,his_lens:0 
+DEBUG [src/main.cpp:189] model 238 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:977,type:Prefill,lens:5482,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:978,type:Prefill,lens:6608,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:980,type:Prefill,lens:7260,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:979,type:Prefill,lens:14509,his_lens:0 
+DEBUG [src/main.cpp:189] model 239 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:983,type:Prefill,lens:6683,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:984,type:Prefill,lens:8098,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:981,type:Prefill,lens:16187,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:982,type:Prefill,lens:16618,his_lens:0 
+DEBUG [src/main.cpp:189] model 240 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:988,type:Prefill,lens:4834,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:986,type:Prefill,lens:7121,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:987,type:Prefill,lens:10191,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:985,type:Prefill,lens:14086,his_lens:0 
+DEBUG [src/main.cpp:189] model 241 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:989,type:Prefill,lens:5537,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:991,type:Prefill,lens:6390,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:992,type:Prefill,lens:14346,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:990,type:Prefill,lens:15582,his_lens:0 
+DEBUG [src/main.cpp:189] model 242 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:995,type:Prefill,lens:3709,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:994,type:Prefill,lens:9040,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:996,type:Prefill,lens:12493,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:993,type:Prefill,lens:13469,his_lens:0 
+DEBUG [src/main.cpp:189] model 243 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:997,type:Prefill,lens:4737,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:998,type:Prefill,lens:10337,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:999,type:Prefill,lens:13576,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1000,type:Prefill,lens:17078,his_lens:0 
+DEBUG [src/main.cpp:189] model 244 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1002,type:Prefill,lens:3448,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1003,type:Prefill,lens:4425,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1004,type:Prefill,lens:11533,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1001,type:Prefill,lens:12054,his_lens:0 
+DEBUG [src/main.cpp:189] model 245 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1007,type:Prefill,lens:2946,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1008,type:Prefill,lens:5743,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1005,type:Prefill,lens:15139,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1006,type:Prefill,lens:31028,his_lens:0 
+DEBUG [src/main.cpp:189] model 246 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1009,type:Prefill,lens:5492,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1012,type:Prefill,lens:9074,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1011,type:Prefill,lens:12764,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1010,type:Prefill,lens:12860,his_lens:0 
+DEBUG [src/main.cpp:189] model 247 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1015,type:Prefill,lens:6961,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1014,type:Prefill,lens:8730,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1013,type:Prefill,lens:10074,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1016,type:Prefill,lens:18865,his_lens:0 
+DEBUG [src/main.cpp:189] model 248 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1019,type:Prefill,lens:4094,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1020,type:Prefill,lens:12821,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1017,type:Prefill,lens:13163,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1018,type:Prefill,lens:15319,his_lens:0 
+DEBUG [src/main.cpp:189] model 249 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1024,type:Prefill,lens:2177,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1021,type:Prefill,lens:5511,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1023,type:Prefill,lens:12094,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1022,type:Prefill,lens:25842,his_lens:0 
+DEBUG [src/main.cpp:189] model 250 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1028,type:Prefill,lens:3360,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1027,type:Prefill,lens:3759,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1025,type:Prefill,lens:6497,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1026,type:Prefill,lens:11441,his_lens:0 
+DEBUG [src/main.cpp:189] model 251 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1032,type:Prefill,lens:3900,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1031,type:Prefill,lens:8940,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1030,type:Prefill,lens:10382,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1029,type:Prefill,lens:17458,his_lens:0 
+DEBUG [src/main.cpp:189] model 252 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1036,type:Prefill,lens:4743,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1034,type:Prefill,lens:11703,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1033,type:Prefill,lens:13605,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1035,type:Prefill,lens:15437,his_lens:0 
+DEBUG [src/main.cpp:189] model 253 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1039,type:Prefill,lens:3668,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1038,type:Prefill,lens:6046,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1040,type:Prefill,lens:7603,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1037,type:Prefill,lens:7620,his_lens:0 
+DEBUG [src/main.cpp:189] model 254 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1043,type:Prefill,lens:3701,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1044,type:Prefill,lens:5004,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1042,type:Prefill,lens:5172,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1041,type:Prefill,lens:10570,his_lens:0 
+DEBUG [src/main.cpp:189] model 255 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1045,type:Prefill,lens:4922,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1046,type:Prefill,lens:7127,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1048,type:Prefill,lens:7375,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1047,type:Prefill,lens:8714,his_lens:0 
+DEBUG [src/main.cpp:189] model 256 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1050,type:Prefill,lens:6889,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1051,type:Prefill,lens:10333,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1049,type:Prefill,lens:16046,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1052,type:Prefill,lens:24882,his_lens:0 
+DEBUG [src/main.cpp:189] model 257 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1053,type:Prefill,lens:3796,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1054,type:Prefill,lens:3884,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1056,type:Prefill,lens:8585,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1055,type:Prefill,lens:10690,his_lens:0 
+DEBUG [src/main.cpp:189] model 258 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1060,type:Prefill,lens:3199,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1059,type:Prefill,lens:5236,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1057,type:Prefill,lens:7878,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1058,type:Prefill,lens:10587,his_lens:0 
+DEBUG [src/main.cpp:189] model 259 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1063,type:Prefill,lens:3176,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1062,type:Prefill,lens:11159,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1064,type:Prefill,lens:13131,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1061,type:Prefill,lens:15946,his_lens:0 
+DEBUG [src/main.cpp:189] model 260 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1065,type:Prefill,lens:3318,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1067,type:Prefill,lens:7018,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1068,type:Prefill,lens:7345,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1066,type:Prefill,lens:8953,his_lens:0 
+DEBUG [src/main.cpp:189] model 261 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1070,type:Prefill,lens:3707,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1069,type:Prefill,lens:4979,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1071,type:Prefill,lens:5116,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1072,type:Prefill,lens:18979,his_lens:0 
+DEBUG [src/main.cpp:189] model 262 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1076,type:Prefill,lens:4435,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1074,type:Prefill,lens:7004,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1073,type:Prefill,lens:7987,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1075,type:Prefill,lens:13160,his_lens:0 
+DEBUG [src/main.cpp:189] model 263 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1079,type:Prefill,lens:2775,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1080,type:Prefill,lens:8666,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1078,type:Prefill,lens:11980,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1077,type:Prefill,lens:12083,his_lens:0 
+DEBUG [src/main.cpp:189] model 264 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1082,type:Prefill,lens:3317,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1081,type:Prefill,lens:5044,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1083,type:Prefill,lens:10239,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1084,type:Prefill,lens:15486,his_lens:0 
+DEBUG [src/main.cpp:189] model 265 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1085,type:Prefill,lens:4610,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1086,type:Prefill,lens:6310,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1088,type:Prefill,lens:10499,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1087,type:Prefill,lens:15042,his_lens:0 
+DEBUG [src/main.cpp:189] model 266 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1089,type:Prefill,lens:5081,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1092,type:Prefill,lens:11872,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1091,type:Prefill,lens:12466,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1090,type:Prefill,lens:13696,his_lens:0 
+DEBUG [src/main.cpp:189] model 267 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1096,type:Prefill,lens:5766,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1093,type:Prefill,lens:8250,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1095,type:Prefill,lens:10200,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1094,type:Prefill,lens:20006,his_lens:0 
+DEBUG [src/main.cpp:189] model 268 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1099,type:Prefill,lens:7164,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1098,type:Prefill,lens:10496,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1100,type:Prefill,lens:14305,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1097,type:Prefill,lens:23658,his_lens:0 
+DEBUG [src/main.cpp:189] model 269 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1103,type:Prefill,lens:2674,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1102,type:Prefill,lens:4649,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1101,type:Prefill,lens:12033,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1104,type:Prefill,lens:20979,his_lens:0 
+DEBUG [src/main.cpp:189] model 270 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1106,type:Prefill,lens:4750,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1108,type:Prefill,lens:11420,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1105,type:Prefill,lens:12587,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1107,type:Prefill,lens:14192,his_lens:0 
+DEBUG [src/main.cpp:189] model 271 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1111,type:Prefill,lens:3154,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1110,type:Prefill,lens:3855,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1109,type:Prefill,lens:12253,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1112,type:Prefill,lens:13649,his_lens:0 
+DEBUG [src/main.cpp:189] model 272 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1113,type:Prefill,lens:3799,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1115,type:Prefill,lens:5906,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1114,type:Prefill,lens:8501,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1116,type:Prefill,lens:10738,his_lens:0 
+DEBUG [src/main.cpp:189] model 273 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1117,type:Prefill,lens:3447,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1120,type:Prefill,lens:3769,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1119,type:Prefill,lens:4589,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1118,type:Prefill,lens:5766,his_lens:0 
+DEBUG [src/main.cpp:189] model 274 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1123,type:Prefill,lens:6338,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1122,type:Prefill,lens:9931,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1124,type:Prefill,lens:11665,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1121,type:Prefill,lens:14800,his_lens:0 
+DEBUG [src/main.cpp:189] model 275 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1126,type:Prefill,lens:4016,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1127,type:Prefill,lens:5870,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1125,type:Prefill,lens:15695,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1128,type:Prefill,lens:21733,his_lens:0 
+DEBUG [src/main.cpp:189] model 276 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1129,type:Prefill,lens:4519,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1131,type:Prefill,lens:5405,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1132,type:Prefill,lens:10039,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1130,type:Prefill,lens:11988,his_lens:0 
+DEBUG [src/main.cpp:189] model 277 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1134,type:Prefill,lens:6291,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1135,type:Prefill,lens:12237,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1133,type:Prefill,lens:13486,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1136,type:Prefill,lens:29964,his_lens:0 
+DEBUG [src/main.cpp:189] model 278 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1138,type:Prefill,lens:3311,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1139,type:Prefill,lens:4139,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1137,type:Prefill,lens:7473,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1140,type:Prefill,lens:8205,his_lens:0 
+DEBUG [src/main.cpp:189] model 279 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1142,type:Prefill,lens:3381,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1144,type:Prefill,lens:3474,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1141,type:Prefill,lens:6567,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1143,type:Prefill,lens:37985,his_lens:0 
+DEBUG [src/main.cpp:189] model 280 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1145,type:Prefill,lens:2294,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1147,type:Prefill,lens:2843,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1146,type:Prefill,lens:3962,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1148,type:Prefill,lens:6128,his_lens:0 
+DEBUG [src/main.cpp:189] model 281 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1152,type:Prefill,lens:4390,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1149,type:Prefill,lens:10049,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1150,type:Prefill,lens:13967,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1151,type:Prefill,lens:16303,his_lens:0 
+DEBUG [src/main.cpp:189] model 282 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1154,type:Prefill,lens:4994,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1155,type:Prefill,lens:11862,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1156,type:Prefill,lens:11908,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1153,type:Prefill,lens:18444,his_lens:0 
+DEBUG [src/main.cpp:189] model 283 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1160,type:Prefill,lens:5600,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1157,type:Prefill,lens:5903,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1158,type:Prefill,lens:6892,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1159,type:Prefill,lens:16280,his_lens:0 
+DEBUG [src/main.cpp:189] model 284 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1162,type:Prefill,lens:2472,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1163,type:Prefill,lens:2964,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1161,type:Prefill,lens:3658,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1164,type:Prefill,lens:15026,his_lens:0 
+DEBUG [src/main.cpp:189] model 285 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1165,type:Prefill,lens:4163,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1166,type:Prefill,lens:8377,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1168,type:Prefill,lens:9844,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1167,type:Prefill,lens:19202,his_lens:0 
+DEBUG [src/main.cpp:189] model 286 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1169,type:Prefill,lens:3670,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1171,type:Prefill,lens:5966,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1172,type:Prefill,lens:13244,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1170,type:Prefill,lens:13510,his_lens:0 
+DEBUG [src/main.cpp:189] model 287 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1174,type:Prefill,lens:5600,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1173,type:Prefill,lens:7179,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1176,type:Prefill,lens:11246,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1175,type:Prefill,lens:12894,his_lens:0 
+DEBUG [src/main.cpp:189] model 288 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1180,type:Prefill,lens:7726,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1177,type:Prefill,lens:9513,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1179,type:Prefill,lens:15389,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1178,type:Prefill,lens:21406,his_lens:0 
+DEBUG [src/main.cpp:189] model 289 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1184,type:Prefill,lens:5279,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1183,type:Prefill,lens:7752,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1181,type:Prefill,lens:8886,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1182,type:Prefill,lens:13691,his_lens:0 
+DEBUG [src/main.cpp:189] model 290 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1185,type:Prefill,lens:3197,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1187,type:Prefill,lens:8045,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1188,type:Prefill,lens:23283,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1186,type:Prefill,lens:25292,his_lens:0 
+DEBUG [src/main.cpp:189] model 291 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1191,type:Prefill,lens:4036,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1192,type:Prefill,lens:6728,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1189,type:Prefill,lens:17281,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1190,type:Prefill,lens:33278,his_lens:0 
+DEBUG [src/main.cpp:189] model 292 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1196,type:Prefill,lens:3945,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1194,type:Prefill,lens:9477,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1193,type:Prefill,lens:17888,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1195,type:Prefill,lens:18123,his_lens:0 
+DEBUG [src/main.cpp:189] model 293 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1199,type:Prefill,lens:2472,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1200,type:Prefill,lens:5037,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1198,type:Prefill,lens:7098,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1197,type:Prefill,lens:12143,his_lens:0 
+DEBUG [src/main.cpp:189] model 294 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1203,type:Prefill,lens:3869,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1201,type:Prefill,lens:8685,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1204,type:Prefill,lens:9110,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1202,type:Prefill,lens:13821,his_lens:0 
+DEBUG [src/main.cpp:189] model 295 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1207,type:Prefill,lens:6696,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1208,type:Prefill,lens:7499,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1205,type:Prefill,lens:14689,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1206,type:Prefill,lens:16501,his_lens:0 
+DEBUG [src/main.cpp:189] model 296 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1212,type:Prefill,lens:2813,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1210,type:Prefill,lens:4407,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1209,type:Prefill,lens:7338,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1211,type:Prefill,lens:10155,his_lens:0 
+DEBUG [src/main.cpp:189] model 297 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1214,type:Prefill,lens:2947,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1213,type:Prefill,lens:5591,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1216,type:Prefill,lens:9105,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1215,type:Prefill,lens:11808,his_lens:0 
+DEBUG [src/main.cpp:189] model 298 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1218,type:Prefill,lens:7162,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1220,type:Prefill,lens:7713,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1217,type:Prefill,lens:8622,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1219,type:Prefill,lens:10464,his_lens:0 
+DEBUG [src/main.cpp:189] model 299 
+DEBUG [src/main.cpp:192] batch 0 
+DEBUG [src/main.cpp:195] 	 id:1222,type:Prefill,lens:5311,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1223,type:Prefill,lens:9220,his_lens:0 
+DEBUG [src/main.cpp:192] batch 1 
+DEBUG [src/main.cpp:195] 	 id:1221,type:Prefill,lens:12173,his_lens:0 
+DEBUG [src/main.cpp:195] 	 id:1224,type:Prefill,lens:14143,his_lens:0 
+[2KReqGenerator: generate requests and create model [==================================================] 100% 00:00:00<00:00:00, 0.000 it/s[2KReqGenerator: generate requests and create model [==================================================] 100% 00:00:00<00:00:00, 0.000 it/s
+DEBUG [src/main.cpp:216] layer 0 input_add 
+DEBUG [src/main.cpp:216] layer 1 layer0_head0_Q 
+DEBUG [src/main.cpp:216] layer 2 layer0_head0_K 
+DEBUG [src/main.cpp:216] layer 3 layer0_head0_V 
+DEBUG [src/main.cpp:216] layer 4 layer0_head0_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 5 layer0_head0_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 6 layer0_head0_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 7 layer0_head0_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 8 layer0_head0_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 9 layer0_head0_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 10 layer0_head1_Q 
+DEBUG [src/main.cpp:216] layer 11 layer0_head1_K 
+DEBUG [src/main.cpp:216] layer 12 layer0_head1_V 
+DEBUG [src/main.cpp:216] layer 13 layer0_head1_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 14 layer0_head1_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 15 layer0_head1_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 16 layer0_head1_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 17 layer0_head1_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 18 layer0_head1_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 19 layer0_head2_Q 
+DEBUG [src/main.cpp:216] layer 20 layer0_head2_K 
+DEBUG [src/main.cpp:216] layer 21 layer0_head2_V 
+DEBUG [src/main.cpp:216] layer 22 layer0_head2_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 23 layer0_head2_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 24 layer0_head2_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 25 layer0_head2_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 26 layer0_head2_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 27 layer0_head2_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 28 layer0_head3_Q 
+DEBUG [src/main.cpp:216] layer 29 layer0_head3_K 
+DEBUG [src/main.cpp:216] layer 30 layer0_head3_V 
+DEBUG [src/main.cpp:216] layer 31 layer0_head3_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 32 layer0_head3_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 33 layer0_head3_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 34 layer0_head3_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 35 layer0_head3_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 36 layer0_head3_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 37 layer0_head4_Q 
+DEBUG [src/main.cpp:216] layer 38 layer0_head4_K 
+DEBUG [src/main.cpp:216] layer 39 layer0_head4_V 
+DEBUG [src/main.cpp:216] layer 40 layer0_head4_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 41 layer0_head4_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 42 layer0_head4_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 43 layer0_head4_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 44 layer0_head4_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 45 layer0_head4_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 46 layer0_head5_Q 
+DEBUG [src/main.cpp:216] layer 47 layer0_head5_K 
+DEBUG [src/main.cpp:216] layer 48 layer0_head5_V 
+DEBUG [src/main.cpp:216] layer 49 layer0_head5_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 50 layer0_head5_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 51 layer0_head5_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 52 layer0_head5_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 53 layer0_head5_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 54 layer0_head5_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 55 layer0_head6_Q 
+DEBUG [src/main.cpp:216] layer 56 layer0_head6_K 
+DEBUG [src/main.cpp:216] layer 57 layer0_head6_V 
+DEBUG [src/main.cpp:216] layer 58 layer0_head6_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 59 layer0_head6_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 60 layer0_head6_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 61 layer0_head6_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 62 layer0_head6_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 63 layer0_head6_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 64 layer0_head7_Q 
+DEBUG [src/main.cpp:216] layer 65 layer0_head7_K 
+DEBUG [src/main.cpp:216] layer 66 layer0_head7_V 
+DEBUG [src/main.cpp:216] layer 67 layer0_head7_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 68 layer0_head7_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 69 layer0_head7_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 70 layer0_head7_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 71 layer0_head7_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 72 layer0_head7_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 73 layer0_head8_Q 
+DEBUG [src/main.cpp:216] layer 74 layer0_head8_K 
+DEBUG [src/main.cpp:216] layer 75 layer0_head8_V 
+DEBUG [src/main.cpp:216] layer 76 layer0_head8_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 77 layer0_head8_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 78 layer0_head8_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 79 layer0_head8_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 80 layer0_head8_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 81 layer0_head8_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 82 layer0_head9_Q 
+DEBUG [src/main.cpp:216] layer 83 layer0_head9_K 
+DEBUG [src/main.cpp:216] layer 84 layer0_head9_V 
+DEBUG [src/main.cpp:216] layer 85 layer0_head9_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 86 layer0_head9_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 87 layer0_head9_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 88 layer0_head9_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 89 layer0_head9_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 90 layer0_head9_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 91 layer0_head10_Q 
+DEBUG [src/main.cpp:216] layer 92 layer0_head10_K 
+DEBUG [src/main.cpp:216] layer 93 layer0_head10_V 
+DEBUG [src/main.cpp:216] layer 94 layer0_head10_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 95 layer0_head10_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 96 layer0_head10_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 97 layer0_head10_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 98 layer0_head10_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 99 layer0_head10_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 100 layer0_head11_Q 
+DEBUG [src/main.cpp:216] layer 101 layer0_head11_K 
+DEBUG [src/main.cpp:216] layer 102 layer0_head11_V 
+DEBUG [src/main.cpp:216] layer 103 layer0_head11_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 104 layer0_head11_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 105 layer0_head11_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 106 layer0_head11_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 107 layer0_head11_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 108 layer0_head11_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 109 layer0_head12_Q 
+DEBUG [src/main.cpp:216] layer 110 layer0_head12_K 
+DEBUG [src/main.cpp:216] layer 111 layer0_head12_V 
+DEBUG [src/main.cpp:216] layer 112 layer0_head12_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 113 layer0_head12_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 114 layer0_head12_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 115 layer0_head12_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 116 layer0_head12_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 117 layer0_head12_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 118 layer0_head13_Q 
+DEBUG [src/main.cpp:216] layer 119 layer0_head13_K 
+DEBUG [src/main.cpp:216] layer 120 layer0_head13_V 
+DEBUG [src/main.cpp:216] layer 121 layer0_head13_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 122 layer0_head13_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 123 layer0_head13_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 124 layer0_head13_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 125 layer0_head13_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 126 layer0_head13_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 127 layer0_head14_Q 
+DEBUG [src/main.cpp:216] layer 128 layer0_head14_K 
+DEBUG [src/main.cpp:216] layer 129 layer0_head14_V 
+DEBUG [src/main.cpp:216] layer 130 layer0_head14_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 131 layer0_head14_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 132 layer0_head14_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 133 layer0_head14_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 134 layer0_head14_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 135 layer0_head14_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 136 layer0_head15_Q 
+DEBUG [src/main.cpp:216] layer 137 layer0_head15_K 
+DEBUG [src/main.cpp:216] layer 138 layer0_head15_V 
+DEBUG [src/main.cpp:216] layer 139 layer0_head15_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 140 layer0_head15_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 141 layer0_head15_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 142 layer0_head15_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 143 layer0_head15_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 144 layer0_head15_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 145 layer0_head16_Q 
+DEBUG [src/main.cpp:216] layer 146 layer0_head16_K 
+DEBUG [src/main.cpp:216] layer 147 layer0_head16_V 
+DEBUG [src/main.cpp:216] layer 148 layer0_head16_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 149 layer0_head16_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 150 layer0_head16_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 151 layer0_head16_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 152 layer0_head16_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 153 layer0_head16_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 154 layer0_head17_Q 
+DEBUG [src/main.cpp:216] layer 155 layer0_head17_K 
+DEBUG [src/main.cpp:216] layer 156 layer0_head17_V 
+DEBUG [src/main.cpp:216] layer 157 layer0_head17_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 158 layer0_head17_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 159 layer0_head17_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 160 layer0_head17_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 161 layer0_head17_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 162 layer0_head17_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 163 layer0_head18_Q 
+DEBUG [src/main.cpp:216] layer 164 layer0_head18_K 
+DEBUG [src/main.cpp:216] layer 165 layer0_head18_V 
+DEBUG [src/main.cpp:216] layer 166 layer0_head18_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 167 layer0_head18_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 168 layer0_head18_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 169 layer0_head18_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 170 layer0_head18_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 171 layer0_head18_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 172 layer0_head19_Q 
+DEBUG [src/main.cpp:216] layer 173 layer0_head19_K 
+DEBUG [src/main.cpp:216] layer 174 layer0_head19_V 
+DEBUG [src/main.cpp:216] layer 175 layer0_head19_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 176 layer0_head19_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 177 layer0_head19_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 178 layer0_head19_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 179 layer0_head19_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 180 layer0_head19_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 181 layer0_head20_Q 
+DEBUG [src/main.cpp:216] layer 182 layer0_head20_K 
+DEBUG [src/main.cpp:216] layer 183 layer0_head20_V 
+DEBUG [src/main.cpp:216] layer 184 layer0_head20_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 185 layer0_head20_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 186 layer0_head20_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 187 layer0_head20_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 188 layer0_head20_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 189 layer0_head20_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 190 layer0_head21_Q 
+DEBUG [src/main.cpp:216] layer 191 layer0_head21_K 
+DEBUG [src/main.cpp:216] layer 192 layer0_head21_V 
+DEBUG [src/main.cpp:216] layer 193 layer0_head21_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 194 layer0_head21_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 195 layer0_head21_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 196 layer0_head21_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 197 layer0_head21_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 198 layer0_head21_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 199 layer0_head22_Q 
+DEBUG [src/main.cpp:216] layer 200 layer0_head22_K 
+DEBUG [src/main.cpp:216] layer 201 layer0_head22_V 
+DEBUG [src/main.cpp:216] layer 202 layer0_head22_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 203 layer0_head22_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 204 layer0_head22_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 205 layer0_head22_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 206 layer0_head22_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 207 layer0_head22_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 208 layer0_head23_Q 
+DEBUG [src/main.cpp:216] layer 209 layer0_head23_K 
+DEBUG [src/main.cpp:216] layer 210 layer0_head23_V 
+DEBUG [src/main.cpp:216] layer 211 layer0_head23_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 212 layer0_head23_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 213 layer0_head23_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 214 layer0_head23_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 215 layer0_head23_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 216 layer0_head23_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 217 layer0_head24_Q 
+DEBUG [src/main.cpp:216] layer 218 layer0_head24_K 
+DEBUG [src/main.cpp:216] layer 219 layer0_head24_V 
+DEBUG [src/main.cpp:216] layer 220 layer0_head24_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 221 layer0_head24_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 222 layer0_head24_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 223 layer0_head24_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 224 layer0_head24_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 225 layer0_head24_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 226 layer0_head25_Q 
+DEBUG [src/main.cpp:216] layer 227 layer0_head25_K 
+DEBUG [src/main.cpp:216] layer 228 layer0_head25_V 
+DEBUG [src/main.cpp:216] layer 229 layer0_head25_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 230 layer0_head25_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 231 layer0_head25_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 232 layer0_head25_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 233 layer0_head25_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 234 layer0_head25_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 235 layer0_head26_Q 
+DEBUG [src/main.cpp:216] layer 236 layer0_head26_K 
+DEBUG [src/main.cpp:216] layer 237 layer0_head26_V 
+DEBUG [src/main.cpp:216] layer 238 layer0_head26_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 239 layer0_head26_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 240 layer0_head26_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 241 layer0_head26_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 242 layer0_head26_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 243 layer0_head26_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 244 layer0_head27_Q 
+DEBUG [src/main.cpp:216] layer 245 layer0_head27_K 
+DEBUG [src/main.cpp:216] layer 246 layer0_head27_V 
+DEBUG [src/main.cpp:216] layer 247 layer0_head27_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 248 layer0_head27_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 249 layer0_head27_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 250 layer0_head27_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 251 layer0_head27_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 252 layer0_head27_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 253 layer0_head28_Q 
+DEBUG [src/main.cpp:216] layer 254 layer0_head28_K 
+DEBUG [src/main.cpp:216] layer 255 layer0_head28_V 
+DEBUG [src/main.cpp:216] layer 256 layer0_head28_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 257 layer0_head28_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 258 layer0_head28_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 259 layer0_head28_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 260 layer0_head28_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 261 layer0_head28_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 262 layer0_head29_Q 
+DEBUG [src/main.cpp:216] layer 263 layer0_head29_K 
+DEBUG [src/main.cpp:216] layer 264 layer0_head29_V 
+DEBUG [src/main.cpp:216] layer 265 layer0_head29_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 266 layer0_head29_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 267 layer0_head29_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 268 layer0_head29_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 269 layer0_head29_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 270 layer0_head29_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 271 layer0_head30_Q 
+DEBUG [src/main.cpp:216] layer 272 layer0_head30_K 
+DEBUG [src/main.cpp:216] layer 273 layer0_head30_V 
+DEBUG [src/main.cpp:216] layer 274 layer0_head30_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 275 layer0_head30_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 276 layer0_head30_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 277 layer0_head30_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 278 layer0_head30_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 279 layer0_head30_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 280 layer0_head31_Q 
+DEBUG [src/main.cpp:216] layer 281 layer0_head31_K 
+DEBUG [src/main.cpp:216] layer 282 layer0_head31_V 
+DEBUG [src/main.cpp:216] layer 283 layer0_head31_req0_QK_P 
+DEBUG [src/main.cpp:216] layer 284 layer0_head31_req0_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 285 layer0_head31_req0_QKV_P 
+DEBUG [src/main.cpp:216] layer 286 layer0_head31_req1_QK_P 
+DEBUG [src/main.cpp:216] layer 287 layer0_head31_req1_QK_elt_P 
+DEBUG [src/main.cpp:216] layer 288 layer0_head31_req1_QKV_P 
+DEBUG [src/main.cpp:216] layer 289 layer0_out_proj_tiling_0 
+DEBUG [src/main.cpp:216] layer 290 layer0_out_proj_tiling_1 
+DEBUG [src/main.cpp:216] layer 291 layer0_out_proj_tiling_2 
+DEBUG [src/main.cpp:216] layer 292 layer0_out_proj_tiling_3 
+DEBUG [src/main.cpp:216] layer 293 layer0_out_proj_tiling_4 
+DEBUG [src/main.cpp:216] layer 294 layer0_out_proj_tiling_5 
+DEBUG [src/main.cpp:216] layer 295 layer0_out_proj_tiling_6 
+DEBUG [src/main.cpp:216] layer 296 layer0_out_proj_tiling_7 
+DEBUG [src/main.cpp:216] layer 297 layer0_out_proj_tiling_8 
+DEBUG [src/main.cpp:216] layer 298 layer0_out_proj_tiling_9 
+DEBUG [src/main.cpp:216] layer 299 layer0_out_proj_tiling_10 
+DEBUG [src/main.cpp:216] layer 300 layer0_out_proj_tiling_11 
+DEBUG [src/main.cpp:216] layer 301 layer0_out_proj_tiling_12 
+DEBUG [src/main.cpp:216] layer 302 layer0_out_proj_tiling_13 
+DEBUG [src/main.cpp:216] layer 303 layer0_out_proj_tiling_14 
+DEBUG [src/main.cpp:216] layer 304 layer0_out_proj_tiling_15 
+DEBUG [src/main.cpp:216] layer 305 layer0_res1 
+DEBUG [src/main.cpp:216] layer 306 layer0_norm1 
+DEBUG [src/main.cpp:216] layer 307 layer0_ffn1_tiling0 
+DEBUG [src/main.cpp:216] layer 308 layer0_ffn1_tiling1 
+DEBUG [src/main.cpp:216] layer 309 layer0_ffn1_tiling2 
+DEBUG [src/main.cpp:216] layer 310 layer0_ffn1_tiling3 
+DEBUG [src/main.cpp:216] layer 311 layer0_ffn1_tiling4 
+DEBUG [src/main.cpp:216] layer 312 layer0_ffn1_tiling5 
+DEBUG [src/main.cpp:216] layer 313 layer0_ffn1_tiling6 
+DEBUG [src/main.cpp:216] layer 314 layer0_ffn1_tiling7 
+DEBUG [src/main.cpp:216] layer 315 layer0_ffn1_tiling8 
+DEBUG [src/main.cpp:216] layer 316 layer0_ffn1_tiling9 
+DEBUG [src/main.cpp:216] layer 317 layer0_ffn1_tiling10 
+DEBUG [src/main.cpp:216] layer 318 layer0_ffn1_tiling11 
+DEBUG [src/main.cpp:216] layer 319 layer0_ffn1_tiling12 
+DEBUG [src/main.cpp:216] layer 320 layer0_ffn1_tiling13 
+DEBUG [src/main.cpp:216] layer 321 layer0_ffn1_tiling14 
+DEBUG [src/main.cpp:216] layer 322 layer0_ffn1_tiling15 
+DEBUG [src/main.cpp:216] layer 323 layer0_GeLU 
+DEBUG [src/main.cpp:216] layer 324 layer0_ffn2_tiling0 
+DEBUG [src/main.cpp:216] layer 325 layer0_ffn2_tiling1 
+DEBUG [src/main.cpp:216] layer 326 layer0_ffn2_tiling2 
+DEBUG [src/main.cpp:216] layer 327 layer0_ffn2_tiling3 
+DEBUG [src/main.cpp:216] layer 328 layer0_ffn2_tiling4 
+DEBUG [src/main.cpp:216] layer 329 layer0_ffn2_tiling5 
+DEBUG [src/main.cpp:216] layer 330 layer0_ffn2_tiling6 
+DEBUG [src/main.cpp:216] layer 331 layer0_ffn2_tiling7 
+DEBUG [src/main.cpp:216] layer 332 layer0_ffn2_tiling8 
+DEBUG [src/main.cpp:216] layer 333 layer0_ffn2_tiling9 
+DEBUG [src/main.cpp:216] layer 334 layer0_ffn2_tiling10 
+DEBUG [src/main.cpp:216] layer 335 layer0_ffn2_tiling11 
+DEBUG [src/main.cpp:216] layer 336 layer0_ffn2_tiling12 
+DEBUG [src/main.cpp:216] layer 337 layer0_ffn2_tiling13 
+DEBUG [src/main.cpp:216] layer 338 layer0_ffn2_tiling14 
+DEBUG [src/main.cpp:216] layer 339 layer0_ffn2_tiling15 
+DEBUG [src/main.cpp:216] layer 340 layer0_res2 
+DEBUG [src/main.cpp:216] layer 341 layer0_norm2 
+DEBUG [src/main.cpp:218] models created 342 
+[Info] Establishing new connection...
+[Info] Connected successfully
+DEBUG [src/main.cpp:328] exec total res 10430530961918.00 17625283378482576.00 836222140661740006457475072.00 
+DEBUG [src/main.cpp:335] exec avg res 34768436539 58750944594941.92 2787407135539133612556288.00 228.66 
+Best mapping latency detail saved to /data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_103528/iter_000/exec_latency_detail.json
+Best mapping energy detail saved to /data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_103528/iter_000/exec_energy_detail.json
+Mc detail saved to /data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_103528/iter_000/exec_mc_detail.json

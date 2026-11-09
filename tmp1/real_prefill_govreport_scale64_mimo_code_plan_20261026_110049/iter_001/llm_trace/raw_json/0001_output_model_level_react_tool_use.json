@@ -1,0 +1,42 @@
+{
+  "response": {
+    "id": "7c5a8d6253184943abd4f2ed6ccc8858",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"thought\": \"This is the initial state (iteration 0) with no previous comparison. Current is best. I'll select the current base to start analyzing model-level bottlenecks. The hardware is a 16-chiplet homogeneous WS layout with 4096 compute units and 8192 buffer per chiplet, 64 DRAM BW, 128 NoP BW, micro_batch=2, tensor_parall=16. I need to gather layer-level evidence to find bottleneck candidates.\", \"action\": \"tool\", \"tool\": {\"name\": \"select_analysis_base\", \"arguments\": {\"source\": \"current\", \"reason\": \"Initial state; current is best and only evaluated iteration.\"}}}",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1792983734,
+    "model": "deepseek-v4-flash",
+    "object": "chat.completion",
+    "metadata": null,
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 143,
+      "prompt_tokens": 4492,
+      "total_tokens": 4635,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 3328,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "content": "{\"thought\": \"This is the initial state (iteration 0) with no previous comparison. Current is best. I'll select the current base to start analyzing model-level bottlenecks. The hardware is a 16-chiplet homogeneous WS layout with 4096 compute units and 8192 buffer per chiplet, 64 DRAM BW, 128 NoP BW, micro_batch=2, tensor_parall=16. I need to gather layer-level evidence to find bottleneck candidates.\", \"action\": \"tool\", \"tool\": {\"name\": \"select_analysis_base\", \"arguments\": {\"source\": \"current\", \"reason\": \"Initial state; current is best and only evaluated iteration.\"}}}"
+}

@@ -1,0 +1,162 @@
+{
+  "selected_by": "model_level_agent",
+  "analysis_base": {
+    "source": "best",
+    "base_key": "best",
+    "iteration": 1,
+    "metrics": {
+      "latency": 46686531266.0,
+      "energy": 86955220214505.08,
+      "mc": 237.62477441756562,
+      "objective": 9.646704706484981e+26,
+      "edp": 4.0596376072864065e+24
+    },
+    "objective": 9.646704706484981e+26,
+    "selection_reason": "Best objective so far (iteration 1) - analyzing its bottlenecks may reveal what made it better and what could be improved further."
+  },
+  "candidate_layers": [
+    {
+      "layer_id": 307,
+      "layer_name": "layer0_ffn1_tiling0",
+      "operator_group": "ffn",
+      "concern_types": [
+        "latency"
+      ],
+      "rank_metric": "latency_sum",
+      "rank_value": 8270487552.0,
+      "evidence": [
+        "latency_sum=8.27s per tiling, 8 tilings total ~66s",
+        "compute share=99.98%, dominant_dimension=compute",
+        "top latency_sum rank across all 342 layers",
+        "energy=1.15e12 per tiling, high absolute energy"
+      ],
+      "confidence": "high"
+    },
+    {
+      "layer_id": 308,
+      "layer_name": "layer0_ffn1_tiling1",
+      "operator_group": "ffn",
+      "concern_types": [
+        "latency"
+      ],
+      "rank_metric": "latency_sum",
+      "rank_value": 8270487552.0,
+      "evidence": [
+        "latency_sum=8.27s, identical to tiling0",
+        "compute share=99.98%",
+        "top latency_sum rank",
+        "energy=1.15e12"
+      ],
+      "confidence": "high"
+    },
+    {
+      "layer_id": 341,
+      "layer_name": "layer0_norm2",
+      "operator_group": "other",
+      "concern_types": [
+        "latency",
+        "mixed"
+      ],
+      "rank_metric": "critical_end",
+      "rank_value": 19696167798.0,
+      "evidence": [
+        "critical_end=19.70s, ends the critical path on core5",
+        "memory share=66.2%, communication share=33.4%",
+        "dominant_root_cause=memory",
+        "small latency_sum=1.30ms but on critical path"
+      ],
+      "confidence": "high"
+    },
+    {
+      "layer_id": 340,
+      "layer_name": "layer0_res2",
+      "operator_group": "other",
+      "concern_types": [
+        "latency",
+        "mixed"
+      ],
+      "rank_metric": "critical_end",
+      "rank_value": 19695336598.0,
+      "evidence": [
+        "critical_end=19.70s, second on critical path",
+        "memory share=53.6%, communication share=46.0%",
+        "dominant_root_cause=memory",
+        "small latency_sum=1.57ms but on critical path"
+      ],
+      "confidence": "high"
+    },
+    {
+      "layer_id": 339,
+      "layer_name": "layer0_ffn2_tiling15",
+      "operator_group": "ffn",
+      "concern_types": [
+        "latency",
+        "mixed"
+      ],
+      "rank_metric": "critical_end",
+      "rank_value": 19694468170.0,
+      "evidence": [
+        "critical_end=19.69s, third on critical path",
+        "compute share=86.5%, memory share=5.4%, communication share=8.1%",
+        "dominant_root_cause=compute but mixed memory/communication",
+        "latency_sum=42.1ms"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "layer_id": 305,
+      "layer_name": "layer0_res1",
+      "operator_group": "other",
+      "concern_types": [
+        "mixed"
+      ],
+      "rank_metric": "communication",
+      "rank_value": 0.544,
+      "evidence": [
+        "communication share=54.4%, top communication rank",
+        "memory share=45.3%",
+        "dominant_root_cause=memory",
+        "small latency_sum=1.96ms but high communication pressure"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "layer_id": 323,
+      "layer_name": "layer0_GeLU",
+      "operator_group": "other",
+      "concern_types": [
+        "mixed"
+      ],
+      "rank_metric": "communication",
+      "rank_value": 0.456,
+      "evidence": [
+        "communication share=45.6%, third in communication rank",
+        "memory share=54.4%",
+        "dominant_root_cause=memory",
+        "latency_sum=4.74ms, on critical path"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "selection_notes": {
+    "selected_bottleneck_objective": "mixed",
+    "selected_rank_views": [
+      "latency_sum",
+      "critical_end",
+      "communication",
+      "compute",
+      "memory"
+    ],
+    "global_findings": [
+      "FFN1 tilings (layers 307-314) dominate total latency with ~66s across 8 tilings, all ~99.98% compute-bound",
+      "Critical path ends at norm/residual layers (layer0_norm2, layer0_res2) which are memory/communication-bound",
+      "Core utilization averages 62% with imbalance (core5=51%, core2=72%), indicating load imbalance across chiplets",
+      "Aggregate time: 67.6% compute, 17.8% memory, 14.6% communication",
+      "Aggregate energy: 49.8% memory, 26.7% communication, 22.4% compute",
+      "FFN operator group contributes 133B ns latency (64 occurrences), attention 61.9B ns (384 occurrences)",
+      "Monetary cost=237.6, relatively low compared to current iteration (418.3)",
+      "NoP BW increase from 128 to 256 worsened objective by +73%, suggesting NoP is not the primary bottleneck"
+    ],
+    "tool_confidence": "high"
+  }
+}

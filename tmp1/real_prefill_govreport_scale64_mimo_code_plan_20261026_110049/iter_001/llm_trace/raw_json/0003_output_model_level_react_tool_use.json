@@ -1,0 +1,36 @@
+{
+  "response": {
+    "id": "0384ca6259334c89975ed9b1a7b2cee1",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\n  \"thought\": \"The layer rank views reveal clear patterns. The top latency layers are all layer0_ffn1_tiling0-7 (FFN first projection tilings) with ~14.48B latency each. The critical-end view shows layer0_norm2, layer0_res2, and layer0_ffn2_tiling layers at the end of the critical path (~29.1B). The aggregate breakdown shows compute dominates time (74.5%), while memory dominates energy (47.6%). I should also check operator groups and the execution timeline to understand the global execution pattern and identify the true bottleneck layers.\",\n  \"action\": \"tool\",\n  \"tool\": {\n    \"name\": \"summarize_operator_groups\",\n    \"arguments\": {\n      \"sort_by\": \"latency_sum\",\n      \"top_groups\": 8,\n      \"include_components\": true\n    }\n  }\n}",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1792983738,
+    "model": "deepseek-v4-flash",
+    "object": "chat.completion",
+    "metadata": null,
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 194,
+      "prompt_tokens": 12742,
+      "total_tokens": 12936,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    }
+  },
+  "content": "{\n  \"thought\": \"The layer rank views reveal clear patterns. The top latency layers are all layer0_ffn1_tiling0-7 (FFN first projection tilings) with ~14.48B latency each. The critical-end view shows layer0_norm2, layer0_res2, and layer0_ffn2_tiling layers at the end of the critical path (~29.1B). The aggregate breakdown shows compute dominates time (74.5%), while memory dominates energy (47.6%). I should also check operator groups and the execution timeline to understand the global execution pattern and identify the true bottleneck layers.\",\n  \"action\": \"tool\",\n  \"tool\": {\n    \"name\": \"summarize_operator_groups\",\n    \"arguments\": {\n      \"sort_by\": \"latency_sum\",\n      \"top_groups\": 8,\n      \"include_components\": true\n    }\n  }\n}"
+}

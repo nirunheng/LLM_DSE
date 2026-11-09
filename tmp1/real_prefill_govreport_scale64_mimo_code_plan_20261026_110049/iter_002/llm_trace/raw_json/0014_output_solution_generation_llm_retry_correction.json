@@ -1,0 +1,42 @@
+{
+  "response": {
+    "id": "e4903208d9f34b85ad7963147e7e0103",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\n  \"thought\": \"The current analysis base is selected. Now I need to examine the operator group loads and monetary cost breakdown to understand the mixed bottleneck. The FFN group dominates latency, attention dominates energy, and memory/communication layers limit the critical path. I'll call aggregate_layer_loads to see operator group contributions and then summarize_monetary_cost to understand cost structure before proposing a hardware update.\",\n  \"action\": \"tool\",\n  \"tool\": {\n    \"name\": \"aggregate_layer_loads\",\n    \"arguments\": {\n      \"view\": \"groups\",\n      \"sort_by\": \"latency_sum\",\n      \"top_groups\": 6,\n      \"include_components\": true\n    }\n  }\n}",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1792984165,
+    "model": "deepseek-v4-flash",
+    "object": "chat.completion",
+    "metadata": null,
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 149,
+      "prompt_tokens": 10876,
+      "total_tokens": 11025,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 10496,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "content": "{\n  \"thought\": \"The current analysis base is selected. Now I need to examine the operator group loads and monetary cost breakdown to understand the mixed bottleneck. The FFN group dominates latency, attention dominates energy, and memory/communication layers limit the critical path. I'll call aggregate_layer_loads to see operator group contributions and then summarize_monetary_cost to understand cost structure before proposing a hardware update.\",\n  \"action\": \"tool\",\n  \"tool\": {\n    \"name\": \"aggregate_layer_loads\",\n    \"arguments\": {\n      \"view\": \"groups\",\n      \"sort_by\": \"latency_sum\",\n      \"top_groups\": 6,\n      \"include_components\": true\n    }\n  }\n}"
+}

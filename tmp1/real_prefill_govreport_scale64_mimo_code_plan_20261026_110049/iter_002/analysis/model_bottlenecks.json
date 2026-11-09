@@ -1,0 +1,141 @@
+{
+  "selected_by": "model_level_agent",
+  "analysis_base": {
+    "source": "current",
+    "base_key": "current",
+    "iteration": 1,
+    "metrics": {
+      "latency": 46686531266.0,
+      "energy": 86955220214505.08,
+      "mc": 237.62477441756562,
+      "objective": 9.646704706484981e+26,
+      "edp": 4.0596376072864065e+24
+    },
+    "objective": 9.646704706484981e+26,
+    "selection_reason": "Current iteration 1 is the best evaluated configuration with 54% improved objective; analyze its model execution to identify bottleneck layers."
+  },
+  "candidate_layers": [
+    {
+      "layer_id": 307,
+      "layer_name": "layer0_ffn1_tiling0",
+      "operator_group": "ffn",
+      "concern_types": [
+        "latency",
+        "energy"
+      ],
+      "rank_metric": "latency_sum",
+      "rank_value": 8270487552.0,
+      "evidence": [
+        "latency_sum=8.27s per tiling, 8 identical tilings (307-314) each 8.27s",
+        "compute_time_share=0.9998, pure compute-bound",
+        "FFN group total latency=133B ns, 64 occurrences, dominant operator group",
+        "calc_energy_share=0.976, highest energy per layer"
+      ],
+      "confidence": "high"
+    },
+    {
+      "layer_id": 324,
+      "layer_name": "layer0_ffn2_tiling0",
+      "operator_group": "ffn",
+      "concern_types": [
+        "latency"
+      ],
+      "rank_metric": "critical_end",
+      "rank_value": 19687492928.0,
+      "evidence": [
+        "critical_end=19.69s, on critical path near end of execution",
+        "latency_sum=42ms per tiling but sits in dependency chain after FFN1",
+        "16 ffn2 tilings (324-339) all on critical path with critical_end 19.69-19.69s",
+        "energy dominated by memory (61.4%) and communication (29.5%)"
+      ],
+      "confidence": "high"
+    },
+    {
+      "layer_id": 341,
+      "layer_name": "layer0_norm2",
+      "operator_group": "other",
+      "concern_types": [
+        "latency"
+      ],
+      "rank_metric": "critical_end",
+      "rank_value": 19696167798.0,
+      "evidence": [
+        "critical_end=19.70s, latest-finishing layer, defines total latency",
+        "memory_share=0.662, highest memory-bound layer",
+        "critical core=core5, core5 has lowest busy time (10.12s) suggesting idle waiting"
+      ],
+      "confidence": "high"
+    },
+    {
+      "layer_id": 340,
+      "layer_name": "layer0_res2",
+      "operator_group": "other",
+      "concern_types": [
+        "latency"
+      ],
+      "rank_metric": "critical_end",
+      "rank_value": 19695336598.0,
+      "evidence": [
+        "critical_end=19.70s, second latest-finishing layer",
+        "communication_share=0.460, high communication pressure",
+        "energy dominated by memory (61.4%) and communication (29.5%)"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "layer_id": 53,
+      "layer_name": "layer0_head5_req1_QK_elt_P",
+      "operator_group": "attention",
+      "concern_types": [
+        "energy",
+        "latency"
+      ],
+      "rank_metric": "memory",
+      "rank_value": 0.6617,
+      "evidence": [
+        "memory_share=0.662, highest memory-bound attention layer",
+        "attention group total energy=1.73e16 nJ, 49.8% of total energy is memory",
+        "384 attention occurrences, high repetition",
+        "communication_share up to 0.453 for some QK_elt_P layers"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "layer_id": 305,
+      "layer_name": "layer0_res1",
+      "operator_group": "other",
+      "concern_types": [
+        "latency",
+        "energy"
+      ],
+      "rank_metric": "communication",
+      "rank_value": 0.5444,
+      "evidence": [
+        "communication_share=0.544, highest communication-bound layer",
+        "communication energy=26.7% of total energy",
+        "NoP BW=128 may be limiting for allreduce-style communication"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "selection_notes": {
+    "selected_bottleneck_objective": "mixed",
+    "selected_rank_views": [
+      "latency_sum",
+      "critical_end",
+      "compute",
+      "memory",
+      "communication"
+    ],
+    "global_findings": [
+      "FFN1 tilings (layers 307-314) are pure compute-bound with 99.98% compute time, each 8.27s, dominating total latency",
+      "Average core utilization is only 62% with range 10.12-14.12s busy time, indicating significant idle gaps and load imbalance",
+      "Critical path ends at norm2/res2/ffn2 tilings, suggesting dependency serialization at the end of the transformer block",
+      "Memory energy dominates at 49.8% of total, with attention QK_elt_P layers being the most memory-intensive",
+      "Communication energy at 26.7% is concentrated in res1/res2 and attention QK_elt_P layers",
+      "The 16-chiplet WS layout with tensor_parallel=16 means all chiplets participate in each layer, but utilization imbalance suggests suboptimal work distribution",
+      "Monetary cost at 237.6 is driven by 16 high-compute chiplets (16384 units each); reducing chiplet count or compute units could lower cost but may increase latency"
+    ],
+    "tool_confidence": "high"
+  }
+}

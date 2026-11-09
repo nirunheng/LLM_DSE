@@ -1,0 +1,36 @@
+{
+  "response": {
+    "id": "e66ca4f81c534714b86433dcf634044a",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\n  \"thought\": \"The layer rank views reveal several important patterns. The top latency layers are all layer0_ffn1_tiling0-7 with identical 8.27s latency each, and they dominate the compute dimension (99.98% compute share). The critical-end view shows layer0_norm2 (19.70s) and layer0_res2 (19.70s) as the latest-finishing layers, followed by ffn2 tilings. The aggregate breakdown shows 67.6% compute time, 17.8% memory, 14.6% communication. For energy, memory dominates at 49.8%, communication at 26.7%, compute at 22.4%. I should now look at operator groups to understand the overall layer composition and then check the execution timeline for idle gaps and core utilization.\",\n  \"action\": \"tool\",\n  \"tool\": {\n    \"name\": \"summarize_operator_groups\",\n    \"arguments\": {\n      \"sort_by\": \"latency_sum\",\n      \"top_groups\": 8,\n      \"include_components\": true\n    }\n  }\n}",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1792984079,
+    "model": "deepseek-v4-flash",
+    "object": "chat.completion",
+    "metadata": null,
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 238,
+      "prompt_tokens": 13264,
+      "total_tokens": 13502,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    }
+  },
+  "content": "{\n  \"thought\": \"The layer rank views reveal several important patterns. The top latency layers are all layer0_ffn1_tiling0-7 with identical 8.27s latency each, and they dominate the compute dimension (99.98% compute share). The critical-end view shows layer0_norm2 (19.70s) and layer0_res2 (19.70s) as the latest-finishing layers, followed by ffn2 tilings. The aggregate breakdown shows 67.6% compute time, 17.8% memory, 14.6% communication. For energy, memory dominates at 49.8%, communication at 26.7%, compute at 22.4%. I should now look at operator groups to understand the overall layer composition and then check the execution timeline for idle gaps and core utilization.\",\n  \"action\": \"tool\",\n  \"tool\": {\n    \"name\": \"summarize_operator_groups\",\n    \"arguments\": {\n      \"sort_by\": \"latency_sum\",\n      \"top_groups\": 8,\n      \"include_components\": true\n    }\n  }\n}"
+}

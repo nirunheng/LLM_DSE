@@ -1,0 +1,42 @@
+{
+  "response": {
+    "id": "6d71ffe1cf134f01bd73e835c8b0a6be",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"thought\": \"The current iteration (2) increased nop_bw from 128 to 256, but the objective worsened by 73% (positive change means worse). The best is iteration 1 with lower objective. I should select the best base (iteration 1) for bottleneck analysis since it has the best objective, and then gather evidence about layer-level bottlenecks.\", \"action\": \"tool\", \"tool\": {\"name\": \"select_analysis_base\", \"arguments\": {\"source\": \"best\", \"reason\": \"Best objective so far (iteration 1) - analyzing its bottlenecks may reveal what made it better and what could be improved further.\"}}}",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1792984284,
+    "model": "deepseek-v4-flash",
+    "object": "chat.completion",
+    "metadata": null,
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 135,
+      "prompt_tokens": 4905,
+      "total_tokens": 5040,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 3328,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "content": "{\"thought\": \"The current iteration (2) increased nop_bw from 128 to 256, but the objective worsened by 73% (positive change means worse). The best is iteration 1 with lower objective. I should select the best base (iteration 1) for bottleneck analysis since it has the best objective, and then gather evidence about layer-level bottlenecks.\", \"action\": \"tool\", \"tool\": {\"name\": \"select_analysis_base\", \"arguments\": {\"source\": \"best\", \"reason\": \"Best objective so far (iteration 1) - analyzing its bottlenecks may reveal what made it better and what could be improved further.\"}}}"
+}

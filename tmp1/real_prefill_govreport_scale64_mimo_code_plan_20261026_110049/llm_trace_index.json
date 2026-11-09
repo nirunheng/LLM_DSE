@@ -1,0 +1,62 @@
+{
+  "traces": [
+    {
+      "run_dir": "iter_001",
+      "trace_dir": "iter_001/llm_trace",
+      "call_count": 25,
+      "duration_s": 130.258036,
+      "statuses": {
+        "ok": 23,
+        "error": 2
+      },
+      "first_call": "0000",
+      "last_call": "0024"
+    },
+    {
+      "run_dir": "iter_002",
+      "trace_dir": "iter_002/llm_trace",
+      "call_count": 22,
+      "duration_s": 132.179147,
+      "statuses": {
+        "ok": 21,
+        "error": 1
+      },
+      "first_call": "0000",
+      "last_call": "0021"
+    },
+    {
+      "run_dir": "iter_003",
+      "trace_dir": "iter_003/llm_trace",
+      "call_count": 25,
+      "duration_s": 127.055007,
+      "statuses": {
+        "ok": 25
+      },
+      "first_call": "0000",
+      "last_call": "0024"
+    },
+    {
+      "run_dir": "iter_004",
+      "trace_dir": "iter_004/llm_trace",
+      "call_count": 21,
+      "duration_s": 120.317009,
+      "statuses": {
+        "ok": 21
+      },
+      "first_call": "0000",
+      "last_call": "0020"
+    },
+    {
+      "run_dir": "iter_005",
+      "trace_dir": "iter_005/llm_trace",
+      "call_count": 27,
+      "duration_s": 149.75357,
+      "statuses": {
+        "ok": 26,
+        "error": 1
+      },
+      "first_call": "0000",
+      "last_call": "0026"
+    }
+  ]
+}

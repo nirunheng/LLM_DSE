@@ -1,0 +1,31 @@
+{
+  "seed": 43,
+  "req_generator_input_length_path": "/data2/nirunheng/Project/Beacon/Compass/config/govreport_input_token_lens.json",
+  "req_generator_output_length_path": "/data2/nirunheng/Project/Beacon/Compass/config/govreport_output_token_lens.json",
+  "req_gen_mode": "fixed",
+  "is_chunked_prefill": false,
+  "req_number": 300,
+  "req_prefill_number": 4,
+  "req_decode_number": 0,
+  "batch_size": 4,
+  "model_info": {
+    "type": "gpt3",
+    "n_layer": 1,
+    "d_model": 4096,
+    "n_head": 32,
+    "d_head": 128,
+    "d_ffn": 16384,
+    "d_model_tiling_size": 512,
+    "d_ffn_tiling_size": 2048
+  },
+  "dram_num": 4,
+  "run_mode": "exec",
+  "best_mapping_save_path": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_004/best_mapping.json",
+  "search_process_save_path": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_004/search_process.csv",
+  "GA_population_size": 120,
+  "GA_generations": 100,
+  "exec_load_path": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_004/best_mapping.json",
+  "detail_latency_save_path": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_004/exec_latency_detail.json",
+  "detail_energy_save_path": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_004/exec_energy_detail.json",
+  "detail_mc_save_path": "/data2/nirunheng/Project/Beacon/tmp1/real_prefill_govreport_scale64_mimo_code_plan_20261026_110049/iter_004/exec_mc_detail.json"
+}

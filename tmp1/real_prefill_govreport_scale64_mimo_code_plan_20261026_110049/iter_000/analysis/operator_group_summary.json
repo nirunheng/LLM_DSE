@@ -1,0 +1,79 @@
+{
+  "operator_groups": [
+    {
+      "group": "ffn",
+      "layers": 32,
+      "occurrences": 64,
+      "latency_sum": 234299176448.0,
+      "energy": 29697661292732.004,
+      "calc_time": 234299176448.0,
+      "noc_time": 66280896.0,
+      "dram_time": 54962965.0,
+      "calc_energy": 27882872589226.57,
+      "ubuf_energy": 7881773329.4745655,
+      "noc_energy": 624983330816.0,
+      "dram_energy": 1181923599360.0,
+      "dominant_dimension": "compute"
+    },
+    {
+      "group": "attention",
+      "layers": 192,
+      "occurrences": 384,
+      "latency_sum": 82763551903.0,
+      "energy": 19185544515881.277,
+      "calc_time": 82655423680.0,
+      "noc_time": 197417057.0,
+      "dram_time": 225898593.0,
+      "calc_energy": 11273680240530.527,
+      "ubuf_energy": 260684891750.73026,
+      "noc_energy": 2793459234752.0,
+      "dram_energy": 4857720148848.0,
+      "dominant_dimension": "compute"
+    },
+    {
+      "group": "qkv_projection",
+      "layers": 96,
+      "occurrences": 192,
+      "latency_sum": 1396508160.0,
+      "energy": 2323858529502.63,
+      "calc_time": 1396508160.0,
+      "noc_time": 77573952.0,
+      "dram_time": 64488536.0,
+      "calc_energy": 200437227103.87204,
+      "ubuf_energy": 14106908798.760939,
+      "noc_energy": 722553915392.0,
+      "dram_energy": 1386760478208.0,
+      "dominant_dimension": "compute"
+    },
+    {
+      "group": "output_projection",
+      "layers": 16,
+      "occurrences": 32,
+      "latency_sum": 670544624.0,
+      "energy": 434841382761.7767,
+      "calc_time": 670544624.0,
+      "noc_time": 13118155.0,
+      "dram_time": 10564725.0,
+      "calc_energy": 83856167476.80002,
+      "ubuf_energy": 2299435828.9766393,
+      "noc_energy": 121502008320.0,
+      "dram_energy": 227183771136.0,
+      "dominant_dimension": "compute"
+    },
+    {
+      "group": "other",
+      "layers": 6,
+      "occurrences": 12,
+      "latency_sum": 12841991.0,
+      "energy": 441209845927.44446,
+      "calc_time": 229248.0,
+      "noc_time": 10867597.0,
+      "dram_time": 12385953.0,
+      "calc_energy": 5123417.7024,
+      "ubuf_energy": 13082021709.74208,
+      "noc_energy": 161775167488.0,
+      "dram_energy": 266347533312.0,
+      "dominant_dimension": "memory"
+    }
+  ]
+}
