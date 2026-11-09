@@ -1,0 +1,33 @@
+TPU origin: 
+N 32, K 32, 1K, 2MB
+N 64, K 64, 4K, 8MB
+N 128, K 128, 16K, 32MB
+
+Ascend:
+N 16, K 16, M 2, M 2, 1K, 2MB
+N 16, K 16, M 4, M 4, 4K, 8MB
+N 32, K 32, M 4, M 4, 16K, 32MB
+
+TESLA:
+N 32, M 8, M 4, 1K, 2MB
+N 64, M 8, M 8, 4K, 8MB
+N 128, M 16, M 8, 16K,32 MB
+
+ws:
+K 4, N 4, K 8, N 8, 1K, 2MB
+K 8, N 8, K 8, N 8, 4K, 8MB
+K 8, N 8, K 16, N 16, 16K, 32MB
+
+os:
+M 4, N 4, M 8, N 8, 1K, 2MB
+M 8, N 8, M 8, N 8, 4K, 8MB
+M 8, N 8, M 16, N 16, 16K, 32MB
+
+
+Three levels: 36 (32), 256, 1024
+
+32: 32 (8x4), 8 (4x2), 2 (2x1)
+256: 256 (16x16), 64 (8x8), 16 (4x4)
+1024: 1024 (32x32), 256 (16x16), 64 (8x8)
+
+Requires c++17 g++-10 libssl-dev
